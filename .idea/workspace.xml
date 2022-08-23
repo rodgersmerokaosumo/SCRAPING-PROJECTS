@@ -2,21 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6077780e-dcfa-477d-9c01-a3d67fc8ef66" name="Changes" comment="2 sites so far:">
-      <change beforePath="$PROJECT_DIR$/Prisjakt/tv_scrape_2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Prisjakt/tv_scrape_2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postscrape/postscrape/spiders/posts_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Scraping_Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Scraping_Projects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prisjakt/Scraping documentation - Prisjakt (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prisjakt/Untitled-1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prisjakt/data_30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prisjakt/data_50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prisjakt/data_50_products.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prisjakt/df_long.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prisjakt/df_long_first_50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prisjakt/final.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prisjakt/psel.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prisjakt/selenium.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prisjakt/testing_1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prisjakt/try_sel.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prisjakt/tv_scrape.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prisjakt/tv_scrape_2.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2DR89XBy1GZyo21XYl0NlBGu4AU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,10 +65,36 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "last_opened_file_path": "C:/Users/user/Documents/Meroka/Projects/Scraping_Projects",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6077780e-dcfa-477d-9c01-a3d67fc8ef66" name="Changes" comment="2 sites so far:" />
+      <created>1661175809480</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661175809480</updated>
+      <workItem from="1661175811112" duration="1318000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2 sites so far:" />
     <option name="LAST_COMMIT_MESSAGE" value="2 sites so far:" />
