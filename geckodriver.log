@@ -1,0 +1,17 @@
+1661338655890	geckodriver	INFO	Listening on 127.0.0.1:61864
+1661338658995	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61865" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileSHQcjl"
+1661338702626	geckodriver	INFO	Listening on 127.0.0.1:61959
+1661338705665	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61960" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile5whbxy"
+1661338706711	Marionette	INFO	Marionette enabled
+1661338706721	Marionette	INFO	Listening on port 61974
+WebDriver BiDi listening on ws://localhost:61960
+Read port: 61974
+1661338706988	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile5whbxy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61960/devtools/browser/4b336aee-a148-4c14-afa1-f0a67e7d097f
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 113: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 113: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: https://ads.vidoomy.com/mi.tv_11893.js line 1 > eval, line 1: TypeError: top.document.body is null
+1661384745396	Marionette	INFO	Stopped listening on port 61974
