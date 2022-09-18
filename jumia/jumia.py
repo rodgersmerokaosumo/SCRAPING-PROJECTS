@@ -51,7 +51,7 @@ engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
 
 #%%
 productlinks = []
-for x in range(1,26):
+for x in range(1,24):
     r = requests.get(f"https://www.jumia.com.tn/catalog/?q=televisions&page={x}#catalog-listing")
     soup = BeautifulSoup(r.content, 'lxml')
     productlist = soup.find('div', class_ = '-paxs row _no-g _4cl-3cm-shs')
@@ -60,7 +60,7 @@ for x in range(1,26):
     for product in productlist:
         prod_link = product.find("a", class_ = "core")
         productlinks.append(base_url+prod_link['href'])
-        #print((base_url+prod_link['href']))
+        print((base_url+prod_link['href']))
 
 #%%
 df_tv_links = pd.DataFrame(productlinks, columns = ['Tv Links'])
@@ -128,6 +128,7 @@ def get_data(link):
 
     try:
         price = soup.find("span", class_ = "-b -ltr -tal -fs24").text.strip()
+        price = float(''.join(c for c in price if (c.isdigit() or c =='.')))
     except:
         price = None
         
@@ -182,6 +183,8 @@ spec_df = df['tvspecifications'].apply(pd.Series)
 df_l  = pd.concat([df[['countrycode', 'tv_title', 'tv_make', 'tv_price', 'numberofoffers', 'averageprice', 'currency', 'scrapelink', 'scrapedate']], spec_df.reindex(df.index)], axis=1)
 df_long = df_l.set_index(['countrycode', 'tv_title', 'tv_make', 'tv_price', 'numberofoffers', 'averageprice', 'currency', 'scrapelink', 'scrapedate']).stack().reset_index()
 df_long
+
+
 # %%
 
 df_long.to_sql('jumia_data', engine, if_exists='replace', index=False)
