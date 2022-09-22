@@ -2,6 +2,7 @@
 from datetime import datetime
 from statistics import mean
 from time import sleep
+from unicodedata import category
 from requests_html import HTMLSession
 from bs4 import BeautifulSoup
 import mysql.connector
@@ -105,20 +106,27 @@ def get_data(url):
     r.html.render(scrolldown=5000, script = script, timeout = 20)
     title = r.html.find('h1[itemprop ="name"]', first = True).text.strip()
     price = r.html.find('div.price-value', first = True).text.strip()
+    price = ''.join(c for c in price if (c.isdigit() or c =='.'))
     try:
         brand = r.html.find('span.brand', first = True).text.strip().replace("by ", "")
     except:
-        brand = None
+        brand = title.split(" ")[0]
     number_of_offers = r.html.find('span.number', first = True).text.strip()
+    number_of_offers = int(''.join(c for c in number_of_offers if (c.isdigit() or c =='.')))
     try:
         currency = r.html.find('span.curr', first = True).text.strip()
     except:
-        currency = "KWD"
-    average_price = get_avg_price(r)
+        currency = "KWD" 
     specifications = get_specs(r)
     now = datetime.now()
     date_scraped = now.strftime("%d/%m/%Y %H:%M:%S")
-    countryCode = "ku"
+    countryCode = "KU"
+    category = "Television"
+    
+    if number_of_offers == 1:
+        average_price = price
+    else:
+        average_price = get_avg_price(r)
     
     
     tv = {"title":title, 
@@ -130,7 +138,8 @@ def get_data(url):
         "specifications":specifications,
         "scrape_link":url,
         "scrape_date":date_scraped,
-        "Country Code":countryCode}
+        "Country Code":countryCode,
+        "category":category}
     
     print(title)
     
@@ -141,7 +150,7 @@ for x in range(1, 3):
     get_product_links(x)
 
 # %%
-df_links = pd.read_sql('SELECT * FROM tv_links WHERE is_scraped = 0', con=pricena_tv_kuwait_db)
+df_links = pd.read_sql('SELECT * FROM tv_links WHERE is_scraped = 0', con=engine)
 tv_urls = []
 for i in df_links['tv_url']:
     tv_urls.append(i)
@@ -154,14 +163,3 @@ for url in tv_urls:
     tv_url = (url,)
     mycursor.execute(sql, tv_url)
     pricena_tv_kuwait_db.commit()
-# %%
-import pandas as pd
-df = pd.read_sql('SELECT * FROM data_table', con=pricena_tv_kuwait_db)
-df.head()
-
-# %%
-df['specifications'] = df['specifications'].apply(lambda x : dict(eval(x)) )
-spec_df = df['specifications'].apply(pd.Series )
-df = pd.concat([df, spec_df.reindex(df.index)], axis=1)
-df_l  = pd.concat([df[['Country Code', 'title', 'brand','number_of_offers', 'average_price', 'currency',  'price', 'category', 'scrape_date', 'scrape_link']], spec_df.reindex(df.index)], axis=1)
-# %%
