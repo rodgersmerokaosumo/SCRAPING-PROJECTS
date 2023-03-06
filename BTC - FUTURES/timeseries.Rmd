@@ -1,0 +1,739 @@
+---
+title: "Futures"
+output:
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
+  html_document:
+    toc: yes
+    toc_depth: 2
+  word_document:
+    toc: yes
+    toc_depth: '2'
+date: "2023-02-27"
+always_allow_html: yes
+---
+
+```{r setup, include=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#### Libraries
+
+```{r message=FALSE}
+library(TSstudio)
+library(tidyverse)
+library(quantmod)
+library(zoo)
+library(janitor)
+library(lubridate)
+library(readr)
+library(timetk)
+library(fpp2)         # The forecasting OG
+library(fpp3)         # The tidy version of fpp2
+library(modeltime)    # The tidy forecasting newcomer
+library(timetk)       # Companion to modeltime
+library(parsnip)      # Common interface for specifying models
+library(rsample)      # Training / Test data splitter
+library(cowplot) 
+```
+## Abstract
+
+## Introduction
+
+
+
+## Literature Review
+
+
+
+## Exploratory Data Analysis
+
+### Importing Data
+```{r, message=FALSE}
+
+BTC_futures_data <- read_csv("data/BTC futures data.csv")
+BTC_historical_data <- read_csv("data/BTC historical_data.csv")
+Global_Inflation <- read_csv("data/Global Dataset of Inflation.csv")
+Shanghai_delayed_Index <- read_csv("data/Shanghai delayed Index.csv")
+SP500_Perfomance <- read_csv("data/SP500 Perfomance.csv")
+```
+
+### Global Inflation Analysis
+
+```{r}
+df = Global_Inflation
+df = df %>% clean_names()
+df = filter(df, df$country_code == "USA")
+df = df %>% select(-(country_code:indicator_type))
+df_s  = cbind(df[1], stack(df[2:60]))
+df_s$ind<-gsub("x","",as.character(df_s$ind))
+df_s =  df_s %>% mutate_at(c('ind', 'values'), as.numeric)
+df_s = na.omit(df_s)
+df_s = as_data_frame(df_s)
+# Visualization
+ggplot(df_s, aes(x = ind, y = values)) + 
+  geom_line(aes(color = series_name, linetype = series_name)) + theme_light()
+```
+
+#### Discussion:
+
+
+```{r}
+df_s = filter(df_s, ind >= 2017)
+df_s = df_s %>% select(-c(series_name))
+df_s = df_s %>%
+  group_by(ind) %>%
+  summarise_at(vars(values), list(name = mean))
+```
+
+
+#### Discussion:
+
+```{r}
+# grouped boxplot
+ggplot(df_s, aes(x=as_factor(ind), y=name)) + 
+    geom_boxplot() + theme_light()
+```
+
+#### Findings
+
+
+### BTC Historical Prices Analysis
+
+```{r}
+btc = BTC_historical_data
+btc = btc %>% 
+    rename("timestamp" = "...1")
+btc_df = btc
+btc <- slice(btc, 1:(n() - 1)) 
+btc$var = btc$high - btc$low
+btc = select(btc, -c(open, low, high, close))
+btc$timestamp = as_date(btc$timestamp)
+
+# Lags
+btc = btc %>%
+    group_by(ticker) %>%
+    tk_augment_lags(contains("open"), .lags = 1)
+btc = na.omit(btc)
+btc_df = btc
+df  = zoo(btc)
+```
+
+```{r}
+ggplot(data = btc, aes(x = as.POSIXct.Date(timestamp), y = adjclose)) +
+  # plot the raw data
+  geom_line() + theme_light() +
+  labs(x = "Time", y = "Closing BTC Price in USD") +
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+```
+#### Discussion
+
+```{r}
+ggplot(data = btc, aes(x = as.POSIXct.Date(timestamp), y = btc$adjclose)) +
+  # plot the raw data
+  geom_line() +
+  labs(x = "Time", y = "Closing Prices Lag 3") + theme_light() +
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+```
+
+#### Discussion
+
+```{r}
+ggplot(data = btc, aes(x = as.POSIXct.Date(timestamp), y = volume)) +
+  # plot the raw data
+  geom_line() +
+  labs(x = "Time", y = "Volume of BTC Traded") + theme_light() +
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+```
+
+#### Exploring Seasonality/Cyclic nature of the data
+
+
+```{r}
+plot_stl_diagnostics(btc, .date_var = timestamp, .value = adjclose)
+```
+
+
+```{r}
+plot_seasonal_diagnostics(btc, .date_var = timestamp, .value = adjclose)
+```
+
+
+```{r}
+btc$month = month(btc$timestamp, label = TRUE)
+btc$year = year(btc$timestamp)
+btc$wk = week(btc$timestamp)
+btc$wkday = as_factor(weekdays(btc$timestamp))
+
+dfm<- 
+  btc %>% 
+  summarize_by_time(.date_var = timestamp,
+                    .by = "month",
+                    avg_adj = mean(adjclose, na.rm = TRUE),
+                     avg_vol= mean(volume, na.rm = TRUE),
+                    avg_var = mean(var, na.rm = TRUE))
+
+dfm_btc = dfm
+
+ggplot(data = dfm, aes(x = as.POSIXct.Date(timestamp) , y = avg_adj)) +
+  geom_line() +
+  geom_smooth(se = FALSE) +
+  labs(x = "Months", y = "Adjusted Close Price") + theme_light()+
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+
+
+```
+
+```{r}
+ggplot(data = dfm, aes(x = as.POSIXct.Date(timestamp) , y = avg_vol)) +
+  geom_line() +
+  geom_smooth(se = FALSE) +
+  labs(x = "Months", y = "Adjusted Close Price") + theme_light()+
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+```
+
+```{r}
+ggplot(data = dfm, aes(x = as.POSIXct.Date(timestamp) , y = avg_var)) +
+  geom_line() +
+  geom_smooth(se = FALSE) +
+  labs(x = "Months", y = "Adjusted Difference in Price") + theme_light()+
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+```
+
+
+```{r}
+plot_stl_diagnostics(dfm, .date_var = timestamp, .value = avg_adj)
+```
+
+```{r}
+plot_seasonal_diagnostics(dfm, .date_var = timestamp, .value = avg_adj)
+```
+
+
+
+
+### BTC Futures Analysis
+
+```{r}
+btcf = BTC_futures_data
+btcf = btcf %>% 
+    rename("timestamp" = "...1")
+btcf <- slice(btcf, 1:(n() - 1)) 
+btcf_df = btcf
+btcf$var = btcf$high - btcf$low
+btcf = select(btcf, -c(open, low, high, close))
+btcf$timestamp = as_date(btcf$timestamp)
+
+# Lags
+btcf = btcf %>%
+    group_by(ticker) %>%
+    tk_augment_lags(contains("adjclose"), .lags = 1:3)
+btcf = na.omit(btcf)
+df  = zoo(btcf)
+```
+
+```{r}
+ggplot(data = btcf, aes(x = as.POSIXct.Date(timestamp), y = adjclose)) +
+  # plot the raw data
+  geom_line() +
+  labs(x = "Time", y = "BTC Futures Closing Prices") + theme_light()+
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+
+```
+
+```{r}
+ggplot(data = btcf, aes(x = as.POSIXct.Date(timestamp), y = volume)) +
+  # plot the raw data
+  geom_line() +
+  labs(x = "Time", y = "Volume of BTC Futures Traded") + theme_light()
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+```
+
+```{r}
+ggplot(data = btcf, aes(x = as.POSIXct.Date(timestamp), y = adjclose_lag3)) +
+  # plot the raw data
+  geom_line() +
+  labs(x = "Time", y = "Closing Prices Lag 3") + theme_light()+
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+```
+
+```{r}
+plot_stl_diagnostics(btcf, .date_var = timestamp, .value = adjclose)
+```
+
+```{r}
+plot_seasonal_diagnostics(btcf, .date_var = timestamp, .value = adjclose)
+```
+
+```{r}
+btcf$month = month(btcf$timestamp, label = TRUE)
+btcf$year = year(btcf$timestamp)
+btcf$wk = week(btcf$timestamp)
+btcf$wkday = as_factor(weekdays(btcf$timestamp))
+
+dfm<- 
+  btcf %>% 
+  summarize_by_time(.date_var = timestamp,
+                    .by = "month",
+                    avg_adj_f = mean(adjclose, na.rm = TRUE),
+                     avg_vol_f= mean(volume, na.rm = TRUE),
+                    avg_var_f = mean(var, na.rm = TRUE))
+
+dfm_btcf = dfm
+
+ggplot(data = dfm, aes(x = as.POSIXct.Date(timestamp) , y = avg_adj_f)) +
+  geom_line() +
+  geom_smooth(se = FALSE) +
+  labs(x = "Months", y = "Adjusted Close Price") + theme_light()+
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+
+
+```
+
+```{r}
+ggplot(data = dfm, aes(x = as.POSIXct.Date(timestamp) , y = avg_vol_f)) +
+  geom_line() +
+  geom_smooth(se = FALSE) +
+  labs(x = "Months", y = "Adjusted Close Price") + theme_light()+
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+```
+
+```{r}
+ggplot(data = dfm, aes(x = as.POSIXct.Date(timestamp) , y = avg_var_f)) +
+  geom_line() +
+  geom_smooth(se = FALSE) +
+  labs(x = "Months", y = "Adjusted Difference in Price") + theme_light()+
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+```
+
+### SP500 Index Perfomance Analysis
+
+```{r}
+sp = SP500_Perfomance
+sp = sp %>% 
+    rename("timestamp" = "...1")
+sp <- slice(sp, 1:(n() - 1)) 
+sp_df = sp
+sp$var = sp$high - sp$low
+sp = select(sp, -c(open, low, high, close))
+sp$timestamp = as_date(sp$timestamp)
+
+# Lags
+sp = sp %>%
+    group_by(ticker) %>%
+    tk_augment_lags(contains("adjclose"), .lags = 1:3)
+sp = na.omit(sp)
+df  = zoo(sp)
+```
+
+```{r}
+ggplot(data = sp, aes(x = as.POSIXct.Date(timestamp), y = adjclose)) +
+  # plot the raw data
+  geom_line() +
+  labs(x = "Time", y = "Closing Prices") + theme_light()+
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+
+```
+
+```{r}
+ggplot(data = sp, aes(x = as.POSIXct.Date(timestamp), y = volume)) +
+  # plot the raw data
+  geom_line() +
+  labs(x = "Time", y = "Volume Traded") + theme_light()+
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+```
+
+```{r}
+ggplot(data = sp, aes(x = as.POSIXct.Date(timestamp), y = adjclose_lag3)) +
+  # plot the raw data
+  geom_line() +
+  labs(x = "Time", y = "Closing Prices Lag 3") + theme_light()+
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+```
+
+
+```{r}
+sp$month = month(sp$timestamp, label = TRUE)
+sp$year = year(sp$timestamp)
+sp$wk = week(sp$timestamp)
+sp$wkday = as_factor(weekdays(sp$timestamp))
+
+dfm<- 
+  sp %>% 
+  summarize_by_time(.date_var = timestamp,
+                    .by = "month",
+                    avg_adj_sp = mean(adjclose, na.rm = TRUE),
+                     avg_vol_sp= mean(volume, na.rm = TRUE),
+                    avg_var_sp = mean(var, na.rm = TRUE))
+
+dfm_sp = dfm
+ggplot(data = dfm, aes(x = as.POSIXct.Date(timestamp) , y = avg_adj_sp)) +
+  geom_line() +
+  geom_smooth(se = FALSE) +
+  labs(x = "Months", y = "Adjusted Close Price") + theme_light()+
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+
+
+```
+
+```{r}
+ggplot(data = dfm, aes(x = as.POSIXct.Date(timestamp) , y = avg_vol_sp)) +
+  geom_line() +
+  geom_smooth(se = FALSE) +
+  labs(x = "Months", y = "Adjusted Close Price") + theme_light()+
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+```
+
+```{r}
+ggplot(data = dfm, aes(x = as.POSIXct.Date(timestamp) , y = avg_var_sp)) +
+  geom_line() +
+  geom_smooth(se = FALSE) +
+  labs(x = "Months", y = "Adjusted Difference in Price") + theme_light()+
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+```
+
+### Shanghai Delayed Index Perfomance Analysis
+
+```{r}
+sh = Shanghai_delayed_Index
+sh <- slice(sh, 1:(n() - 1)) 
+sh = sh %>% 
+    rename("timestamp" = "...1")
+sh <- slice(sh, 1:(n() - 1)) 
+sh_df = sh
+sh$var = sh$high - sh$low
+sh = select(sh, -c(open, low, high, close))
+sh$timestamp = as_date(sh$timestamp)
+
+# Lags
+sh = sh %>%
+    group_by(ticker) %>%
+    tk_augment_lags(contains("adjclose"), .lags = 1:3)
+sh = na.omit(sh)
+df  = zoo(sh)
+```
+
+```{r}
+ggplot(data = sh, aes(x = as.POSIXct.Date(timestamp), y = adjclose)) +
+  # plot the raw data
+  geom_line() +
+  labs(x = "Time", y = "Closing Prices") +
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y") +theme_light()
+
+```
+
+```{r}
+ggplot(data = sh, aes(x = as.POSIXct.Date(timestamp), y = volume)) +
+  # plot the raw data
+  geom_line() +
+  labs(x = "Time", y = "Volume Traded") + theme_light()+
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+```
+
+```{r}
+ggplot(data = sh, aes(x = as.POSIXct.Date(timestamp), y = adjclose_lag3)) +
+  # plot the raw data
+  geom_line() +
+  labs(x = "Time", y = "Closing Prices Lag 3") + theme_light()+
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+```
+
+```{r}
+plot_stl_diagnostics(sh, .date_var = timestamp, .value = adjclose)
+```
+
+```{r}
+plot_seasonal_diagnostics(sh, .date_var = timestamp, .value = adjclose)
+```
+
+```{r}
+sh$month = month(sh$timestamp, label = TRUE)
+sh$year = year(sh$timestamp)
+sh$wk = week(sh$timestamp)
+sh$wkday = as_factor(weekdays(sh$timestamp))
+
+dfm<- 
+  sh %>% 
+  summarize_by_time(.date_var = timestamp,
+                    .by = "month",
+                    avg_adj_sh = mean(adjclose, na.rm = TRUE),
+                     avg_vol_sh= mean(volume, na.rm = TRUE),
+                    avg_var_sh = mean(var, na.rm = TRUE))
+
+dfm_sh = sh
+
+ggplot(data = dfm, aes(x = as.POSIXct.Date(timestamp) , y = avg_adj_sh)) +
+  geom_line() +
+  geom_smooth(se = FALSE) +
+  labs(x = "Months", y = "Adjusted Close Price") + theme_light()+
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+
+```
+
+```{r}
+ggplot(data = dfm, aes(x = as.POSIXct.Date(timestamp) , y = avg_vol_sh)) +
+  geom_line() +
+  geom_smooth(se = FALSE) +
+  labs(x = "Months", y = "Adjusted Close Price") + theme_light()+
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+```
+
+```{r}
+ggplot(data = dfm, aes(x = as.POSIXct.Date(timestamp) , y = avg_var_sh)) +
+  geom_line() +
+  geom_smooth(se = FALSE) +
+  labs(x = "Months", y = "Adjusted Difference in Price") + theme_light()+
+  scale_x_datetime(date_breaks = "year", date_labels = "%b-%Y")
+```
+
+## Modeling
+
+```{r}
+library(tsibble)
+library(feasts)
+```
+
+
+```{r}
+sp_df = sp_df %>% 
+  select(-c(open, high, low, close, volume, ticker,close,high)) %>%
+  rename("close_sp" = "adjclose")
+sh_df = sh_df %>% 
+  select(-c(open, high, low, close, volume, ticker,close,high)) %>%
+  rename("close_sh" = "adjclose")
+btc_df = btc_df %>% select(-c(ticker, volume, var))
+btcf_df  = btcf_df %>% 
+  select(-c(open,high, low, close, ticker, volume))%>% 
+    rename("close_f" = "adjclose")
+```
+
+```{r}
+df = merge(btc_df,btcf_df,by="timestamp")
+df = merge(df,sp_df,by="timestamp")
+df = merge(df,sh_df,by="timestamp")
+df = df %>% select(-c(ticker))
+df$timestamp = as.POSIXct.Date(df$timestamp)
+```
+
+
+```{r}
+df = merge(btc_df,btcf_df,by="timestamp")
+df = merge(df,sh_df,by="timestamp")
+df = merge(df,sp_df,by="timestamp")
+df$month = month(df$timestamp, label = TRUE)
+df$year = year(df$timestamp)
+df$wk = week(df$timestamp)
+df$wkday = as_factor(weekdays(df$timestamp))
+df = select(df, -ticker)
+```
+
+
+##### Time Series Plots
+
+```{r}
+df |>
+  mutate(timestamp = ymd(timestamp)) |>
+  as_tsibble(index = timestamp) |> group_by_key() %>% fill_gaps()-> df_ts
+
+
+autoplot(df_ts, close_f) +
+  labs(title = "Closing Prices For Futures",
+       subtitle = "BTC Futures",
+        y = "Closing Price") + theme_light()
+```
+
+
+```{r}
+df_ts |>
+  gg_season(close_f, labels = "both") +
+  labs(y = "Closing Prices",
+       title = "Seasonal plot: BTC Futures Prices") + theme_light()
+```
+
+```{r}
+df_ts |>
+  autoplot(close_sh) +
+  labs(
+    y = "Closing Price",
+    title = "Shanghai Delayed Index"
+  ) +theme_light()
+```
+##### Scatter Plots
+
+```{r}
+df_ts  |>
+  ggplot(aes(x = close_sp, y = close_f)) +
+  geom_point() + geom_smooth()+
+  labs(x = "Closing Prices of SP500",
+       y = "Closing Prices BTC Futures)") +theme_light()
+```
+
+```{r}
+df_ts  |>
+  ggplot(aes(x = close_sh, y = close_f)) +
+  geom_point() + geom_smooth()+
+  labs(x = "Closing Prices of Shanghai Delayed Index",
+       y = "Closing Prices BTC Futures)") +theme_light()
+```
+### Correlation
+
+```{r}
+df_ts |> GGally::ggpairs(columns = 2:5)
+```
+## Lag Plots
+
+```{r}
+recent_prices <- df_ts |>
+  filter(year(timestamp) >= 2018)
+recent_prices |>
+  gg_lag(adjclose, geom = "point") +
+  labs(x = "lag(Closing Price For BTC, k)")
+```
+### AutoCorrelation
+
+```{r}
+df_ts |> ACF(close_f, lag_max = 4)
+```
+
+
+```{r}
+recent_prices |>
+  ACF(close_f, lag_max = 4) |>
+  autoplot() + labs(title="Closing Prices For BTC Futures") + theme_light()
+```
+```{r}
+df_ts |>
+  autoplot(close_f/adjclose) +
+  labs(title= "Future Price Per BTC Price", y = "$US") +theme_light()
+```
+
+```{r}
+df_ts |>
+  autoplot(close_f/close_sp) +
+  labs(title= "Future Price Against SP500", y = "$US") +theme_light()
+```
+
+```{r}
+lambda <- df_ts |>
+  features(close_f, features = guerrero) |>
+  pull(lambda_guerrero)
+df_ts |>
+  autoplot(box_cox(close_f, lambda)) +
+  labs(y = "",
+       title = latex2exp::TeX(paste0(
+         "Transformed gas production with $\\lambda$ = ",
+         round(lambda,2)))) +theme_light()
+```
+### Decomposing Time Series
+
+```{r}
+df_ts <- df_ts |>
+  mutate(
+    `4-MA` = slider::slide_dbl(close_f, mean,
+                .before = 1, .after = 2, .complete = TRUE)
+  )
+
+
+
+df_ts |>
+  autoplot(close_f) +
+  geom_line(aes(y = `4-MA`), colour = "green") +
+  labs(y = "Price",
+       title = "BTC Futures Prices") +
+  guides(colour = guide_legend(title = "series")) +theme_light()
+```
+```{r}
+# 1. Plot the data and identify any unusual observations.
+df_ts %>%
+  plot_time_series(
+    .date_var = timestamp,
+    .value = close_f,
+    .smooth_alpha = 0.6,
+    .interactive = FALSE,
+    .title = "The BTC Futures Trend"
+  )
+```
+
+
+
+```{r}
+# 3. Automatically fit multiple models and find the lowest AICc.
+library(tidymodels)
+# Split the data 80/20 
+splits <- rsample::initial_time_split(df_ts, prop = 0.8)
+# Model Spec
+model_spec_arima <- arima_reg() %>%
+  set_engine("auto_arima")
+# Fit Spec
+model_fit_arima <- model_spec_arima %>%
+  fit(close_f ~ timestamp + close_sp + close_sh, data = rsample::training(splits))
+
+# Fit Spec
+model_fit_arima2 <- model_spec_arima %>%
+  fit(close_f ~ timestamp, data = rsample::training(splits))
+# Check model report
+model_fit_arima2
+```
+```{r}
+modeltime_table(model_fit_arima2)
+```
+
+
+```{r}
+# Create table of model to use
+auto_arima_model_tbl <- modeltime_table(model_fit_arima2)
+# Calibrate the model to produce confidence intervals
+arima_calibration_tbl <- auto_arima_model_tbl %>%
+  modeltime_calibrate(new_data = rsample::testing(splits), quiet = FALSE)
+# Create residuals table
+arima_residuals_tbl <- arima_calibration_tbl %>% modeltime_residuals()
+# Plot the residuals
+u1 <- arima_residuals_tbl %>% 
+  plot_modeltime_residuals(
+    .type = "timeplot", 
+    .interactive = FALSE)
+u2 <- arima_residuals_tbl %>% 
+  plot_modeltime_residuals(
+    .type = "acf", 
+    .interactive = FALSE,
+    .title = "ACF and PACF Plots")
+# Check for white noise with a Ljung-Box test
+arima_residuals_tbl %>%
+  select(.residuals, .index) %>%
+  as_tsibble() %>%  # fabletools workaround
+  features(.residuals, ljung_box, lag=24, dof=0)
+# Arrange plots
+plot_grid(u1, u2, ncol=1)
+```
+
+
+
+```{r}
+total = merge(total,dfm_sh,by="timestamp")
+total = merge(total,dfm_btcf,by="timestamp")
+total <- total %>% select(-contains("ticker"))
+# binding data frames
+total$infl = total$year
+total$infl[total$year == 2017] = 2.858
+total$infl[total$year == 2018] = 6.896
+total$infl[total$year == 2019] = 5.570
+total$infl[total$year == 2020] = 1.382
+total$infl[total$year == 2021] = 8.340
+total$infl[total$year == 2022] = 12.120
+total$infl[total$year == 2023] = NA
+```
+
+
+```{r}
+library(rsample)
+df_split <- initial_time_split(total, prop = 150/156)
+
+df_training <- training(df_split)
+df_testing <- testing(df_split)
+
+
+forecast_1 <- lm(avg_adj ~., data = df_training)
+broom::tidy(forecast_1)
+```
+

@@ -1,4 +1,10 @@
-venv/ 
+scraping_env/ 
 .vscode/
 .idea/
-.zip
+*.zip
+geckodriver.log
+.Rproj.user
+Time-series-analysis_files/
+.RData
+.Rhistory
+*.Rproj

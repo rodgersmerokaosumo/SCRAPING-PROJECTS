@@ -163,3 +163,5 @@ for url in tv_urls:
     tv_url = (url,)
     mycursor.execute(sql, tv_url)
     pricena_tv_kuwait_db.commit()
+
+# %%
