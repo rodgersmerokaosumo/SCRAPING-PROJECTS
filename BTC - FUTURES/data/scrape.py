@@ -1,6 +1,7 @@
 #%%
 import pandas as pd
 import yahoo_fin.stock_info as si
+import yfinance as yf
 
 #Crypto Prices
 ticker = "BTC-USD"

@@ -1,4 +1,3 @@
-scraping_env/ 
 .vscode/
 .idea/
 *.zip
@@ -8,3 +7,5 @@ Time-series-analysis_files/
 .RData
 .Rhistory
 *.Rproj
+scraping_env/
+*.pyc

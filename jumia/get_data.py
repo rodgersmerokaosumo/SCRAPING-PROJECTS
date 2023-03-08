@@ -100,7 +100,12 @@ def specifications(soup_object):
 def get_data(link):
     r = requests.get(link)
     soup = BeautifulSoup(r.content, 'lxml')
-    name  = soup.find("h1", class_ = "-fs20 -pts -pbxs").text.strip()
+    try:
+        name  = soup.find("h1", class_ = "-fs20 -pts -pbxs").text.strip()
+    except:
+        name = soup.find("h1").text.strip()
+    else:
+        name = None
     try:
         category = soup.find_all("a", class_ = "cbs")
         unique_category_2 = category[-2].text.strip()
@@ -141,7 +146,10 @@ def get_data(link):
     
     countrycode = "TN"
 
-    specs = specifications(soup)
+    try:
+        specs = specifications(soup)
+    except:
+        specs = None
     
     scrape_link = link
     
