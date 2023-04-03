@@ -7,7 +7,6 @@ import time
 from datetime import datetime
 headers = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"}
 import mysql.connector
-!pip install pymysql
 import pymysql
 from sqlalchemy import create_engine
 
@@ -16,24 +15,24 @@ headers = {
 }
 
 base_url = "https://www.jumia.com.tn"
-url = 'https://www.jumia.com.tn/catalog/?q=televisions'
+url = 'https://www.jumia.com.tn/tvs/'
 
 #%%
 ##create database
-justwatch_tv_db = mysql.connector.connect(
+jumia_tunisia_db = mysql.connector.connect(
   host="localhost",
   user="root",
   password="4156"
 )
 
-mycursor = justwatch_tv_db.cursor()
+mycursor = jumia_tunisia_db.cursor()
 
-mycursor.execute("use jumia_tvs")
+mycursor.execute("use jumia_tunisia_db")
 mycursor.execute("""CREATE TABLE IF NOT EXISTS tv_links(tv_link varchar(200) UNIQUE, is_scraped TINYINT)""")
 
 # Credentials to database connection
 hostname="localhost"
-dbname="jumia_tvs"
+dbname="jumia_tunisia_db"
 uname="root"
 pwd="4156"
 
@@ -101,11 +100,10 @@ def get_data(link):
     r = requests.get(link)
     soup = BeautifulSoup(r.content, 'lxml')
     try:
-        name  = soup.find("h1", class_ = "-fs20 -pts -pbxs").text.strip()
+        name  = soup.find("h1").text.strip()
     except:
-        name = soup.find("h1").text.strip()
-    else:
         name = None
+
     try:
         category = soup.find_all("a", class_ = "cbs")
         unique_category_2 = category[-2].text.strip()
