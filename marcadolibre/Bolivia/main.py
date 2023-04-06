@@ -161,7 +161,7 @@ def get_data(link):
         state = None
         
     try:
-        country_code = "AR"
+        country_code = "BO"
     except:
         country_code = None
     try:

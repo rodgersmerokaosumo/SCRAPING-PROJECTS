@@ -8,8 +8,25 @@ import mysql.connector as mysql
 import mysql.connector
 from sqlalchemy import create_engine
 from sqlalchemy import engine
+from statistics import mean
+import time
+import re
+from selenium import webdriver
+import pandas as pd
+from selenium.webdriver.common.by import By
+import datetime
+from selenium.webdriver.chrome.options import Options
+import mysql.connector
+from sqlalchemy import create_engine
+
+#SELENIUM OPTIONS
+options = Options()
+options.add_argument("start-maximized")
+options.add_argument('-headless')
+
 ua = UserAgent()
 headers = {'User-Agent':str(ua.random)}
+driver = webdriver.Chrome(options=options)
 #%%
 ##create database
 chile_mercado_db = mysql.connector.connect(
@@ -66,8 +83,14 @@ def get_specs(tables):
 #%%
 def get_data(link):
     from datetime import datetime
+    driver.get(link)
+    driver.implicitly_wait(2.5)
+    scheight = .1
+    while scheight < 9.9:
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight/%s);" % scheight)
+        scheight += .008
     r = requests.get(link, headers=headers).text
-    hun = BeautifulSoup(r, "html.parser")
+    hun = BeautifulSoup(driver.page_source, features='lxml')
      
     try:
         currency = hun.find("span", class_ = "andes-money-amount__currency-symbol").text.strip()
@@ -167,7 +190,7 @@ def get_data(link):
     return tv
 
 #%%
-for link in links[:10]:
+for link in links[:50]:
     data = []
     print(link)
     data.append(get_data(link))
@@ -185,6 +208,7 @@ df = pd.read_sql('SELECT * FROM data_table', con=chile_mercado_db)
 none_links = []
 for link in df[(df['name'] == 'None') | (df['specifications'] == '{}')]['scrape_link']:
     none_links.append(link)
+
 #%%
 ##removes where the links wer empty before scraping to avoid duplication
 for link in none_links:
@@ -211,11 +235,15 @@ for link in none_links:
 
 #%%
 df = pd.read_sql('SELECT * FROM data_table', con=chile_mercado_db)
+pd.DataFrame(df['offer_price'].str.split().values.tolist())[[1]]
+#df['offer_price'].str.replace(r"[^a-z]+", "")
+#%%
 ##Feature Engineering
 df['discount_percentage'] = df['discount_percentage'].str.extract('(\d+)', expand=False)
 df['sales'] = df['sales'].str.extract('(\d+)', expand=False)
 df['reviews'] = df['reviews'].str.extract('(\d+)', expand=False)
-df['quantity_available'] = df['quantity_available'].str.extract('(\d+)', expand=False)
+df['quantity_available'] = pd.DataFrame(df['offer_price'].str.split().values.tolist())[[0]]
+df['Currency'] = pd.DataFrame(df['offer_price'].str.split().values.tolist())[[1]]
 df['offer_price'] = df['offer_price'].str.extract('(\d+)', expand=False)
 df['original_price'] = df['original_price'].str.extract('(\d+)', expand=False)
 
@@ -236,10 +264,5 @@ df_long.rename(columns = {'level_14':'Specification Name', 0:'Specification Valu
 #%%
 df_long.to_csv("tv_data_long.CSV")
 df.to_csv('tv_data.csv')
-
-# %%
-dat = []
-dat.append(get_data(links[1]))
-pd.DataFrame.from_dict(dat)
 
 # %%

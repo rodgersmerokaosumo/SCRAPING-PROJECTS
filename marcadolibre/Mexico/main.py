@@ -29,18 +29,18 @@ headers = {'User-Agent':str(ua.random)}
 driver = webdriver.Chrome(options=options)
 #%%
 ##create database
-argentina_mercado_db = mysql.connector.connect(
+mercado_db_mexico = mysql.connector.connect(
   host="localhost",
   user="root",
   password="4156",
     auth_plugin = 'mysql_native_password'
 )
 
-mycursor = argentina_mercado_db.cursor()
+mycursor = mercado_db_mexico.cursor()
 
 # Credentials to database connection
 hostname="localhost"
-dbname="argentina_mercado_db"
+dbname="mercado_db_mexico"
 uname="root"
 pwd="4156"
 
@@ -49,12 +49,12 @@ engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
 				.format(host=hostname, db=dbname, user=uname, pw=pwd))
 
 #%%
-mycursor.execute("use argentina_mercado_db")
+mycursor.execute("use mercado_db_mexico")
 mycursor.execute("""CREATE TABLE IF NOT EXISTS tvs(category varchar(200), country_code varchar(20),name varchar(200), specifications MEDIUMTEXT, original_price varchar(100), offer_price varchar(200), discount_percentage varchar(200), start varchar(200), \
                     quantity_available varchar(200), reviews varchar(100), rating varchar(100), scrape_link varchar(200) PRIMARY KEY, date_scraped varchar(100))""")
 
 #%%
-df_links = pd.read_sql('SELECT * FROM tv_links WHERE is_scraped = 0', con=argentina_mercado_db)
+df_links = pd.read_sql('SELECT * FROM tv_links WHERE is_scraped = 0', con=mercado_db_mexico)
 
 links = []
 for i in df_links.link:
@@ -155,18 +155,19 @@ def get_data(link):
         rating = hun.find("p", class_ = "ui-review-capability__rating__average ui-review-capability__rating__average--desktop").text.strip()
     except:
         rating = None
+    
     try:
         state = hun.find("span", class_ = "ui-pdp-buybox__quantity__available").text.strip()
     except:
         state = None
         
     try:
-        country_code = "AR"
+        country_code = "MX"
     except:
         country_code = None
+    
     try:
-        scrape_link = link
-        
+        scrape_link = link 
     except:
         scrape_link = None
     
@@ -200,11 +201,11 @@ for link in links[:50]:
     sql = "UPDATE tv_links SET is_scraped = 1 WHERE link = (%s)"
     link = (link,)
     mycursor.execute(sql, link)
-    argentina_mercado_db.commit()
+    mercado_db_mexico.commit()
 
 
 #%%
-df = pd.read_sql('SELECT * FROM data_table', con=argentina_mercado_db)
+df = pd.read_sql('SELECT * FROM data_table', con=mercado_db_mexico)
 none_links = []
 for link in df[(df['name'] == 'None') | (df['specifications'] == '{}')]['scrape_link']:
     none_links.append(link)
@@ -214,7 +215,7 @@ for link in df[(df['name'] == 'None') | (df['specifications'] == '{}')]['scrape_
 for link in none_links:
     sql = f"DELETE FROM data_table WHERE scrape_link = '{link}';"
     mycursor.execute(sql)
-    argentina_mercado_db.commit()
+    mercado_db_mexico.commit()
     
 #%%
 len(none_links)
@@ -230,11 +231,11 @@ for link in none_links:
     sql = "UPDATE tv_links SET is_scraped = 1 WHERE link = (%s)"
     link = (link,)
     mycursor.execute(sql, link)
-    argentina_mercado_db.commit()
+    mercado_db_mexico.commit()
     time.sleep(1)
 
 #%%
-df = pd.read_sql('SELECT * FROM data_table', con=argentina_mercado_db)
+df = pd.read_sql('SELECT * FROM data_table', con=mercado_db_mexico)
 pd.DataFrame(df['offer_price'].str.split().values.tolist())[[1]]
 #df['offer_price'].str.replace(r"[^a-z]+", "")
 #%%
