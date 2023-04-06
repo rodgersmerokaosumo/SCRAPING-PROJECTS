@@ -1,7 +1,7 @@
 #%%
-import requests
+import httpx
 from fake_useragent import UserAgent
-from bs4 import BeautifulSoup
+from selectolax.parser import HTMLParser
 import mysql.connector as mysql
 import mysql.connector
 from sqlalchemy import create_engine
@@ -38,28 +38,36 @@ mycursor.execute("use mercado_db_elsavador")
 mycursor.execute("""CREATE TABLE IF NOT EXISTS tv_links(link varchar(200) UNIQUE, is_scraped TINYINT)""")
 
 #%%
-link = "https://listado.mercadolibre.com.sv/tv#D[A:TV]"
+link = "https://listado.mercadolibre.com.sv/televisores/tv_NoIndex_True#applied_filter_id%3Dcategory%26applied_filter_name%3DCategor%C3%ADas%26applied_filter_order%3D2%26applied_value_id%3DMSV1002%26applied_value_name%3DTelevisores%26applied_value_order%3D2%26applied_value_results%3D2%26is_custom%3Dfalse"
 is_scraped = 0
+def get_links(link):
+    r = httpx.get(link, headers=headers).text
+    resp = HTMLParser(r)
+    try:
+        current_page = resp.css_first("li[class = 'andes-pagination__button andes-pagination__button--current']").text().strip()
+        page_count = resp.css_first("li[class = 'andes-pagination__page-count']").text().strip()
+        page_count = int(re.findall(r'\b\d+\b', page_count)[0])
+        print(f'page scraped: {current_page} of {page_count}')
+    except:pass
+    links = resp.css("a[class = 'ui-search-item__group__element shops__items-group-details ui-search-link']")
+    for link in links:
+        tv_link = link.attrs["href"]
+        print(tv_link)
+        mycursor.execute("""INSERT IGNORE INTO tv_links VALUES(%s, %s)""", (tv_link, is_scraped))
+        mercado_db_elsavador.commit()
+    next_page = resp.css_first("li[class = 'andes-pagination__button andes-pagination__button--next shops__pagination-button'] a").attrs["href"]
+
+    return next_page
+
+#%%
+import re
+while True:
+    try:
+        link = get_links(link)
+    except:
+        break
+
 
 # %%
-def get_links(link):
-    r = requests.get(link).text
-    soup = BeautifulSoup(r, 'lxml')
-    products = soup.find_all("li", class_ = "ui-search-layout__item shops__layout-item")
-    for product in products:
-        product_link = product.find("a").get("href")
-        print(product_link)
-        mycursor.execute("""INSERT IGNORE INTO tv_links VALUES(%s, %s)""", (product_link, is_scraped))
-        mercado_db_elsavador.commit()
-# %%
-while True:
-        get_links(link)
-        try:
-            r = requests.get(link).text
-            soup = BeautifulSoup(r, 'lxml')
-            next = soup.find("li", class_ = "andes-pagination__button andes-pagination__button--next shops__pagination-button")
-            url = next.find("a").get("href")
-            link = url
-        except: break
 
 # %%

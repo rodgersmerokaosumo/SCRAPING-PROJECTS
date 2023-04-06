@@ -1,12 +1,13 @@
 #%%
-import requests
+import httpx
+from selectolax.parser import HTMLParser
 from fake_useragent import UserAgent
-from bs4 import BeautifulSoup
 import mysql.connector as mysql
 import mysql.connector
 from sqlalchemy import create_engine
 ua = UserAgent()
 headers = {'User-Agent':str(ua.random)}
+
 
 #headers = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"}
 
@@ -40,26 +41,27 @@ mycursor.execute("""CREATE TABLE IF NOT EXISTS tv_links(link varchar(200) UNIQUE
 #%%
 link = "https://listado.mercadolibre.com.bo/tv#D[A:tv]"
 is_scraped = 0
-
 # %%
 def get_links(link):
-    r = requests.get(link).text
-    soup = BeautifulSoup(r, 'lxml')
-    products = soup.find_all("li", class_ = "ui-search-layout__item shops__layout-item")
-    for product in products:
-        product_link = product.find("a").get("href")
-        print(product_link)
-        mycursor.execute("""INSERT IGNORE INTO tv_links VALUES(%s, %s)""", (product_link, is_scraped))
+    r = httpx.get(link, headers=headers).text
+    resp = HTMLParser(r)
+    current_page = resp.css_first("li[class = 'andes-pagination__button andes-pagination__button--current']").text().strip()
+    page_count = resp.css_first("li[class = 'andes-pagination__page-count']").text().strip()
+    page_count = int(re.findall(r'\b\d+\b', page_count)[0])
+    print(f'page scraped: {current_page} of {page_count}')
+    links = resp.css("a[class = 'ui-search-item__group__element shops__items-group-details ui-search-link']")
+    for link in links:
+        tv_link = link.attrs["href"]
+        mycursor.execute("""INSERT IGNORE INTO tv_links VALUES(%s, %s)""", (tv_link, is_scraped))
         mercado_db_bolivia.commit()
-# %%
-while True:
-    get_links(link)
-    try:
-        r = requests.get(link).text
-        soup = BeautifulSoup(r, 'lxml')
-        next = soup.find("li", class_ = "andes-pagination__button andes-pagination__button--next shops__pagination-button")
-        url = next.find("a").get("href")
-        link = url
-    except: break
+    next_page = resp.css_first("li[class = 'andes-pagination__button andes-pagination__button--next shops__pagination-button'] a").attrs["href"]
 
-# %%
+    return next_page
+
+#%%
+import re
+while True:
+    try:
+        link = get_links(link)
+    except:
+        break
