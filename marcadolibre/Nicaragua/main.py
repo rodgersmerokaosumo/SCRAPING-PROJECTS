@@ -191,7 +191,7 @@ def get_data(link):
     return tv
 
 #%%
-for link in links[:50]:
+for link in links:
     data = []
     print(link)
     data.append(get_data(link))
