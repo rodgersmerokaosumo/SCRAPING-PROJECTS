@@ -50,9 +50,6 @@ engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
 
 #%%
 mycursor.execute("use mercado_db_dominica")
-mycursor.execute("""CREATE TABLE IF NOT EXISTS tvs(category varchar(200), country_code varchar(20),name varchar(200), specifications MEDIUMTEXT, original_price varchar(100), offer_price varchar(200), discount_percentage varchar(200), start varchar(200), \
-                    quantity_available varchar(200), reviews varchar(100), rating varchar(100), scrape_link varchar(200) PRIMARY KEY, date_scraped varchar(100))""")
-
 #%%
 df_links = pd.read_sql('SELECT * FROM tv_links WHERE is_scraped = 0', con=mercado_db_dominica)
 
