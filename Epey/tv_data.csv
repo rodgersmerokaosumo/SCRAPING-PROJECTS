@@ -1,0 +1,8430 @@
+,country,category,brand,title,reference,no_offers,avg_price,currency,scrape_link,scrape_time,Ekran,Ekran Tipi,Ekran Boyutu,Ekran Boyutu (cm),Çözünürlük Standardı,Ekran Çözünürlüğü,Yenileme Hızı (Yazılım),Yenileme Hızı (Gerçek),Desteklenen Çözünürlükler (HDMI),HDR,HDR Özellikleri,Ekran & Görüntü Özellikleri,Ses Çıkış Gücü (RMS),Hoparlör Sistemi,Ses & Video Çözücüler,Ses Özellikleri,Subwoofer,Analog Alıcı,Karasal Alıcı (DVB-T),Kablo TV (DVB-C),HD Uydu Alıcı (DVB-S2),HD Karasal Alıcı (DVB-T2),Dahili Wi-Fi,Wi-Fi Özellikleri,DLNA,Ethernet / LAN Kablo Girişi,USB 2.0 Girişleri,HDMI 2.0 Girişleri,HDMI Özellikleri,HDMI-CEC,Dijital Ses Çıkışı,Common Interface (CI+),CI+ Özellikleri,Analog/Kablolu Anten Girişi,Uydu Anteni Girişi,3D,Smart TV,Smart TV Özellikleri,Smart TV Uygulamaları,Uygulama Yükleyebilme,Dahili Kamera,Akıllı Etkileşim (Dahili),Ses ile TV Kontrolü,Yayın Kaydetme (PVR),Program Rehberi (EPG),HbbTV,İşlemci Çekirdek Sayısı,İşletim Sistemi,İşletim Sistemi Versiyonu,Diğer Multimedya Özellikleri,SDR Enerji Tüketim Sınıfı (A-G),SDR Enerji Tüketimi (1000h),HDR Enerji Tüketim Sınıfı (A-G),HDR Enerji Tüketimi (1000h),Güç Tüketimi (Maksimum),Tüketim (Bekleme Modu),Güç Tüketimi Özellikleri,Ekran Kalınlık Tipi,Ön Çerçeve Rengi,Stand (Ayak) Tipi,Tasarım Özellikleri,Kutu Genişliği,Kutu Yüksekliği,Kutu Derinliği,TV Genişliği (Ayaklı),TV Yüksekliği (Ayaklı),TV Derinliği (Ayaklı),TV Genişliği (Ayaksız),TV Yüksekliği (Ayaksız),TV Derinliği (Ayaksız),TV Ağırlığı (Ayaksız),TV Ağırlığı (Ayaklı),Toplam Ambalaj Ağırlığı,Çıkış Yılı,Öne Çıkan Özellikler,Kullanım Kılavuzu (TR),Kontrast Oranı (Statik),Parlaklık,Kompozit Girişi (AV),Ses / Kulaklık Çıkışı,İşlemci Hızı,Chipset,RAM,Dahili Depolama,Subwoofer Özellikleri,USB 3.2 Gen 1 (3.0) Girişleri,Harici Kamera Desteği,Dinamik Kontrast,Komponent (Bileşen) Girişi,Kullanım Kılavuzu (EN),Uygun/Gerekli Android Uygulaması,Uygun/Gerekli iOS Uygulaması,IR Out,Kontrast Oranı (Dinamik),Parlaklık (Maks.),Tepki Süresi,Dahili Depolama Özellikleri,Diğer Bağlantı Özellikleri,Hbb TV Özellikleri,Ambilight,Ambilight Özellikleri,PC Girişi (VGA),HDMI 1.3/1.4/2.0 Girişleri,Akıllı Etkileşim (Uyumlu),Ses Tanıma (Uyumlu),Eski Enerji Tüketim Sınıfı (A-D),Tüketim (Ortalama),Tüketim (Tasassuf Modu),Ortalama Yıllık Tüketim
+0,TR,Televizyon,Samsung,Samsung 55Q80B Ultra HD (4K) TV (QE55Q80BATXTK),(QE55Q80BATXTK),12,26167.755833333333,TL,https://www.epey.com/televizyon/samsung-55q80b.html,09/04/2023 22:46:55,LED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,PQI 3800,100/120 Hz,"3840x2160p @ 60 Hz 
+
+3840x2160p @ 120Hz",Var,"HDR10+ Adaptive
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Quantum HDR 12x
+
+
+Quantum HDR","Direct Full Array
+
+
+QLED with Quantum Dot
+
+
+Direct Full Array 8x
+
+
+Quantum Dot Display
+
+
+Quantum Processor 4K
+
+
+Auto Motion Plus
+
+
+Supreme UHD Dimming
+
+
+Contrast Enhancer
+
+
+DCI-P3 100%
+
+
+Direct LED Aydınlatma
+
+
+Motion Xcelerator Turbo+
+
+
+Real Depth Enhancer
+
+
+Wide Viewing Angle
+
+
+4K AI Upscaling",60 W,2.2.2,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+Dolby Digital Plus","Object Tracking Sound
+
+
+Q-Symphony",Var,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",Var,Var,2 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",Anynet+,Optik,Var,CI+ (1.4),1 Adet,2 Adet,Yok,Var,"Smart Hub
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,Tizen,Tizen 6.5,"Bluetooth
+
+
+FreeSync
+
+
+FreeSync Premium Pro
+
+
+Ekran Yansıtma (İki Yönlü)
+
+
+Freesync Premium
+
+
+Ekran Yansıtma
+
+
+Tek kumanda (One Remote Control)
+
+
+Bluetooth HID (Dahili)
+
+
+USB HID Desteği
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Connect Share (HDD)
+
+
+ConnectShare
+
+
+Oyun Modu
+
+
+Ambient Mode
+
+
+Ambient Mode Plus
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bixby Voice
+
+
+Bluetooth 4.2
+
+
+Bluetooth LE (Low Energy)
+
+
+Google Duo
+
+
+Multiroom Link
+
+
+Samsung SmartThings
+
+
+Ses Yansıtma
+
+
+Wireless Dex
+
+
+2 Tuner (Çift Alıcı)",G,114 kWh,G,220 kWh,250 W,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Slim,Gri,Kare,VESA Duvar Montaj Desteği (200x200 mm),1459 mm,845 mm,178 mm,1227.6 mm,783.4 mm,255.8 mm,1227.6 mm,706.7 mm,54.7 mm,17.9 kg,21 kg,27 kg,2022,Samsung QLED TV,Samsung 55Q80B Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,TR,Televizyon,Xiaomi,"Xiaomi Mi TV Q1 75"" Ultra HD (4K) TV",None,2,45999.0,TL,https://www.epey.com/televizyon/xiaomi-mi-tv-q1-75.html,09/04/2023 22:46:57,LED,Düz (Flat),75 İnç,189 cm,Ultra HD (4K),3840x2160,,100/120 Hz,1080p @ 120Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)","QLED with Quantum Dot
+
+
+DCI-P3 95%
+
+
+NTSC 100%
+
+
+Ultra Motion (MEMC)
+
+
+10 (8 bit + FRC) bit Panel Desteği",30 W,2.0,"DTS HD
+
+
+DTS
+
+
+Dolby Audio",,Var,,Var,Var,Var,Var,Var,,,Var,2 Adet,3 Adet,"HDMI 2.1
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDMI Audio Return Channel (ARC)",,Optik,,,1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,,Var,,4,Android TV,Android TV 10 (Q),"Google Assistant
+
+
+Ekran Yansıtma
+
+
+Chromecast
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Auto Low Latency Mode (ALLM)",G,160 kWh,G,300 kWh,,,,Slim,Siyah,Dikdörtgen Çerçeve,VESA Duvar Montaj Desteği (400x300 mm),1840 mm,1103 mm,230 mm,1673.5 mm,1029.9 mm,368.9 mm,1673.5 mm,969.8 mm,79.2 mm,31.1 kg,33.3 kg,43.9 kg,2021,,,10.000:1,1000 cd/m²,Var,Var,1.5 GHz,MediaTek MT9611,2 GB,32 GB,,,,,,,,,,,,,,,,,,,,,,,,,
+2,TR,Televizyon,Sony,Sony XR-42A90K Ultra HD (4K) TV (XR42A90KAEP),(XR42A90KAEP),5,35285.202,TL,https://www.epey.com/televizyon/sony-xr-42a90k.html,09/04/2023 22:47:00,OLED,Düz (Flat),42 İnç,105 cm,Ultra HD (4K),3840x2160,,100/120 Hz,3840x2160p @ 120Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HLG (Hybrid Log-Gamma)","IMAX Enhanced
+
+
+Live Colour™
+
+
+CalMAN Ready
+
+
+Cognitive Processor XR
+
+
+Dual Database Processing
+
+
+Dynamic Contrast Enhancer
+
+
+OLED XR Contrast Pro
+
+
+Pixel Contrast Booster
+
+
+XR 4K Upscaling
+
+
+XR HDR Remaster
+
+
+XR Smoothing
+
+
+XR Super Resolution
+
+
+XR Triluminos Pro",25 W,2.1,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+DTS
+
+
+Dolby Audio","Acoustic Surface Audio
+
+
+Acoustic Surface Audio+
+
+
+DTS Digital Surround",Var,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)",,Var,1 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.3
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",BRAVIA Sync,Optik,Var,,1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı (Vewd)","Google TV
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Harici Disk/USB Bellek ile,Var,Var,,Android TV,Android TV 10 (Q),"Bluetooth
+
+
+Ekran Yansıtma
+
+
+Variable Refresh Rate (VRR)
+
+
+Chromecast
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+AirPlay
+
+
+AirPlay 2
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 4.2",G,52 kWh,G,67 kWh,,0.5 W,"Güç Tasarrufu Modu (Ekonomik mod) 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör)",Slim,Siyah,Metal Oval,VESA Duvar Montaj Desteği (200x200 mm),1052 mm,688 mm,170 mm,933 mm,620 mm,225 mm,933 mm,546 mm,57 mm,13.3 kg,16.4 kg,21 kg,2022,Android TV,Sony XR-42A90K Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,Var,Yok,,,,16 GB,5 W,1 Adet,Var,,,,,,,,,,,,,,,,,,,,,,
+3,TR,Televizyon,LG,LG OLED65A16LA Ultra HD (4K) TV,None,3,41719.34,TL,https://www.epey.com/televizyon/lg-oled65a16la.html,09/04/2023 22:47:02,OLED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,,50/60 Hz,3840x2160p @ 60 Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Dolby Vision IQ
+
+
+HDR Effect
+
+
+HDR 10 Pro
+
+
+4K Cinema HDR","Billion Rich Color (Milyar Renk)
+
+
+Mükemmel Siyahlar
+
+
+Perfect Color (Kusursuz Renkler)
+
+
+True Color Accuracy
+
+
+ULTRA Luminance
+
+
+HDR Dynamic Tone Mapping
+
+
+HFR 2K
+
+
+HFR 4K
+
+
+HGIG Mode
+
+
+Object Depth Enhancer
+
+
+Pixel Dimming
+
+
+Resolution Upscaler (4K)
+
+
+Ultra Luminance Pro
+
+
+Wide Viewing Angle
+
+
+α7 (Alpha7) (Gen4) Processor 4K",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+Dolby Digital Plus
+
+
+AV1 (4K@60p 10bit)
+
+
+H.265/HEVC (4K/60p 10bit)
+
+
+VP9
+
+
+VP9 (4K@60fps 10bit)","AI Acoustic Tuning
+
+
+AI Sound
+
+
+apt-X Kodek
+
+
+Clear Voice Pro
+
+
+Dolby Surround
+
+
+LG Sound Sync
+
+
+OLED Surround
+
+
+Smart Sound Mode
+
+
+WiSA",Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",Var,Var,2 Adet,3 Adet,"HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)",SIMPLINK,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"LG ThinQ AI
+
+
+Web Tarayıcı","LG Store
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,webOS,webOS 6.0,"Bluetooth
+
+
+FreeSync
+
+
+NVIDIA G-Sync
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Akıllı Kumanda (Magic Remote) Uyumu
+
+
+apt-X Encoder
+
+
+AirPlay 2
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0
+
+
+Gallery Mode",G,109 kWh,G,212 kWh,,0.5 W,"Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Slim,Siyah,İkili stant (V Ayaklı),VESA Duvar Montaj Desteği (300x200 mm),1600 mm,970 mm,172 mm,1449 mm,891 mm,271 mm,1449 mm,830 mm,46.9 mm,23.7 kg,24 kg,31 kg,2021,,LG OLED65A16LA Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Var,,,,,,,,Sonsuz,Var,LG OLED65A16LA Ultra HD (4K) TV Kullanım Kılavuzu (EN),LG OLED65A16LA Ultra HD (4K) TV Uygun/Gerekli Android Uygulaması,LG OLED65A16LA Ultra HD (4K) TV Uygun/Gerekli iOS Uygulaması,,,,,,,,,,,,,,,,,
+4,TR,Televizyon,LG,LG OLED65A26LA Ultra HD (4K) TV,None,2,50099.0,TL,https://www.epey.com/televizyon/lg-oled65a26la.html,09/04/2023 22:47:05,OLED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,,50/60 Hz,3840x2160p @ 60 Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Dolby Vision IQ
+
+
+HDR Effect
+
+
+HDR 10 Pro
+
+
+4K Cinema HDR","Billion Rich Color (Milyar Renk)
+
+
+Mükemmel Siyahlar
+
+
+Perfect Color (Kusursuz Renkler)
+
+
+AI Upscaling
+
+
+HDR Dynamic Tone Mapping
+
+ 
+HGIG Mode
+
+
+Pixel Dimming
+
+
+Resolution Upscaler (4K)
+
+
+Wide Viewing Angle
+
+
+α7 (Alpha7) (Gen5) AI Processor 4K",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+Dolby Digital Plus
+
+
+AV1 (4K@60p 10bit)
+
+
+H.265/HEVC (4K/60p 10bit)
+
+
+VP9
+
+
+VP9 (4K@60fps 10bit)","AI Acoustic Tuning
+
+
+AI Sound
+
+
+apt-X Kodek
+
+
+Clear Voice Pro
+
+
+LG Sound Sync
+
+
+OLED Surround
+
+
+Smart Sound Mode
+
+
+WiSA",Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",Var,Var,2 Adet,3 Adet,"HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)",SIMPLINK,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"LG ThinQ AI
+
+
+Web Tarayıcı","LG Store
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,webOS,WebOS 22,"Bluetooth
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Akıllı Kumanda (Magic Remote) Uyumu
+
+
+apt-X Encoder
+
+
+AirPlay 2
+
+
+Bluetooth 5.0
+
+
+Gallery Mode
+
+
+NVIDIA GeForce Now",F,90 kWh,G,191 kWh,,0.5 W,"Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Slim,Siyah,İkili stant (V Ayaklı),VESA Duvar Montaj Desteği (300x200 mm),1600 mm,950 mm,172 mm,1449 mm,896 mm,235 mm,1449 mm,832 mm,45.9 mm,17.1 kg,17.3 kg,24.4 kg,2022,,,,,,Yok,,,,,,,,Sonsuz,,,,,,,,,,,,,,,,,,,,,
+5,TR,Televizyon,LG,LG 65QNED916PA Ultra HD (4K) TV,None,0,0,TL,https://www.epey.com/televizyon/lg-65qned916pa.html,09/04/2023 22:47:07,LED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,,100/120 Hz,3840x2160p @ 120Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Dolby Vision IQ
+
+
+Cinema HDR
+
+
+HDR 10 Pro","Mini LED
+
+ 
+LG QNED Mini LED
+
+
+Quantum Mini LED
+
+
+Nano Cell Display
+
+
+Quantum Dot Display
+
+
+Full Array Dimming Pro
+
+
+Nano Cell Color
+
+
+Billion Rich Color (Milyar Renk)
+
+
+ULTRA Luminance
+
+
+AI Picture Pro
+
+
+Full Array Dimming
+
+
+HDR Dynamic Tone Mapping
+
+
+HFR 2K
+
+
+HFR 4K
+
+
+HGIG Mode
+
+
+Motion Pro
+
+
+Nano Colour Pro
+
+
+Quantum Dot NanoCell Technology
+
+
+Ultra Luminance Pro
+
+
+α7 (Alpha7) (Gen4) Processor 4K
+
+ 
+4K AI Upscaling",40 W,2.2,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+Dolby Digital Plus
+
+
+AV1
+
+
+AV1 (4K@60p 10bit)
+
+
+H.265/HEVC
+
+
+HEVC (4K@120p
+
+
+VP9
+
+
+VP9 (4K@60fps 10bit)","A.I. Sound
+
+
+apt-X Kodek
+
+
+Clear Voice
+
+
+Clear Voice Pro
+
+
+LG Sound Sync
+
+
+ULTRA Surround
+
+
+WiSA",Var,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)",Var,Var,3 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.3
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",SIMPLINK,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"LG Content Store
+
+
+LG ThinQ AI
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,webOS,webOS 6.0,"Bluetooth
+
+
+FreeSync
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Variable Refresh Rate (VRR)
+
+
+Akıllı Kumanda (Magic Remote) Uyumu
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+AirPlay
+
+
+AirPlay 2
+
+
+Amazon Alexa
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0
+
+
+Bluetooth LE (Low Energy)",F,101 kWh,G,168 kWh,,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör)",Ultra Slim,Siyah,Yay (C Tipi),VESA Duvar Montaj Desteği (400x400 mm),1600 mm,970 mm,228 mm,1444 mm,902 mm,336 mm,1444 mm,827 mm,28.9 mm,,,,2021,,LG 65QNED916PA Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Var,,,,,20 W,,,,,,,,Var,,,,,,,,,,,,,,,,
+6,TR,Televizyon,TCL,TCL 65C735 Ultra HD (4K) TV,None,1,24599.0,TL,https://www.epey.com/televizyon/tcl-65c735.html,09/04/2023 22:47:10,LED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,TCL PPI 3600,100/120/144 Hz,3840x2160p @ 144Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Dolby Vision IQ","QLED with Quantum Dot
+
+
+Quantum Dot Display
+
+
+AiPQ 2.0 Engine
+
+
+Micro Dimming",20 W,2.0,"Dolby Atmos
+
+
+Dolby Digital
+
+
+DTS HD
+
+
+Dolby AC-4
+
+
+DTS
+
+
+Dolby Audio
+
+
+Dolby TrueHD",Onkyo Ses Geliştirme,Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+MIMO",Var,Var,1 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.3
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",T-Link,Optik,Var,,1 Adet,1 Adet,Yok,Var,Google Play Store,"Google TV
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+FreeSync
+
+
+Freesync Premium
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Variable Refresh Rate (VRR)
+
+
+Chromecast
+
+
+USB HID Desteği
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0",F,102 kWh,G,180 kWh,,0.5 W,,Slim,Siyah,Kare,VESA Duvar Montaj Desteği (300x300 mm),1645 mm,1000 mm,175 mm,1447 mm,895 mm,314 mm,1447 mm,832 mm,80 mm,18.2 kg,19.3 kg,24.8 kg,2022,Android TV,,,,Var,Var,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+7,TR,Televizyon,TCL,TCL 55C835 Ultra HD (4K) TV,None,3,32299.0,TL,https://www.epey.com/televizyon/tcl-55c835.html,09/04/2023 22:47:13,LED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,TCL PPI 4300,100/120/144 Hz,3840x2160p @ 144Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Dolby Vision IQ","Mini LED
+
+
+IMAX Enhanced
+
+
+Quantum Mini LED
+
+
+QLED with Quantum Dot
+
+
+Quantum Dot Display
+
+
+Local Dimming
+
+
+AiPQ 2.0 Engine
+
+
+Anti-Glare
+
+
+DCI-P3 100%
+
+
+Ultra Motion (MEMC)
+
+
+10 (8 bit + FRC) bit Panel Desteği",40 W,2.1,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+DTS HD
+
+
+DTS",Onkyo Ses Geliştirme,Var,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 6 (802.11 a/b/g/n/ac/ax)",Var,Var,1 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",T-Link,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","Google Play Games
+
+
+Google Play Movies
+
+
+Google TV
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+FreeSync
+
+
+Freesync Premium
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Variable Refresh Rate (VRR)
+
+
+Chromecast
+
+
+Bluetooth HID (Dahili)
+
+
+USB HID Desteği
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+USB Klavye ve Fare Desteği
+
+
+Yayında Altyazı Desteği
+
+
+AirPlay
+
+
+AirPlay 2
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.2
+
+
+Google Duo",G,103 kWh,G,250 kWh,270 W,0.5 W,,Slim,Siyah,Kare,VESA Duvar Montaj Desteği (300x300 mm),1400 mm,875 mm,150 mm,1226 mm,788 mm,280 mm,1226 mm,703 mm,31.2 (68.2) mm,16.7 kg,18.7 kg,23.2 kg,2022,Android TV,TCL 55C835 Ultra HD (4K) TV Kullanım Kılavuzu (TR),6000:1,500 cd/m²,Var,Var,1.6 GHz,MT9615 (ARM Cortex-A73),3 GB,32 GB,20 W,,Var,,,,,,,10.000.000:1,1000 cd/m²,6.5 ms,eMMC 5.0,,,,,,,,,,,,
+8,TR,Televizyon,Sony,Sony KD-75X81K Ultra HD (4K) TV (KD75X81KAEP),(KD75X81KAEP),4,40070.005000000005,TL,https://www.epey.com/televizyon/sony-kd-75x81k.html,09/04/2023 22:47:15,LED,Düz (Flat),75 İnç,189 cm,Ultra HD (4K),3840x2160,MF XR 400,50/60 Hz,3840x2160p @ 60 Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HLG (Hybrid Log-Gamma)","Object-based HDR Remaster
+
+
+Frame Dimming
+
+ 
+Live Colour™
+
+
+Triluminos Ekran
+
+
+Direct LED Aydınlatma
+
+
+Dynamic Contrast Enhancer
+
+
+Triluminos Pro
+
+
+4K HDR Processor X1
+
+
+4K X-Reality PRO",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+Dolby Digital Plus
+
+
+DTS
+
+
+Dolby Audio","Bass Reflex Hoparlör
+
+
+DTS Digital Surround",Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",,Var,1 Adet,4 Adet,"HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.3
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",BRAVIA Sync,Optik,Var,,1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı (Vewd)","Google TV
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Harici Disk/USB Bellek ile,Var,,4,Android TV,,"Bluetooth
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Chromecast
+
+
+Bluetooth HID (Dahili)
+
+
+Yayında Altyazı Desteği
+
+
+AirPlay
+
+ 
+AirPlay 2
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 4.2
+
+
+Bluetooth LE (Low Energy)
+
+
+Teletext (TTXT)",F,143 kWh,G,205 kWh,,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Arka ışık kapalı modu 
+
+Dinamik Arka Işık Kontrolü 
+
+Güç Tasarrufu Modu (Ekonomik mod) 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Standart,Siyah,İkili Ayak (Düz),VESA Duvar Montaj Desteği (300x300 mm),1810 mm,1114 mm,187 mm,1675 mm,1041 mm,412 mm,1675 mm,962 mm,73 mm,32.2 kg,33.5 kg,48 kg,2022,Android TV,Sony KD-75X81K Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,Var,Yok,,,,16 GB,,1 Adet,Var,,,,,,,,,,,,,,,,,,,,,,
+9,TR,Televizyon,Samsung,Samsung 50QN90B Ultra HD (4K) TV (QE50QN90BATXTK),(QE50QN90BATXTK),8,26237.125,TL,https://www.epey.com/televizyon/samsung-50qn90b.html,09/04/2023 22:47:18,LED,Düz (Flat),50 İnç,126 cm,Ultra HD (4K),3840x2160,PQI 4500,100/120/144 Hz,3840x2160p @ 144Hz,Var,"HDR10+ Adaptive
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Quantum HDR 24X
+
+
+Quantum HDR","Mini LED
+
+
+Quantum Mini LED
+
+
+QLED with Quantum Dot
+
+
+Neo Quantum Processor 4K
+
+
+Quantum Dot Display
+
+
+Quantum Matrix Technology
+
+
+Anti-Glare
+
+
+Contrast Enhancer
+
+
+DCI-P3 100%
+
+
+HGIG Mode
+
+
+Motion Xcelerator Turbo Pro
+
+
+Real Depth Enhancer
+
+
+Ultimate UHD Dimming
+
+
+Wide Viewing Angle
+
+
+4K AI Upscaling",40 W,2.2,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+Dolby Digital Plus","Object Tracking Sound
+
+
+Object Tracking Sound (OTS Lite)
+
+
+Q-Symphony",Var,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",Var,Var,2 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",Anynet+,Optik,Var,CI+ (1.4),1 Adet,2 Adet,Yok,Var,"Smart Hub
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,Tizen,Tizen 6.5,"Bluetooth
+
+
+FreeSync
+
+
+FreeSync Premium Pro
+
+
+Ekran Yansıtma (İki Yönlü)
+
+
+Freesync Premium
+
+
+Ekran Yansıtma
+
+
+Bluetooth HID (Dahili)
+
+
+USB HID Desteği
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Connect Share (HDD)
+
+
+ConnectShare
+
+
+Oyun Modu
+
+
+AirPlay 2
+
+
+Ambient Mode
+
+
+Ambient Mode Plus
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bixby Voice
+
+
+Bluetooth 5.2
+
+
+Google Duo
+
+
+Samsung SmartThings
+
+
+Ses Yansıtma
+
+
+Wireless Dex
+
+
+2 Tuner (Çift Alıcı)",F,65 kWh,G,128 kWh,175 W,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Ultra Slim,Siyah,Kare,VESA Duvar Montaj Desteği (200x200 mm),1261 mm,771 mm,144 mm,1113.6 mm,708.9 mm,223 mm,1113.6 mm,644.1 mm,26.9 mm,14 kg,18.6 kg,22 kg,2022,"Samsung QLED TV
+
+
+Samsung Neo QLED TV",Samsung 50QN90B Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Yok,,,,,,,Var,,,,,,,,,,,,,,,,,,,,,,
+10,TR,Televizyon,Samsung,Samsung 65LS03B Ultra HD (4K) TV (QE65LS03BAUXTK),(QE65LS03BAUXTK),13,33356.90846153846,TL,https://www.epey.com/televizyon/samsung-65ls03b.html,09/04/2023 22:47:20,LED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,PQI 3500,100/120 Hz,"3840x2160p @ 60 Hz 
+
+3840x2160p @ 120Hz",Var,"HDR10+ Adaptive
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Quantum HDR","QLED with Quantum Dot
+
+
+Quantum Dot Display
+
+
+Quantum Processor 4K
+
+
+Auto Motion Plus
+
+
+Supreme UHD Dimming
+
+
+AI Upscaling
+
+
+Anti-Glare
+
+
+DCI-P3 100%
+
+
+Dual LED
+
+
+HGIG Mode
+
+
+Motion Xcelerator Turbo+
+
+
+Real Depth Enhancer
+
+
+Wide Viewing Angle
+
+
+10 bit Panel Desteği",40 W,2.0.2,"H.265/HEVC (4K/60p) Uydu
+
+
+H.265/HEVC (4K/60p) USB
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+H.264/MPEG-4 AVC (L5.1)
+
+
+Dolby Digital Plus","Object Tracking Sound
+
+
+Q-Symphony",Yok,Var,Var,Var,Var,Var,Var,"Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",Var,Var,2 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)",Anynet+,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"Smart Hub
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,Tizen,Tizen 6.5,"Bluetooth
+
+
+FreeSync
+
+
+FreeSync Premium Pro
+
+
+Ekran Yansıtma (İki Yönlü)
+
+
+Freesync Premium
+
+
+Ekran Yansıtma
+
+
+Kablosuz Tasarım (Clean Cable Solution)
+
+
+Bluetooth HID (Dahili)
+
+
+USB HID Desteği
+
+
+Connect Share (HDD)
+
+
+ConnectShare
+
+
+Oyun Modu
+
+
+AirPlay 2
+
+
+Ambient Mode Plus
+
+
+Art Mode
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.2
+
+
+Bluetooth LE (Low Energy)
+
+
+Google Duo
+
+
+Hareket Sensörü
+
+
+Kişiselleştirilebilir Çerçeve
+
+
+One Connect Box
+
+
+Samsung SmartThings
+
+
+Ses Yansıtma
+
+
+Teletext (TTXT)
+
+
+Wireless Dex
+
+
+360° Video Oynatma",G,124 kWh,G,261 kWh,215 W,0.5 W,"Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Slim,Siyah,İkili Ayak (Düz),VESA Duvar Montaj Desteği (400x300 mm),1614 mm,950 mm,191 mm,1456.8 mm,686.9 mm,260.9 mm,1456.8 mm,831.9 mm,24.9 mm,22.4 kg,22.8 kg,35.4 kg,2022,"Samsung QLED TV
+
+
+Samsung The Frame TV",Samsung 65LS03B Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Yok,,,,,,,Var,Mega Dynamic Contrast,,,,,,,,,,"One Connect (Optical) 
+
+USB-C (Webcam için)",v1.5,,,,,,,,,,
+11,TR,Televizyon,Sony,Sony KD-75X81J Ultra HD (4K) TV (KD75X81JAEP),(KD75X81JAEP),1,29999.0,TL,https://www.epey.com/televizyon/sony-kd-75x81j.html,09/04/2023 22:47:24,LED,Düz (Flat),75 İnç,189 cm,Ultra HD (4K),3840x2160,MF XR 400,50/60 Hz,3840x2160p @ 60 Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HLG (Hybrid Log-Gamma)","Object-based HDR Remaster
+
+
+Frame Dimming
+
+
+Live Colour™
+
+
+Triluminos Ekran
+
+
+Direct LED Aydınlatma
+
+
+Dynamic Contrast Enhancer
+
+
+Triluminos Pro
+
+
+4K HDR Processor X1
+
+
+4K X-Reality PRO",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+Dolby Digital Plus
+
+
+DTS
+
+
+Dolby Audio","Bass Reflex Hoparlör
+
+
+DTS Digital Surround",Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)",,Var,1 Adet,4 Adet,"HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.3
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",BRAVIA Sync,Optik,Var,,1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı (Vewd)","Google TV
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Harici Disk/USB Bellek ile,Var,,4,Android TV,Android TV 10 (Q),"Bluetooth
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Chromecast
+
+
+Bluetooth HID (Dahili)
+
+
+Yayında Altyazı Desteği
+
+
+AirPlay
+
+
+AirPlay 2
+
+
+Bluetooth 4.2
+
+
+Bluetooth LE (Low Energy)
+
+
+Teletext (TTXT)",G,160 kWh,G,257 kWh,,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Arka ışık kapalı modu 
+
+Dinamik Arka Işık Kontrolü 
+
+Güç Tasarrufu Modu (Ekonomik mod) 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Standart,Siyah,İkili Ayak (Düz),VESA Duvar Montaj Desteği (300x300 mm),1810 mm,1114 mm,187 mm,1686 mm,1045 mm,410 mm,1686 mm,969 mm,72 mm,31.6 kg,,49 kg,2021,Android TV,Sony KD-75X81J Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,Var,Var,,,,16 GB,,1 Adet,,,,,,,,,,,,,,,,,,,,,,,
+12,TR,Televizyon,Samsung,Samsung 85Q60B Ultra HD (4K) TV (QE85Q60BAUXTK),(QE85Q60BAUXTK),6,52635.301666666666,TL,https://www.epey.com/televizyon/samsung-85q60b.html,09/04/2023 22:47:26,LED,Düz (Flat),85 İnç,216 cm,Ultra HD (4K),3840x2160,PQI 3100,50/60 Hz,3840x2160p @ 60 Hz,Var,"HDR10+ Adaptive
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Quantum HDR","QLED with Quantum Dot
+
+
+Quantum Dot Display
+
+
+Contrast Enhancer
+
+
+DCI-P3 100%
+
+
+Dual LED
+
+
+HGIG Mode
+
+
+Motion Xcelerator
+
+
+Quantum Processor Lite 4K
+
+
+Resolution Upscaler (4K)
+
+
+Ultimate UHD Dimming",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Digital
+
+
+Dolby Digital Plus","Object Tracking Sound (OTS Lite)
+
+
+Q-Symphony",Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",Var,Var,2 Adet,3 Adet,"HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",Anynet+,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"Smart Hub
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,Tizen,Tizen 6.5,"Bluetooth
+
+
+Ekran Yansıtma
+
+
+Bluetooth HID (Dahili)
+
+
+USB HID Desteği
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Connect Share (HDD)
+
+
+ConnectShare
+
+
+Oyun Modu
+
+
+AirPlay 2
+
+
+Ambient Mode
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bixby Voice
+
+
+Bluetooth 5.2
+
+
+Bluetooth LE (Low Energy)
+
+
+Google Duo
+
+
+Multiroom Link
+
+
+Samsung SmartThings
+
+
+Ses Yansıtma
+
+
+Wireless Dex",F,145 kWh,G,269 kWh,280 W,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Ultra Slim,Siyah,İkili Ayak (Düz),VESA Duvar Montaj Desteği (600x400 mm),2075 mm,1237 mm,220 mm,1900.9 mm,1123.3 mm,345.1 mm,1900.9 mm,1085.7 mm,26.9 mm,41.5 kg,42.5 kg,55.3 kg,2022,Samsung QLED TV,Samsung 85Q60B Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+13,TR,Televizyon,Philips,Philips 65PUS8807 Ultra HD (4K) TV (65PUS8807/62),(65PUS8807/62),12,28095.63333333333,TL,https://www.epey.com/televizyon/philips-65pus8807.html,09/04/2023 22:47:29,LED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,,100/120 Hz,3840x2160p @ 120Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)","P5 Perfect Picture Engine
+
+
+Micro Dimming Pro
+
+
+CalMAN Ready
+
+
+DCI-P3 90%
+
+
+Doğal Hareket
+
+
+Ultra Çözünürlük",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital",AI Sound,Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+2x2",Var,Var,1 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.3
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",EasyLink,Optik,Var,CI+ (1.3),1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","Google Arama
+
+
+Google Play Movies
+
+
+Google Play Music
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Harici Disk/USB Bellek ile,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+FreeSync
+
+
+Freesync Premium
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Variable Refresh Rate (VRR)
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Pause TV
+
+
+Amazon Alexa
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0
+
+
+DTS Play-Fi",G,103 kWh,G,184 kWh,,0.3 W,"Güç Tasarrufu Modu (Ekonomik mod) 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Standart,Gümüş,Kare,VESA Duvar Montaj Desteği (300x300 mm),1600 mm,995 mm,170 mm,1450.5 mm,906.9 mm,289.1 mm,1450.5 mm,842.2 mm,85.1 mm,24.5 kg,27.2 kg,30.9 kg,2022,Android TV,Philips 65PUS8807 Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Var,,,,16 GB,,1 Adet,,,,,,,,,,,USB Bellek ile Arttırılabilir,,,Var,"Ambi Wakeup/Sunrise
+
+
+Ambilight Aurora
+
+
+Ambilight Başlangıç Animasyonu
+
+
+Ambilight Müzik
+
+
+AmbiSleep
+
+
+Dahili Ambilight+hue
+
+
+Dinlenme ışık modu
+
+
+Duvar rengine uyarlanma
+
+
+Oyun modu
+
+
+Philips Wireless Home Speakers
+
+
+3 Taraflı",,,,,,,,
+14,TR,Televizyon,Samsung,Samsung 65LS03A Ultra HD (4K) TV (QE65LS03AAUXTK),(QE65LS03AAUXTK),1,30821.0,TL,https://www.epey.com/televizyon/samsung-65ls03a.html,09/04/2023 22:47:31,LED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,PQI 3400,100/120 Hz,"3840x2160p @ 60 Hz 
+
+3840x2160p @ 120Hz",Var,"HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Quantum HDR","QLED with Quantum Dot
+
+
+Quantum Dot Display
+
+
+Quantum Processor 4K
+
+
+Auto Motion Plus
+
+
+Supreme UHD Dimming
+
+
+AI Upscaling
+
+
+Contrast Enhancer
+
+
+DCI-P3 100%
+
+
+Dual LED
+
+
+Wide Viewing Angle
+
+
+10 bit Panel Desteği",40 W,4.0,"H.265/HEVC (4K/60p) Uydu
+
+
+H.265/HEVC (4K/60p) USB
+
+
+Dolby Digital
+
+
+H.264/MPEG-4 AVC (L5.1)
+
+
+Dolby Digital Plus",Q-Symphony,Yok,Var,Var,Var,Var,Var,Var,WiFi Direct,Var,Var,2 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)",Anynet+,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"Smart Hub
+
+
+Web Tarayıcı",,Var,Yok,Var,Var,Yok,Var,Var,4,Tizen,,"Bluetooth
+
+
+FreeSync
+
+
+FreeSync Premium Pro
+
+
+Ekran Yansıtma (İki Yönlü)
+
+
+Freesync Premium
+
+
+Ekran Yansıtma
+
+
+Kablosuz Tasarım (Clean Cable Solution)
+
+
+Tek kumanda (One Remote Control)
+
+
+Bluetooth HID (Dahili)
+
+
+USB HID Desteği
+
+
+Connect Share (HDD)
+
+
+ConnectShare
+
+
+Digital Clean View
+
+
+Oyun Modu
+
+
+AirPlay 2
+
+
+Ambient Mode Plus
+
+
+Art Mode
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bixby Voice
+
+
+Bluetooth 4.2
+ 
+
+Bluetooth LE (Low Energy)
+
+
+Hareket Sensörü
+
+
+Kişiselleştirilebilir Çerçeve
+
+
+One Connect Box
+
+
+Samsung SmartThings
+
+
+Teletext (TTXT)
+
+
+Wireless Dex
+
+
+360° Video Oynatma",G,124 kWh,G,195 kWh,215 W,0.5 W,"Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Slim,Siyah,İkili Ayak (Düz),VESA Duvar Montaj Desteği (400x300 mm),1614 mm,950 mm,191 mm,1456.8 mm,868.9 mm,260.9 mm,1456.8 mm,831.9 mm,24.9 mm,22.1 kg,22.5 kg,35.1 kg,2021,"Samsung QLED TV
+
+
+Samsung The Frame TV",,,,,Yok,,,,,,,,Mega Dynamic Contrast,,,,,,,,,,One Connect (Optical),v1.5,,,,,,,,,,
+15,TR,Televizyon,Samsung,Samsung 55LS01B Ultra HD (4K) TV (QE55LS01BAUXTK),(QE55LS01BAUXTK),8,26203.0,TL,https://www.epey.com/televizyon/samsung-55ls01b.html,09/04/2023 22:47:33,LED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,PQI 3300,100/120 Hz,3840x2160p @ 60 Hz,Var,"HDR10+ Adaptive
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)
+
+
+HDR10+ GAMING
+
+
+Quantum HDR","QLED with Quantum Dot
+
+
+Quantum Dot Display
+
+
+Quantum Processor 4K
+
+
+Auto Motion Plus
+
+
+Supreme UHD Dimming
+
+
+AI Upscaling
+
+
+Anti-Glare
+
+
+Contrast Enhancer
+
+
+DCI-P3 100%
+
+
+HGIG Mode
+
+
+Kenar LED Aydınlatma (Edge-lit LED)
+
+
+Real Depth Enhancer
+
+
+Wide Viewing Angle
+
+
+10 bit Panel Desteği",40 W,4.0,"H.265/HEVC (4K/60p) Uydu
+
+
+H.265/HEVC (4K/60p) USB
+
+
+Dolby Digital
+
+
+H.264/MPEG-4 AVC (L5.1)
+
+
+Dolby Digital Plus",Object Tracking Sound (OTS Lite),Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",Var,,2 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)",Anynet+,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"Samsung Apps
+
+
+Smart Hub
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,Tizen,Tizen 6.5,"Bluetooth
+
+
+FreeSync
+
+
+FreeSync Premium Pro
+
+
+Ekran Yansıtma (İki Yönlü)
+
+
+Freesync Premium
+
+
+Ekran Yansıtma
+
+
+NFC
+
+
+Kablosuz Tasarım (Clean Cable Solution)
+
+
+Tek kumanda (One Remote Control)
+
+
+Bluetooth HID (Dahili)
+
+
+USB HID Desteği
+
+
+Connect Share (HDD)
+
+
+ConnectShare
+
+
+Oyun Modu
+
+
+Yayında Altyazı Desteği
+
+
+AirPlay 2
+
+
+Ambient Mode
+
+
+Ambient Mode Plus
+
+
+Art Mode
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bixby
+
+
+Bluetooth 5.2
+
+
+Bluetooth LE (Low Energy)
+
+
+Google Duo
+
+
+Hareket Sensörü
+
+
+Kişiselleştirilebilir Çerçeve
+
+
+Multiroom Link
+
+
+Samsung SmartThings
+
+ 
+Ses Yansıtma
+
+
+Ses Yansıtma (İki Yönlü)
+
+
+Teletext (TTXT)
+
+
+Wireless Dex
+
+
+360° Video Oynatma",G,110 kWh,G,161 kWh,160 W,0.5 W,"Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Standart,Beyaz,ikili Stant (Yüksek V Ayaklı),,1403 mm,894 mm,308 mm,1254.9 mm,1237.4 mm,482.8 mm,1254.9 mm,748.3 mm,221 mm,26.1 kg,27.2 kg,34.9 kg,2022,"Samsung QLED TV
+
+
+Samsung The Serif TV",Samsung 55LS01B Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,Yok,Yok,,,,,,,,Mega Dynamic Contrast,Yok,,,,,,,,,,2.0.3,,,Yok,,,,,,,
+16,TR,Televizyon,TCL,TCL 65C728 Ultra HD (4K) TV,None,1,21999.92,TL,https://www.epey.com/televizyon/tcl-65c728.html,09/04/2023 22:47:38,LED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,TCL PPI 3300,100/120 Hz,3840x2160p @ 120Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Dolby Vision IQ","QLED with Quantum Dot
+
+
+Quantum Dot Display
+
+
+AiPQ Engine
+
+
+DCI-P3 100%
+
+
+Direct LED Aydınlatma
+
+
+Micro Dimming
+
+
+Ultra Motion (MEMC)
+
+
+10 (8 bit + FRC) bit Panel Desteği
+
+
+15 ms Input Lag",20 W,2.0,"Dolby Atmos
+
+
+Dolby Digital
+
+
+DTS HD
+
+
+Dolby Digital Plus
+
+
+DTS
+
+
+Dolby MS12",Onkyo Ses Geliştirme,Yok,Var,Var,Var,Var,Var,Var,Dual Band (5GHz),Var,Var,1 Adet,,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP
+
+
+HDMI 1.4
+
+
+HDCP 1.4",T-Link,Optik,Var,,1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+TCL AI-IN
+
+
+Web Tarayıcı","Google Arama
+
+
+Google Play Games
+
+
+Google Play Movies
+
+
+Google Play Music
+
+
+Netflix
+
+
+YouTube",Var,Yok,Var,Var,,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Variable Refresh Rate (VRR)
+
+
+Chromecast
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+USB Klavye ve Fare Desteği
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0",G,117 kWh,G,199 kWh,,0.5 W,Güç Tasarrufu Modu (Ekonomik mod),Standart,Siyah,İkili stant (V Ayaklı),VESA Duvar Montaj Desteği (300x200 mm),1645 mm,1000 mm,165 mm,1446 mm,892 mm,302 mm,1446 mm,825 mm,3.35 (79) mm,19.3 kg,20.2 kg,26.17 kg,2021,Android TV,TCL 65C728 Ultra HD (4K) TV Kullanım Kılavuzu (TR),5000:1,330 cd/m²,Var,Var,1.6 GHz,MT9615 (ARM Cortex-A73),3 GB,32 GB,,,,,,,,,,,,8 ms,eMMC 5.0,,,,,,4 Adet,,,,,,
+17,TR,Televizyon,Samsung,Samsung 65Q70B Ultra HD (4K) TV (QE65Q70BATXTK),(QE65Q70BATXTK),5,31659.22,TL,https://www.epey.com/televizyon/samsung-65q70b.html,09/04/2023 22:47:42,LED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,PQI 3400,100/120 Hz,3840x2160p @ 120Hz,Var,"HDR10+ Adaptive
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Quantum HDR","QLED with Quantum Dot
+
+
+Quantum Dot Display
+
+
+Quantum Processor 4K
+
+
+Supreme UHD Dimming
+
+
+DCI-P3 100%
+
+
+Dual LED
+
+
+HGIG Mode
+
+
+Motion Xcelerator Turbo+
+
+
+Real Depth Enhancer
+
+
+Wide Viewing Angle
+
+
+4K AI Upscaling",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Digital
+
+
+Dolby Digital Plus","Object Tracking Sound (OTS Lite)
+
+
+Q-Symphony Lite",Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",Var,Var,2 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",Anynet+,Optik,Var,CI+ (1.4),1 Adet,2 Adet,Yok,Var,"Smart Hub
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,Tizen,Tizen 6.5,"Bluetooth
+
+
+FreeSync
+
+
+FreeSync Premium Pro
+
+
+Ekran Yansıtma (İki Yönlü)
+
+
+Freesync Premium
+
+
+Ekran Yansıtma
+
+
+Bluetooth HID (Dahili)
+
+
+USB HID Desteği
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Connect Share (HDD)
+
+
+ConnectShare
+
+
+Oyun Modu
+
+
+Ambient Mode
+
+
+Ambient Mode Plus
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bixby Voice
+
+
+Bluetooth 5.2
+
+
+Bluetooth LE (Low Energy)
+
+
+Google Duo
+
+
+Multiroom Link
+
+
+Samsung SmartThings
+
+
+Wireless Dex
+
+
+2 Tuner (Çift Alıcı)",F,96 kWh,G,219 kWh,245 W,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Slim,Siyah,Kare,VESA Duvar Montaj Desteği (400x300 mm),1623 mm,950 mm,205 mm,1451.7 mm,900.4 mm,285.6 mm,1451.7 mm,831.8 mm,25.7 mm,21.4 kg,24.3 kg,31.3 kg,2022,Samsung QLED TV,Samsung 65Q70B Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+18,TR,Televizyon,Toshiba,Toshiba 65XA9D63DT Ultra HD (4K) TV (20277105),(20277105),2,40910.5,TL,https://www.epey.com/televizyon/toshiba-65xa9d63dt.html,09/04/2023 22:47:44,OLED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,SMR 3200,100/120 Hz,,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+","Micro Dimming
+
+
+Ultra Motion (MEMC)
+
+
+Vestel Quantum Renk Paleti Teknolojisi",24 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+DTS HD
+
+
+Dolby Digital Plus
+
+
+DTS
+
+
+Dolby Audio","DTS Virtual:X
+
+
+DTS:X
+
+
+Onkyo Ses Geliştirme",Var,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)",,Var,2 Adet,,"HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDMI Audio Return Channel (ARC)",Var,Optik,Var,,1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","BeIN Connect
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,Android TV,,"Bluetooth
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Chromecast
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Türksat Kanal Güncelleme Sistemi (TKGS)",G,147 kWh,G,191 kWh,,0.5 W,Güç Tasarrufu Modu (Ekonomik mod),Slim,Siyah,Dikdörtgen,VESA Duvar Montaj Desteği (400x200 mm),,,,1449 mm,870 mm,281 mm,1449 mm,839 mm,49 mm,,35 kg,,2022,Android TV,Toshiba 65XA9D63DT Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Var,,,,,,,,,,,,,,,,,,,,,,,3 Adet,,,,,,
+19,TR,Televizyon,Beko,Beko B65 OLED C 970 B Ultra HD (4K) TV,None,1,37999.0,TL,https://www.epey.com/televizyon/beko-b65-oled-c-970-b.html,09/04/2023 22:47:47,OLED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,VPI 2700,100/120 Hz,,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+","Wide Color Gamut
+
+
+Micro Dimming
+
+
+WCG (Renk Geliştirme Teknolojisi)",30 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Digital
+
+
+Dolby Digital Plus",,,Var,Var,Var,Var,Var,Var,Wi-Fi 5 (802.11a/b/g/n/ac),,Var,2 Adet,3 Adet,"HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDMI Audio Return Channel (ARC)",DIGI LINK,Optik,Var,,1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","BeIN Connect
+
+
+Netflix
+
+
+Prime Video
+
+
+Turkcell TV+
+
+
+YouTube",Var,Yok,Var,Var,Harici Disk/USB Bellek ile,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Chromecast
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Yakala Paylaş",G,140 kWh,G,150 kWh,,0.45 W,,Slim,Siyah,V Şekilli,VESA Duvar Montaj Desteği (400x400 mm),1618 mm,985 mm,219 mm,1448.7 mm,899.5 mm,219 mm,1448.7 mm,841.2 mm,50 mm,,,,2022,Android TV,Beko B65 OLED C 970 B Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Var,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+20,TR,Televizyon,LG,LG 75QNED7S6QA Ultra HD (4K) TV,None,3,37220.76,TL,https://www.epey.com/televizyon/lg-75qned7s6qa.html,09/04/2023 22:47:49,LED,Düz (Flat),75 İnç,189 cm,Ultra HD (4K),3840x2160,,50/60 Hz,,Var,"HDR10
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Cinema HDR
+
+
+HDR 10 Pro","Nano Cell Display
+
+
+Quantum Dot Display
+
+
+Nano Cell Color
+
+
+Billion Rich Color (Milyar Renk)
+
+
+ULTRA Luminance
+
+
+AI Picture Pro
+
+
+Dynamic Tone Mapping
+
+
+HFR 2K
+
+
+HFR 4K
+
+
+HGIG Mode
+
+
+Quantum Dot NanoCell Technology
+
+
+α7 (Alpha7) (Gen5) AI Processor 4K
+
+
+4K AI Upscaling",40 W,2.2,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+Dolby Digital Plus
+
+
+AV1
+
+
+AV1 (4K@60p 10bit)
+
+
+H.265/HEVC
+
+
+HEVC (4K@120p
+
+
+VP9
+
+
+VP9 (4K@60fps 10bit)","A.I. Sound
+
+
+AI Sound Pro
+
+
+apt-X Kodek
+
+
+Clear Voice
+
+
+Clear Voice Pro
+
+
+Dolby Surround
+
+
+LG Sound Sync",Var,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)",,Var,2 Adet,,"HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",SIMPLINK,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"LG ThinQ AI
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,webOS,WebOS 22,"Bluetooth
+
+
+FreeSync
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Variable Refresh Rate (VRR)
+
+
+Akıllı Kumanda (Magic Remote) Uyumu
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+AirPlay
+
+
+AirPlay 2
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0
+
+
+Bluetooth LE (Low Energy)
+
+
+NVIDIA GeForce Now",E,106 kWh,G,193 kWh,,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör)",Slim,Siyah,İkili stant (V Ayaklı),VESA Duvar Montaj Desteği (400x400 mm),1820 mm,1115 mm,200 mm,1675 mm,1029 mm,359 mm,1675 mm,964 mm,44.5 mm,35.9 kg,36.9 kg,45.7 kg,2022,,LG 75QNED7S6QA Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Yok,,,,,20 W,,,,,,,,,,,,,,,,,,3 Adet,,,,,,
+21,TR,Televizyon,LG,LG OLED55A16LA Ultra HD (4K) TV,None,2,31154.51,TL,https://www.epey.com/televizyon/lg-oled55a16la.html,09/04/2023 22:47:52,OLED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,,50/60 Hz,3840x2160p @ 60 Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Dolby Vision IQ
+
+
+HDR Effect
+
+
+HDR 10 Pro
+
+
+4K Cinema HDR","Billion Rich Color (Milyar Renk)
+
+
+Mükemmel Siyahlar
+
+
+Perfect Color (Kusursuz Renkler)
+
+
+True Color Accuracy
+
+
+ULTRA Luminance
+
+
+HDR Dynamic Tone Mapping
+
+
+HFR 2K
+
+
+HFR 4K
+
+
+HGIG Mode
+
+
+Object Depth Enhancer
+
+
+Pixel Dimming
+
+
+Resolution Upscaler (4K)
+
+
+Ultra Luminance Pro
+
+
+Wide Viewing Angle
+
+
+α7 (Alpha7) (Gen4) Processor 4K",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+Dolby Digital Plus
+
+
+AV1 (4K@60p 10bit)
+
+
+H.265/HEVC (4K/60p 10bit)
+
+
+VP9
+
+
+VP9 (4K@60fps 10bit)","AI Acoustic Tuning
+
+
+AI Sound
+
+
+apt-X Kodek
+
+
+Clear Voice Pro
+
+
+Dolby Surround
+
+
+LG Sound Sync
+
+
+OLED Surround
+
+
+Smart Sound Mode
+
+
+WiSA",Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",Var,Var,2 Adet,3 Adet,"HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)",SIMPLINK,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"LG ThinQ AI
+
+
+Web Tarayıcı","LG Store
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,webOS,webOS 6.0,"Bluetooth
+
+
+FreeSync
+
+
+NVIDIA G-Sync
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Akıllı Kumanda (Magic Remote) Uyumu
+
+
+apt-X Encoder
+
+
+AirPlay 2
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0
+
+
+Gallery Mode",G,91 kWh,G,166 kWh,,0.5 W,"Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Slim,Siyah,İkili stant (V Ayaklı),VESA Duvar Montaj Desteği (300x200 mm),1360 mm,810 mm,172 mm,1228 mm,767 mm,271 mm,1228 mm,706 mm,46.9 mm,18.4 kg,18.7 kg,23.7 kg,2021,,LG OLED55A16LA Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Var,,,,,,,,Sonsuz,Var,LG OLED55A16LA Ultra HD (4K) TV Kullanım Kılavuzu (EN),LG OLED55A16LA Ultra HD (4K) TV Uygun/Gerekli Android Uygulaması,LG OLED55A16LA Ultra HD (4K) TV Uygun/Gerekli iOS Uygulaması,,,,,,,,,,,,,,,,,
+22,TR,Televizyon,LG,LG OLED55A26LA Ultra HD (4K) TV,None,6,27742.833333333332,TL,https://www.epey.com/televizyon/lg-oled55a26la.html,09/04/2023 22:47:54,OLED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,,50/60 Hz,3840x2160p @ 60 Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Dolby Vision IQ
+
+
+HDR Effect
+
+
+HDR 10 Pro
+
+
+4K Cinema HDR","Billion Rich Color (Milyar Renk)
+
+
+Mükemmel Siyahlar
+
+
+Perfect Color (Kusursuz Renkler)
+
+
+AI Upscaling
+
+
+HDR Dynamic Tone Mapping
+
+
+HGIG Mode
+
+
+Pixel Dimming
+
+
+Resolution Upscaler (4K)
+
+
+Wide Viewing Angle
+
+
+α7 (Alpha7) (Gen5) AI Processor 4K",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+Dolby Digital Plus
+
+
+AV1 (4K@60p 10bit)
+
+
+H.265/HEVC (4K/60p 10bit)
+
+
+VP9
+
+
+VP9 (4K@60fps 10bit)","AI Acoustic Tuning
+
+
+AI Sound
+
+
+apt-X Kodek
+
+
+Clear Voice Pro
+
+
+LG Sound Sync
+
+
+OLED Surround
+
+
+Smart Sound Mode
+
+
+WiSA",Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",Var,Var,2 Adet,3 Adet,"HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)",SIMPLINK,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"LG ThinQ AI
+
+
+Web Tarayıcı","LG Store
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,webOS,WebOS 22,"Bluetooth
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Akıllı Kumanda (Magic Remote) Uyumu
+
+
+apt-X Encoder
+
+
+AirPlay 2
+
+
+Bluetooth 5.0
+
+
+Gallery Mode
+
+
+NVIDIA GeForce Now",F,72 kWh,G,138 kWh,,0.5 W,"Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Slim,Siyah,İkili stant (V Ayaklı),VESA Duvar Montaj Desteği (300x200 mm),1360 mm,810 mm,172 mm,1222 mm,756 mm,215 mm,1228 mm,708 mm,45.9 mm,14.3 kg,14.5 kg,19.5 kg,2022,,,,,,Yok,,,,,,,,Sonsuz,,,,,,,,,,,,,,,,,,,,,
+23,TR,Televizyon,LG,LG 55QNED866QA Ultra HD (4K) TV,None,4,28775.7525,TL,https://www.epey.com/televizyon/lg-55qned866qa.html,09/04/2023 22:47:57,LED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,,100/120 Hz,3840x2160p @ 120Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Dolby Vision IQ
+
+
+Cinema HDR
+
+
+HDR 10 Pro","Mini LED
+
+
+LG QNED Mini LED
+
+
+Nano Cell Display
+
+
+Quantum Dot Display
+
+
+Nano Cell Color
+
+
+Billion Rich Color (Milyar Renk)
+
+
+ULTRA Luminance
+
+
+AI Picture Pro
+
+
+Dynamic Tone Mapping
+
+
+HFR 2K
+
+
+HFR 4K
+
+
+HGIG Mode
+
+
+Motion Pro
+
+
+Nano Colour Pro
+
+
+Precision Dimming
+
+
+Quantum Dot NanoCell Technology
+
+
+α7 (Alpha7) (Gen5) AI Processor 4K
+
+
+4K AI Upscaling",40 W,2.2,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+Dolby Digital Plus
+
+
+AV1
+
+
+AV1 (4K@60p 10bit)
+
+
+H.265/HEVC
+
+
+HEVC (4K@120p
+
+
+VP9
+
+
+VP9 (4K@60fps 10bit)","A.I. Sound
+
+
+AI Sound Pro
+
+
+apt-X Kodek
+
+
+Clear Voice
+
+
+Clear Voice Pro
+
+
+LG Sound Sync
+
+
+ULTRA Surround
+
+
+WiSA",Var,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)",Var,Var,2 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",SIMPLINK,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"LG ThinQ AI
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,webOS,WebOS 22,"Bluetooth
+
+
+FreeSync
+
+
+Freesync Premium
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Variable Refresh Rate (VRR)
+
+
+Akıllı Kumanda (Magic Remote) Uyumu
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+AirPlay
+
+
+AirPlay 2
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0
+
+
+Bluetooth LE (Low Energy)
+
+
+NVIDIA GeForce Now",G,84 kWh,G,128 kWh,,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör)",Ultra Slim,Siyah,Yay (C Tipi),VESA Duvar Montaj Desteği (300x300 mm),1306 mm,810 mm,187 mm,1233 mm,781 mm,271 mm,1233 mm,716 mm,45.5 mm,19.5 kg,21.1 kg,,2022,,,,,,Var,,,,,20 W,,,,,,,,,,,,,,,,,,,,,,,,
+24,TR,Televizyon,LG,LG 55NANO916PA Ultra HD (4K) TV,None,2,26749.010000000002,TL,https://www.epey.com/televizyon/lg-55nano916pa.html,09/04/2023 22:48:01,LED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,,100/120 Hz,3840x2160p @ 120Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Dolby Vision IQ
+
+
+HDR Effect
+
+
+Cinema HDR
+
+
+HDR 10 Pro
+
+
+HLG Pro","Nano Cell Display
+
+
+Nano Cell Color
+
+
+Billion Rich Color (Milyar Renk)
+
+
+True Color Accuracy
+
+
+ULTRA Luminance
+
+
+AI Upscaling
+
+
+Direct LED Aydınlatma
+
+
+Full Array Dimming
+
+
+HDR Dynamic Tone Mapping
+
+
+HFR 2K
+
+
+HFR 4K
+
+
+HGIG Mode
+
+
+LG Local Contrast
+
+
+Resolution Upscaler (4K)
+
+
+Slim Direct LED Aydınlatma
+
+
+Wide Viewing Angle
+
+
+α7 (Alpha7) (Gen4) Processor 4K",40 W,2.2,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+Dolby Digital Plus
+
+
+HEVC (4K@60fps 10bit)
+
+
+AV1
+
+
+AV1 (4K@60p 10bit)
+
+
+H.265/HEVC
+
+
+HEVC (4K@120fps 10bit)
+
+
+VP9
+
+
+VP9 (4K@60fps 10bit)","A.I. Sound
+
+
+AI Acoustic Tuning
+
+
+apt-X Kodek
+
+
+Clear Voice
+
+
+LG Sound Sync
+
+
+ULTRA Surround
+
+
+WiSA",Var,Var,Var,Var,Var,Var,Var,Wi-Fi 5 (802.11a/b/g/n/ac),Var,Var,3 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.3
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",SIMPLINK,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"LG Content Store
+
+
+LG ThinQ AI
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,webOS,webOS 6.0,"Bluetooth
+
+
+FreeSync
+
+
+Freesync Premium
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Variable Refresh Rate (VRR)
+
+
+Akıllı Kumanda (Magic Remote) Uyumu
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+AirPlay
+
+
+AirPlay 2
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0",G,102 kWh,G,163 kWh,,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör)",Slim,Siyah,Yay (C Tipi),VESA Duvar Montaj Desteği (300x300 mm),1360 mm,810 mm,187 mm,1233 mm,781 mm,271 mm,1233 mm,716 mm,45.5 mm,18.4 kg,20 kg,24.8 kg,2021,,LG 55NANO916PA Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,Var,Var,,,,,20 W,,,,,,,,,,,,,,,,,,,,,,,,
+25,TR,Televizyon,TCL,TCL 55C735 Ultra HD (4K) TV,None,4,19799.0,TL,https://www.epey.com/televizyon/tcl-55c735.html,09/04/2023 22:48:04,LED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,TCL PPI 3600,100/120/144 Hz,3840x2160p @ 144Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Dolby Vision IQ","QLED with Quantum Dot
+
+
+Quantum Dot Display
+
+
+AiPQ 2.0 Engine
+
+
+Micro Dimming",20 W,2.0,"Dolby Atmos
+
+
+Dolby Digital
+
+
+DTS HD
+
+
+Dolby AC-4
+
+
+ DTS
+
+
+Dolby Audio
+
+
+Dolby TrueHD",Onkyo Ses Geliştirme,Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+MIMO",Var,Var,1 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.3
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",T-Link,Optik,Var,,1 Adet,1 Adet,Yok,Var,Google Play Store,"Google TV
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+FreeSync
+
+
+Freesync Premium
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Variable Refresh Rate (VRR)
+
+
+Chromecast
+
+ 
+ USB HID Desteği
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0",G,85 kWh,G,145 kWh,,0.5 W,,Slim,Siyah,Kare,VESA Duvar Montaj Desteği (300x300 mm),1400 mm,875 mm,150 mm,1226 mm,779 mm,314 mm,1226 mm,709 mm,80 mm,12.1 kg,13.2 kg,16.8 kg,2022,Android TV,,,,Var,Var,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+26,TR,Televizyon,Sony,Sony XR-55X93J Ultra HD (4K) TV (XR55X93JAEP),(XR55X93JAEP),2,28599.0,TL,https://www.epey.com/televizyon/sony-xr-55x93j.html,09/04/2023 22:48:06,LED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,,100/120 Hz,"3840x2160p @ 60 Hz 
+
+3840x2160p @ 120Hz",Var,"Dolby Vision
+
+
+HDR10
+
+
+HLG (Hybrid Log-Gamma)","Direct Full Array
+
+
+Live Colour™
+
+
+Triluminos Ekran
+
+
+Local Dimming
+
+
+Cognitive Processor XR
+
+
+Direct LED Aydınlatma
+
+
+Dual Database Processing
+
+
+Dynamic Contrast Enhancer
+
+
+X-Motion Clarity Teknolojisi
+
+
+XR 4K Upscaling
+
+
+XR HDR Remaster
+
+
+XR Smoothing
+
+
+XR Super Resolution
+
+
+XR Triluminos Pro",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+Dolby Digital Plus
+
+
+DTS
+
+
+Dolby Audio","Acoustic Multi-Audio
+
+
+DTS Digital Surround",Yok,Var,Var,Var,Var,Var,Var,"Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",,Var,1 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.3
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)",BRAVIA Sync,Optik,Var,,1 Adet,2 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı (Vewd)","Google TV
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Harici Disk/USB Bellek ile,Var,,4,Android TV,Android TV 10 (Q),"Bluetooth
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Variable Refresh Rate (VRR)
+
+
+Chromecast
+
+
+Bluetooth HID (Dahili)
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+AirPlay
+
+ 
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 4.2
+
+
+2 Tuner (Çift Alıcı)",G,101 kWh,G,139 kWh,,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Standart,Siyah,İkili stant (V Ayaklı),VESA Duvar Montaj Desteği (300x300 mm),1348 mm,833 mm,160 mm,1233 mm,783 mm,324 mm,1233 mm,711 mm,72 mm,17.4 kg,,25 kg,2021,Android TV,Sony XR-55X93J Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,Var,Var,,,,16 GB,,1 Adet,,,,,,,,,,,,,,,,,,,,,,,
+27,TR,Televizyon,Sony,Sony XR-55X90J Ultra HD (4K) TV (XR55X90JAEP),(XR55X90JAEP),1,26599.0,TL,https://www.epey.com/televizyon/sony-xr-55x90j.html,09/04/2023 22:48:09,LED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,,100/120 Hz,"3840x2160p @ 60 Hz 
+
+3840x2160p @ 120Hz",Var,"Dolby Vision
+
+
+HDR10
+
+
+HLG (Hybrid Log-Gamma)","Direct Full Array
+
+
+Live Colour™
+
+
+Triluminos Ekran
+
+
+Local Dimming
+
+
+Cognitive Processor XR
+
+
+Direct LED Aydınlatma
+
+
+Dual Database Processing
+
+
+Dynamic Contrast Enhancer
+
+
+X-Motion Clarity Teknolojisi
+
+
+XR 4K Upscaling
+
+
+XR HDR Remaster
+
+
+XR Smoothing
+
+
+XR Super Resolution
+
+
+XR Triluminos Pro",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+Dolby Digital Plus
+
+
+DTS
+
+
+Dolby Audio","Acoustic Multi-Audio
+
+
+DTS Digital Surround",Yok,Var,Var,Var,Var,Var,Var,"Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",,Var,1 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.3
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)",BRAVIA Sync,Optik,Var,,1 Adet,2 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı (Vewd)","Google TV
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Harici Disk/USB Bellek ile,Var,,4,Android TV,Android TV 10 (Q),"Bluetooth
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Variable Refresh Rate (VRR)
+
+
+Chromecast
+
+
+Bluetooth HID (Dahili)
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+AirPlay
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 4.2
+
+
+2 Tuner (Çift Alıcı)",G,101 kWh,G,139 kWh,,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Standart,Siyah,İkili stant (V Ayaklı),VESA Duvar Montaj Desteği (300x300 mm),1348 mm,833 mm,160 mm,1233 mm,784 mm,338 mm,1233 mm,711 mm,72 mm,17.4 kg,,25 kg,2021,Android TV,Sony XR-55X90J Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,Var,Var,,,,16 GB,,1 Adet,,,,,,,,,,,,,,,,,,,,,,,
+28,TR,Televizyon,Samsung,Samsung 55LS03B Ultra HD (4K) TV (QE55LS03BAUXTK),(QE55LS03BAUXTK),10,25895.61,TL,https://www.epey.com/televizyon/samsung-55ls03b.html,09/04/2023 22:48:11,LED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,PQI 3500,100/120 Hz,"3840x2160p @ 60 Hz 
+
+3840x2160p @ 120Hz",Var,"HDR10+ Adaptive
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Quantum HDR","QLED with Quantum Dot
+
+
+Quantum Dot Display
+
+
+Quantum Processor 4K
+
+
+Auto Motion Plus
+
+
+Supreme UHD Dimming
+
+
+AI Upscaling
+
+
+Anti-Glare
+
+
+DCI-P3 100%
+
+
+Dual LED
+
+
+HGIG Mode
+
+
+Motion Xcelerator Turbo+
+
+
+Real Depth Enhancer
+
+
+Wide Viewing Angle
+
+
+10 bit Panel Desteği",40 W,2.0.2,"H.265/HEVC (4K/60p) Uydu
+
+
+H.265/HEVC (4K/60p) USB
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+H.264/MPEG-4 AVC (L5.1)
+
+
+Dolby Digital Plus","Object Tracking Sound
+
+
+Q-Symphony",Yok,Var,Var,Var,Var,Var,Var,"Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",Var,Var,2 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)",Anynet+,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"Smart Hub
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,Tizen,Tizen 6.5,"Bluetooth
+
+
+FreeSync
+
+
+FreeSync Premium Pro
+
+
+Ekran Yansıtma (İki Yönlü)
+
+
+Freesync Premium
+
+
+Ekran Yansıtma
+
+
+Kablosuz Tasarım (Clean Cable Solution)
+
+
+Bluetooth HID (Dahili)
+
+
+USB HID Desteği
+
+
+Connect Share (HDD)
+
+
+ConnectShare
+
+
+Oyun Modu
+
+
+AirPlay 2
+
+
+Ambient Mode Plus
+
+
+Art Mode
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.2
+
+
+Bluetooth LE (Low Energy)
+
+
+Google Duo
+
+
+Hareket Sensörü
+
+
+Kişiselleştirilebilir Çerçeve
+
+
+One Connect Box
+
+
+Samsung SmartThings
+
+
+Ses Yansıtma
+
+
+Teletext (TTXT)
+
+
+Wireless Dex
+
+
+360° Video Oynatma",G,103 kWh,G,191 kWh,170 W,0.5 W,"Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Slim,Siyah,İkili Ayak (Düz),VESA Duvar Montaj Desteği (200x200 mm),1405 mm,846 mm,185 mm,1237.9 mm,743.4 mm,227.8 mm,1237.9 mm,708.8 mm,24.9 mm,16.9 kg,17.3 kg,27.2 kg,2022,"Samsung QLED TV
+
+
+Samsung The Frame TV",Samsung 55LS03B Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Yok,,,,,,,Var,Mega Dynamic Contrast,,,,,,,,,,"One Connect (Optical) 
+
+USB-C (Webcam için)",v1.5,,,,,,,,,,
+29,TR,Televizyon,TCL,TCL 75P735 Ultra HD (4K) TV,None,4,31990.252500000002,TL,https://www.epey.com/televizyon/tcl-75p735.html,09/04/2023 22:48:14,LED,Düz (Flat),75 İnç,189 cm,Ultra HD (4K),3840x2160,PPI 2700,50/60 Hz,,Var,"Dolby Vision
+
+
+HDR10
+
+
+HLG (Hybrid Log-Gamma)","Wide Color Gamut
+
+
+AI Upscaling
+
+
+DCI-P3 93%
+
+
+IPQ 2.0 Engine
+
+
+Micro Dimming
+
+
+Ultra Motion (MEMC)
+
+
+10 (8 bit + FRC) bit Panel Desteği",30 W,2.0,"Dolby Atmos
+
+
+Dolby Digital
+
+
+Dolby AC-4
+
+
+Dolby Audio",,Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)",Var,Var,1 Adet,3 Adet,"HDMI 2.1
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP
+
+
+HDCP 1.4",Var,Optik,Var,,1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","Google TV
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Chromecast
+
+
+Bluetooth HID (Dahili)
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+USB Klavye ve Fare Desteği
+
+
+Amazon Alexa
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0
+
+
+Google Duo",F,124 kWh,G,200 kWh,250 W,0.5 W,,Slim,Siyah,İkili stant (V Ayaklı),VESA Duvar Montaj Desteği (300x300 mm),1844 mm,1160 mm,250 mm,1668 mm,1021 mm,364 mm,1668 mm,961 mm,9.58 (91) mm,22.6 kg,23.1 kg,34.7 kg,2022,Android TV,TCL 75P735 Ultra HD (4K) TV Kullanım Kılavuzu (TR),5000:1,260 cd/m²,Var,Var,1.3 GHz,Realtek RTD2851M,2 GB,16 GB,,1 Adet,Var,Mega Dynamic Contrast,,,,,,,,8.5 ms,,,,,,,,,,,,,
+30,TR,Televizyon,Samsung,Samsung 85BU8000 Ultra HD (4K) TV (UE85BU8000UXTK),(UE85BU8000UXTK),8,42752.24875,TL,https://www.epey.com/televizyon/samsung-85bu8000.html,09/04/2023 22:48:16,LED,Düz (Flat),85 İnç,216 cm,Ultra HD (4K),3840x2160,PQI 2200,50/60 Hz,3840x2160p @ 60 Hz,Var,"HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)","Dynamic Crystal Color
+
+
+Auto Motion Plus
+
+
+Contrast Enhancer
+
+
+Crystal Processor 4K
+
+
+HGIG Mode
+
+
+Motion Xcelerator
+
+
+UHD Dimming",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+H.265/HEVC (4K/60p) USB
+
+
+Dolby Digital
+
+
+H.264/MPEG-4 AVC (L5.1)
+
+
+Dolby Digital Plus","Object Tracking Sound (OTS Lite)
+
+
+Q-Symphony",Yok,Var,Var,Var,Var,Var,Var,"Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",Var,Var,2 Adet,,"HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",Anynet+,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"Smart Hub
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,Tizen,Tizen 6.5,"Bluetooth
+
+
+Ekran Yansıtma
+
+
+Bluetooth HID (Dahili)
+
+
+USB HID Desteği
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+ConnectShare
+
+
+Oyun Modu
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bixby
+
+
+Bluetooth 5.2
+
+
+Bluetooth LE (Low Energy)
+
+
+Google Duo
+
+
+Samsung SmartThings
+
+
+Ses Yansıtma
+
+
+Wireless Dex",G,186 kWh,G,289 kWh,310 W,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Slim,Siyah,İkili stant (V Ayaklı),VESA Duvar Montaj Desteği (600x400 mm),2075 mm,1237 mm,220 mm,1900.9 mm,1129.1 mm,396.6 mm,1900.9 mm,1086.2 mm,26.9 mm,41.5 kg,42.5 kg,55.3 kg,2022,,Samsung 85BU8000 Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Yok,,,,,,,,Mega Dynamic Contrast,,,,,,,,,,,,,,,3 Adet,,,,,,
+31,TR,Televizyon,Samsung,Samsung 75Q60B Ultra HD (4K) TV (QE75Q60BAUXTK),(QE75Q60BAUXTK),6,34840.33833333333,TL,https://www.epey.com/televizyon/samsung-75q60b.html,09/04/2023 22:48:19,LED,Düz (Flat),75 İnç,189 cm,Ultra HD (4K),3840x2160,PQI 3100,50/60 Hz,3840x2160p @ 60 Hz,Var,"HDR10+ Adaptive
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Quantum HDR","QLED with Quantum Dot
+
+
+Quantum Dot Display
+
+
+Contrast Enhancer
+
+
+DCI-P3 100%
+
+
+Dual LED
+
+
+HGIG Mode
+
+
+Motion Xcelerator
+
+
+Quantum Processor Lite 4K
+
+
+Resolution Upscaler (4K)
+
+
+Ultimate UHD Dimming",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Digital
+
+
+Dolby Digital Plus","Object Tracking Sound (OTS Lite)
+
+
+Q-Symphony",Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",Var,Var,2 Adet,3 Adet,"HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",Anynet+,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"Smart Hub
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,Tizen,Tizen 6.5,"Bluetooth
+
+
+Ekran Yansıtma
+
+
+Bluetooth HID (Dahili)
+
+
+USB HID Desteği
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Connect Share (HDD)
+
+
+ConnectShare
+
+
+Oyun Modu
+
+
+AirPlay 2
+
+
+Ambient Mode
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bixby Voice
+
+
+Bluetooth 5.2
+
+
+Bluetooth LE (Low Energy)
+
+
+Google Duo
+
+
+Multiroom Link
+
+
+Samsung SmartThings
+
+
+Ses Yansıtma
+
+
+Wireless Dex",E,116 kWh,G,201 kWh,230 W,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+ 
+Otomatik Kapanma",Ultra Slim,Siyah,İkili Ayak (Düz),VESA Duvar Montaj Desteği (400x400 mm),1834 mm,1110 mm,190 mm,1676.7 mm,997.3 mm,320 mm,1676.7 mm,959.8 mm,26.6 mm,31.4 kg,32 kg,42.3 kg,2022,Samsung QLED TV,Samsung 75Q60B Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+32,TR,Televizyon,Philips,Philips 55PUS8807 Ultra HD (4K) TV (55PUS8807/62),(55PUS8807/62),16,21597.7525,TL,https://www.epey.com/televizyon/philips-55pus8807.html,09/04/2023 22:48:24,LED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,,100/120 Hz,3840x2160p @ 120Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)","P5 Perfect Picture Engine
+
+
+Micro Dimming Pro
+
+
+CalMAN Ready
+
+
+DCI-P3 90%
+
+
+Doğal Hareket
+
+
+Ultra Çözünürlük",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital",AI Sound,Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+2x2",Var,Var,1 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.3
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",EasyLink,Optik,Var,CI+ (1.3),1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","Google Arama
+
+
+Google Play Movies
+
+
+Google Play Music
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Harici Disk/USB Bellek ile,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+FreeSync
+
+
+Freesync Premium
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Variable Refresh Rate (VRR)
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Pause TV
+
+
+Amazon Alexa
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0
+
+
+DTS Play-Fi",G,82 kWh,G,138 kWh,,0.3 W,"Güç Tasarrufu Modu (Ekonomik mod) 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Standart,Gümüş,Kare,VESA Duvar Montaj Desteği (300x200 mm),1360 mm,840 mm,160 mm,1231.2 mm,787.8 mm,262.6 mm,1231.2 mm,718.3 mm,79.7 mm,15.5 kg,17.9 kg,21.6 kg,2022,Android TV,Philips 55PUS8807 Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Var,,,,16 GB,,1 Adet,,,,,,,,,,,USB Bellek ile Arttırılabilir,,,Var,"Ambi Wakeup/Sunrise
+
+
+Ambilight Aurora
+
+
+Ambilight Başlangıç Animasyonu
+
+
+Ambilight Müzik
+
+
+AmbiSleep
+
+
+Dahili Ambilight+hue
+
+
+Dinlenme ışık modu
+
+
+Duvar rengine uyarlanma
+
+
+Oyun modu
+
+
+Philips Wireless Home Speakers
+
+
+3 Taraflı",,,,,,,,
+33,TR,Televizyon,Philips,Philips 65PUS8507 Ultra HD (4K) TV (65PUS8507/12),(65PUS8507/12),14,26428.424285714285,TL,https://www.epey.com/televizyon/philips-65pus8507.html,09/04/2023 22:48:26,LED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,,50/60 Hz,,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)","P5 Perfect Picture Engine
+
+
+Micro Dimming Pro
+
+
+DCI-P3 90%
+
+
+Doğal Hareket
+
+
+Ultra Çözünürlük",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital",AI Sound,Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+2x2",Var,Var,1 Adet,4 Adet,"HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.3
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",EasyLink,Optik,Var,CI+ (1.3),1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","Google Arama
+
+
+Google Play Movies
+
+
+Google Play Music
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Harici Disk/USB Bellek ile,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Variable Refresh Rate (VRR)
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Amazon Alexa
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0
+
+
+DTS Play-Fi",G,109 kWh,G,217 kWh,,0.3 W,"Güç Tasarrufu Modu (Ekonomik mod) 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Standart,Gümüş,İkili stant (V Ayaklı),VESA Duvar Montaj Desteği (300x200 mm),1600 mm,995 mm,170 mm,1450.5 mm,904.9 mm,297.5 mm,1450.5 mm,833.5 mm,85.1 mm,24.5 kg,24.9 kg,30.9 kg,2022,Android TV,Philips 65PUS8507 Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Var,,,,16 GB,,1 Adet,,,Var,,,,,,,,USB Bellek ile Arttırılabilir,,,Var,"Ambi Wakeup/Sunrise
+
+
+Ambilight Aurora
+
+
+Ambilight Başlangıç Animasyonu
+
+
+Ambilight Müzik
+
+
+AmbiSleep
+
+
+Dahili Ambilight+hue
+
+
+Dinlenme ışık modu
+
+
+Duvar rengine uyarlanma
+
+
+Oyun modu
+
+
+Philips Wireless Home Speakers
+
+
+3 Taraflı",,,,,,,,
+34,TR,Televizyon,Samsung,Samsung 55LS03A Ultra HD (4K) TV (QE55LS03AAUXTK),(QE55LS03AAUXTK),1,31850.0,TL,https://www.epey.com/televizyon/samsung-55ls03a.html,09/04/2023 22:48:29,LED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,PQI 3400,100/120 Hz,"3840x2160p @ 60 Hz 
+
+3840x2160p @ 120Hz",Var,"HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Quantum HDR","QLED with Quantum Dot
+
+
+Quantum Dot Display
+
+
+Quantum Processor 4K
+
+
+Auto Motion Plus
+
+
+Supreme UHD Dimming
+
+
+AI Upscaling
+
+
+Contrast Enhancer
+
+
+DCI-P3 100%
+
+
+Dual LED
+
+
+Wide Viewing Angle
+
+
+10 bit Panel Desteği",40 W,4.0,"H.265/HEVC (4K/60p) Uydu
+
+
+H.265/HEVC (4K/60p) USB
+
+
+Dolby Digital
+
+
+H.264/MPEG-4 AVC (L5.1)
+
+
+Dolby Digital Plus",Q-Symphony,Yok,Var,Var,Var,Var,Var,Var,WiFi Direct,Var,Var,2 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)",Anynet+,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"Smart Hub
+
+
+Web Tarayıcı",,Var,Yok,Var,Var,Yok,Var,Var,4,Tizen,,"Bluetooth
+
+
+FreeSync
+
+
+FreeSync Premium Pro
+
+
+Ekran Yansıtma (İki Yönlü)
+
+
+Freesync Premium
+
+
+Ekran Yansıtma
+
+
+Kablosuz Tasarım (Clean Cable Solution)
+
+
+Tek kumanda (One Remote Control)
+
+
+Bluetooth HID (Dahili)
+
+
+USB HID Desteği
+
+
+Connect Share (HDD)
+
+
+ConnectShare
+
+
+Digital Clean View
+
+
+Oyun Modu
+
+
+AirPlay 2
+
+
+Ambient Mode Plus
+
+
+Art Mode
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bixby Voice
+
+
+Bluetooth 4.2
+
+
+Bluetooth LE (Low Energy)
+
+
+Hareket Sensörü
+
+
+Kişiselleştirilebilir Çerçeve
+
+
+One Connect Box
+
+
+Samsung SmartThings
+
+
+Teletext (TTXT)
+
+
+Wireless Dex
+
+
+360° Video Oynatma",G,103 kWh,G,174 kWh,170 W,0.5 W,"Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Slim,Siyah,İkili Ayak (Düz),VESA Duvar Montaj Desteği (200x200 mm),1405 mm,846 mm,185 mm,1237.9 mm,743.4 mm,227.8 mm,1237.9 mm,708.8 mm,24.9 mm,16.6 kg,17 kg,26.9 kg,2021,"Samsung QLED TV
+
+
+Samsung The Frame TV",,,,,Yok,,,,,,,,Mega Dynamic Contrast,,,,,,,,,,One Connect (Optical),v1.5,,,,,,,,,,
+35,TR,Televizyon,LG,LG 65NANO866PA Ultra HD (4K) TV,None,0,0,TL,https://www.epey.com/televizyon/lg-65nano866pa.html,09/04/2023 22:48:32,LED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,,100/120 Hz,3840x2160p @ 120Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Dolby Vision IQ
+
+
+HDR Effect
+
+
+Cinema HDR
+
+
+HDR 10 Pro","Nano Cell Display
+
+
+Nano Cell Color
+
+
+Billion Rich Color (Milyar Renk)
+
+
+ULTRA Luminance
+
+
+Local Dimming
+
+
+HDR Dynamic Tone Mapping
+
+
+HFR 2K
+
+
+HFR 4K
+
+
+HGIG Mode
+
+
+Kenar LED Aydınlatma (Edge-lit LED)
+
+
+LG Local Contrast
+
+
+Motion Pro
+
+
+Resolution Upscaler (4K)
+
+
+Wide Viewing Angle
+
+
+α7 (Alpha7) (Gen4) Processor 4K",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+Dolby Digital Plus
+
+
+HEVC (4K@60fps 10bit)
+
+
+AV1
+
+
+AV1 (4K@60p 10bit)
+
+
+H.265/HEVC
+
+
+HEVC (4K@120fps 10bit)
+
+
+VP9
+
+
+VP9 (4K@60fps 10bit)","A.I. Sound
+
+
+apt-X Kodek
+
+
+Clear Sound
+
+
+LG Sound Sync
+
+
+ULTRA Surround
+
+
+WiSA",Yok,Var,Var,Var,Var,Var,Var,Wi-Fi 5 (802.11a/b/g/n/ac),Var,Var,3 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.3
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",SIMPLINK,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"LG Content Store
+
+
+LG ThinQ AI
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,webOS,webOS 6.0,"Bluetooth
+
+
+FreeSync
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Variable Refresh Rate (VRR)
+
+
+Akıllı Kumanda (Magic Remote) Uyumu
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+AirPlay
+
+
+AirPlay 2
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0",F,95 kWh,G,173 kWh,,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör)",Slim,Siyah,Yay (C Tipi),VESA Duvar Montaj Desteği (300x300 mm),1600 mm,1070 mm,203 mm,1452 mm,917 mm,336 mm,1452 mm,839 mm,44.3 mm,24.5 kg,26.2 kg,33.3 kg,2021,,LG 65NANO866PA Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Var,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+36,TR,Televizyon,TCL,TCL 65C725 Ultra HD (4K) TV,None,2,23123.415,TL,https://www.epey.com/televizyon/tcl-65c725.html,09/04/2023 22:48:35,LED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,,50/60 Hz,,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+","QLED with Quantum Dot
+
+
+AiPQ Engine
+
+
+DCI-P3 93%
+
+
+Micro Dimming
+
+
+Ultra Motion (MEMC)",20 W,2.0,"Dolby Atmos
+
+
+DTS HD
+
+
+DTS
+
+
+Dolby Audio",Onkyo Ses Geliştirme,Yok,Var,Var,Var,Var,Var,Var,,,Var,1 Adet,,"HDMI 2.1
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP
+
+
+HDMI 1.4",Var,Optik,Var,,1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","Google Play Games
+
+
+Google Play Movies
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Chromecast
+
+
+USB Klavye ve Fare Desteği
+
+
+Bluetooth 5.0
+
+
+Google Duo",G,107 kWh,G,184 kWh,,0.5 W,,,,,VESA Duvar Montaj Desteği (300x300 mm),1645 mm,1000 mm,165 mm,1446 mm,888 mm,302 mm,1446 mm,825 mm,51 (79) mm,19.6 kg,19.9 kg,25.2 kg,2021,Android TV,TCL 65C725 Ultra HD (4K) TV Kullanım Kılavuzu (TR),5000:1,270 cd/m²,Var,Var,1.3 GHz,,2 GB,16 GB,,1 Adet,Var,,,,,,,,,8 ms,eMMC 5.0,,,,,,3 Adet,,,,,,
+37,TR,Televizyon,Grundig,Grundig 65 GGO 9900 B Ultra HD (4K) TV,None,2,33999.5,TL,https://www.epey.com/televizyon/grundig-65-ggo-9900-b.html,09/04/2023 22:48:38,OLED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,VPI 2500,100/120 Hz,,Var,"Dolby Vision
+
+
+HDR10","Wide Color Gamut
+
+
+Hareketli Sahne İyileştirme
+
+
+Micro Dimming
+
+
+Motion Picture Improvement
+
+
+Ultra Motion (MEMC)",30 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Digital
+
+
+DTS",Magic Fidelity,Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)",,Var,2 Adet,,"HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDMI Audio Return Channel (ARC)",Var,Optik,Var,,1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","BeIN Connect
+
+
+Netflix
+
+
+Prime Video
+
+
+Turkcell TV+
+
+
+YouTube",Var,Yok,,,Harici Disk/USB Bellek ile,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Chromecast
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Türksat Kanal Güncelleme Sistemi (TKGS)
+
+
+Yazılım Güncelleştirme (Çevrimiçi)
+
+
+Yayında Altyazı Desteği",G,140 kWh,G,150 kWh,,0.5 W,,Standart,Siyah,İkili stant (V Ayaklı),VESA Duvar Montaj Desteği (400x400 mm),,,,1449 mm,918 mm,317 mm,,,,,27.2 kg,34 kg,2022,Android TV,Grundig 65 GGO 9900 B Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Var,,,,,,,,,,,,,,,,,,,,,,,3 Adet,Var,Var,,,,
+38,TR,Televizyon,Philips,Philips 75PUS8007 Ultra HD (4K) TV (75PUS8007/12),(75PUS8007/12),5,29894.204,TL,https://www.epey.com/televizyon/philips-75pus8007.html,09/04/2023 22:48:40,LED,Düz (Flat),75 İnç,189 cm,Ultra HD (4K),3840x2160,,50/60 Hz,3840x2160p @ 60 Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)","Pixel Precise Ultra HD Engine
+
+ 
+HGIG Mode",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital",AI Sound,Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+2x2",,Var,2 Adet,4 Adet,"HDCP 2.3
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",EasyLink,Optik,Var,CI+ (1.3),1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","Google Arama
+
+
+Google Play Movies
+
+
+Google Play Music
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Yok,,,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Variable Refresh Rate (VRR)
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0",G,140 kWh,G,178 kWh,,0.3 W,"Güç Tasarrufu Modu (Ekonomik mod) 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Standart,Siyah,İkili Ayak (Düz),VESA Duvar Montaj Desteği (300x300 mm),1879 mm,1106 mm,190 mm,1670.5 mm,989.1 mm,334.9 mm,1670.5 mm,960.1 mm,84.1 mm,28.7 kg,29.2 kg,40.5 kg,2022,Android TV,Philips 75PUS8007 Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Var,,,,16 GB,,,,,Var,,,,,,,,USB Bellek ile Arttırılabilir,,,Var,"Dahili Ambilight
+
+
+Dinlenme ışık modu
+
+
+Duvar rengine uyarlanma
+
+
+Oyun modu
+
+
+3 Taraflı",,,Var,Var,,,,
+39,TR,Televizyon,TCL,TCL 55C728G Ultra HD (4K) TV,None,2,19599.019999999997,TL,https://www.epey.com/televizyon/tcl-55c728g.html,09/04/2023 22:48:43,LED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,TCL PPI 3300,100/120 Hz,3840x2160p @ 120Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Dolby Vision IQ","QLED with Quantum Dot
+
+
+Quantum Dot Display
+
+
+AiPQ Engine
+
+
+DCI-P3 100%
+
+
+Direct LED Aydınlatma
+
+
+Micro Dimming
+
+
+Ultra Motion (MEMC)
+
+
+10 (8 bit + FRC) bit Panel Desteği
+
+
+15 ms Input Lag",20 W,2.0,"Dolby Atmos
+
+
+Dolby Digital
+
+
+DTS HD
+
+
+Dolby Digital Plus
+
+
+DTS
+
+
+Dolby MS12",Onkyo Ses Geliştirme,Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)",Var,Var,1 Adet,,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP
+
+
+HDMI 1.4
+
+
+HDCP 1.4",T-Link,Optik,Var,,1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+TCL AI-IN
+
+
+Web Tarayıcı","Google Arama
+
+
+Google Play Games
+
+
+Google Play Movies
+
+
+Google Play Music
+
+
+Google TV
+
+
+Netflix
+
+
+YouTube",Var,Yok,Var,Var,,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Variable Refresh Rate (VRR)
+
+
+Chromecast
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+USB Klavye ve Fare Desteği
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0",G,98 kWh,G,158 kWh,,0.5 W,Güç Tasarrufu Modu (Ekonomik mod),Standart,Siyah,İkili stant (V Ayaklı),VESA Duvar Montaj Desteği (300x200 mm),1400 mm,864 mm,150 mm,1227 mm,769 mm,302 mm,1227 mm,703 mm,3.17 (79) mm,13.6 kg,12.8 kg,17.6 kg,2022,Android TV,TCL 55C728G Ultra HD (4K) TV Kullanım Kılavuzu (TR),5000:1,330 cd/m²,Var,Var,1.6 GHz,MT9615 (ARM Cortex-A73),3 GB,32 GB,,,,,,,,,,,,6.5 ms,eMMC 5.0,,,,,,4 Adet,,,,,,
+40,TR,Televizyon,Toshiba,Toshiba 65QA7D63DT Ultra HD (4K) TV (20277128),(20277128),4,20553.0,TL,https://www.epey.com/televizyon/toshiba-65qa7d63dt.html,09/04/2023 22:48:46,LED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,SMR 2500,50/60 Hz,,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)","QLED with Quantum Dot
+
+
+Quantum Dot Display
+
+
+Micro Dimming
+
+
+Ultra Motion (MEMC)
+
+
+Vestel Quantum Renk Paleti Teknolojisi",24 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+DTS HD
+
+
+DTS
+
+
+Dolby Audio","DTS Virtual:X
+
+
+DTS:X
+
+
+German + Nicam Stereo
+
+
+Internal Subwoofer
+
+
+Onkyo Ses Geliştirme",,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)",,Var,2 Adet,,"HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDMI Audio Return Channel (ARC)",Var,Optik,Var,,1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","BeIN Connect
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Chromecast
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Türksat Kanal Güncelleme Sistemi (TKGS)",E,85 kWh,G,195 kWh,,0.5 W,Güç Tasarrufu Modu (Ekonomik mod),Standart,Siyah,Dikdörtgen,VESA Duvar Montaj Desteği (400x200 mm),,,,1453 mm,875 mm,251 mm,1453 mm,836 mm,74 mm,,26.3 kg,,2022,Android TV,Toshiba 65QA7D63DT Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Var,,,,,,,,,,,,,,,,,,,,,,,3 Adet,,,,,,
+41,TR,Televizyon,TCL,TCL 55C728 Ultra HD (4K) TV,None,2,21699.004999999997,TL,https://www.epey.com/televizyon/tcl-55c728.html,09/04/2023 22:48:50,LED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,TCL PPI 3300,100/120 Hz,3840x2160p @ 120Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Dolby Vision IQ","QLED with Quantum Dot
+
+
+Quantum Dot Display
+
+
+AiPQ Engine
+
+
+DCI-P3 100%
+
+
+Direct LED Aydınlatma
+
+
+Micro Dimming
+
+
+Ultra Motion (MEMC)
+
+
+10 (8 bit + FRC) bit Panel Desteği
+
+
+15 ms Input Lag",20 W,2.0,"Dolby Atmos
+
+
+Dolby Digital
+
+
+DTS HD
+
+
+Dolby Digital Plus
+
+
+DTS
+
+
+Dolby MS12",Onkyo Ses Geliştirme,Yok,Var,Var,Var,Var,Var,Var,Dual Band (5GHz),Var,Var,1 Adet,,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP
+
+
+HDMI 1.4
+
+
+HDCP 1.4",T-Link,Optik,Var,,1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+TCL AI-IN
+
+
+Web Tarayıcı","Google Arama
+
+
+Google Play Games
+
+
+Google Play Movies
+
+
+Google Play Music
+
+
+Netflix
+
+
+YouTube",Var,Yok,Var,Var,,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Variable Refresh Rate (VRR)
+
+
+Chromecast
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+USB Klavye ve Fare Desteği
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0",G,98 kWh,G,158 kWh,,0.5 W,Güç Tasarrufu Modu (Ekonomik mod),Standart,Siyah,İkili stant (V Ayaklı),VESA Duvar Montaj Desteği (300x200 mm),1400 mm,864 mm,150 mm,1227 mm,769 mm,302 mm,1227 mm,703 mm,3.17 (79) mm,13.6 kg,12.8 kg,17.6 kg,2021,Android TV,TCL 55C728 Ultra HD (4K) TV Kullanım Kılavuzu (TR),5000:1,330 cd/m²,Var,Var,1.6 GHz,MT9615 (ARM Cortex-A73),3 GB,32 GB,,,,,,,,,,,,6.5 ms,eMMC 5.0,,,,,,4 Adet,,,,,,
+42,TR,Televizyon,Samsung,Samsung 55Q70B Ultra HD (4K) TV (QE55Q70BATXTK),(QE55Q70BATXTK),14,23250.67142857143,TL,https://www.epey.com/televizyon/samsung-55q70b.html,09/04/2023 22:48:52,LED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,PQI 3400,100/120 Hz,3840x2160p @ 120Hz,Var,"HDR10+ Adaptive
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Quantum HDR","QLED with Quantum Dot
+
+
+Quantum Dot Display
+
+
+Quantum Processor 4K
+
+
+Supreme UHD Dimming
+
+
+DCI-P3 100%
+
+
+Dual LED
+
+
+HGIG Mode
+
+
+Motion Xcelerator Turbo+
+
+
+Real Depth Enhancer
+
+
+Wide Viewing Angle
+
+
+4K AI Upscaling",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Digital
+
+
+Dolby Digital Plus","Object Tracking Sound (OTS Lite)
+
+
+Q-Symphony Lite",Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",Var,Var,2 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",Anynet+,Optik,Var,CI+ (1.4),1 Adet,2 Adet,Yok,Var,"Smart Hub
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,Tizen,Tizen 6.5,"Bluetooth
+
+
+FreeSync
+
+
+FreeSync Premium Pro
+
+
+Ekran Yansıtma (İki Yönlü)
+
+
+Freesync Premium
+
+
+Ekran Yansıtma
+
+
+Bluetooth HID (Dahili)
+
+
+USB HID Desteği
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Connect Share (HDD)
+
+
+ConnectShare
+
+
+Oyun Modu
+
+
+Ambient Mode
+
+
+Ambient Mode Plus
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bixby Voice
+
+
+Bluetooth 5.2
+
+
+Bluetooth LE (Low Energy)
+
+
+Google Duo
+
+
+Multiroom Link
+
+
+Samsung SmartThings
+
+
+Wireless Dex
+
+
+2 Tuner (Çift Alıcı)",G,93 kWh,G,161 kWh,205 W,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Slim,Siyah,Kare,VESA Duvar Montaj Desteği (200x200 mm),1424 mm,846 mm,191 mm,1232.9 mm,778.3 mm,246.5 mm,1232.9 mm,708.7 mm,25.7 mm,16.1 kg,18.4 kg,24.6 kg,2022,Samsung QLED TV,Samsung 55Q70B Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+43,TR,Televizyon,LG,LG OLED48A29LA Ultra HD (4K) TV,None,0,0,TL,https://www.epey.com/televizyon/lg-oled48a29la.html,09/04/2023 22:48:55,OLED,Düz (Flat),48 İnç,122 cm,Ultra HD (4K),3840x2160,,50/60 Hz,3840x2160p @ 60 Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Dolby Vision IQ
+
+
+HDR Effect
+
+
+HDR 10 Pro
+
+
+4K Cinema HDR","Billion Rich Color (Milyar Renk)
+
+
+Mükemmel Siyahlar
+
+
+Perfect Color (Kusursuz Renkler)
+
+
+True Color Accuracy
+
+
+ULTRA Luminance
+
+
+HDR Dynamic Tone Mapping
+
+
+HFR 4K
+
+
+HGIG Mode
+
+
+Object Depth Enhancer
+
+
+Pixel Dimming
+
+
+Resolution Upscaler (4K)
+
+
+Ultra Luminance Pro
+
+
+Wide Viewing Angle
+
+
+α7 (Alpha7) (Gen5) AI Processor 4K",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+Dolby Digital Plus
+
+
+AV1 (4K@60p 10bit)
+
+ 
+H.265/HEVC (4K/60p 10bit)
+
+
+VP9
+
+
+VP9 (4K@60fps 10bit)","AI Acoustic Tuning
+
+
+AI Sound
+
+
+apt-X Kodek
+
+
+Clear Voice Pro
+
+
+LG Sound Sync
+
+
+OLED Surround
+
+
+WiSA",Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",Var,Var,2 Adet,3 Adet,"HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)",SIMPLINK,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"LG ThinQ AI
+
+
+Web Tarayıcı","LG Store
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,webOS,WebOS 22,"Bluetooth
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Akıllı Kumanda (Magic Remote) Uyumu
+
+
+apt-X Encoder
+
+
+AirPlay 2
+
+
+Apple HomeKit
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0
+
+
+Gallery Mode
+
+
+NVIDIA GeForce Now",G,65 kWh,G,117 kWh,,0.5 W,"Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Slim,Siyah,İkili stant (V Ayaklı),VESA Duvar Montaj Desteği (300x200 mm),1220 mm,735 mm,152 mm,1070 mm,684 mm,235 mm,1070 mm,620 mm,45.9 mm,11.5 kg,11.7 kg,14.5 kg,2022,,,,,,Var,,,,,,,,Sonsuz,Var,,,,,,,,,,,,,,,,,,,,
+44,TR,Televizyon,LG,LG OLED48A26LA Ultra HD (4K) TV,None,5,19649.0,TL,https://www.epey.com/televizyon/lg-oled48a26la.html,09/04/2023 22:48:58,OLED,Düz (Flat),48 İnç,122 cm,Ultra HD (4K),3840x2160,,50/60 Hz,3840x2160p @ 60 Hz,Var,"Dolby Vision
+
+
+HDR10
+
+ 
+HLG (Hybrid Log-Gamma)
+
+
+Dolby Vision IQ
+
+
+HDR Effect
+
+
+HDR 10 Pro
+
+
+4K Cinema HDR","Billion Rich Color (Milyar Renk)
+
+
+Mükemmel Siyahlar
+
+
+Perfect Color (Kusursuz Renkler)
+
+
+AI Upscaling
+
+
+HDR Dynamic Tone Mapping
+
+
+HGIG Mode
+
+
+Pixel Dimming
+
+
+Resolution Upscaler (4K)
+
+
+Wide Viewing Angle
+
+
+α7 (Alpha7) (Gen5) AI Processor 4K",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+Dolby Digital Plus
+
+
+AV1 (4K@60p 10bit)
+
+
+H.265/HEVC (4K/60p 10bit)
+
+
+VP9
+
+
+VP9 (4K@60fps 10bit)","AI Acoustic Tuning
+
+
+AI Sound
+
+
+apt-X Kodek
+
+
+Clear Voice Pro
+
+
+LG Sound Sync
+
+
+OLED Surround
+
+
+Smart Sound Mode
+
+
+WiSA",Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",Var,Var,2 Adet,3 Adet,"HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)",SIMPLINK,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"LG ThinQ AI
+
+
+Web Tarayıcı","LG Store
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,webOS,WebOS 22,"Bluetooth
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Akıllı Kumanda (Magic Remote) Uyumu
+
+
+apt-X Encoder
+
+
+AirPlay 2
+
+
+Bluetooth 5.0
+
+
+Gallery Mode
+
+
+NVIDIA GeForce Now",G,65 kWh,G,117 kWh,,0.5 W,"Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Slim,Siyah,İkili stant (V Ayaklı),VESA Duvar Montaj Desteği (300x200 mm),1220 mm,735 mm,152 mm,1070 mm,684 mm,235 mm,1070 mm,620 mm,45.9 mm,11.5 kg,11.7 kg,14.5 kg,2022,,,,,,Yok,,,,,,,,Sonsuz,,,,,,,,,,,,,,,,,,,,,
+45,TR,Televizyon,TCL,TCL 65C635 Ultra HD (4K) TV,None,4,23161.4975,TL,https://www.epey.com/televizyon/tcl-65c635.html,09/04/2023 22:49:01,LED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,TCL PPI 3100,50/60 Hz,3840x2160p @ 50 Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)","QLED with Quantum Dot
+
+
+Quantum Dot Display
+
+
+IPQ 2.0 Engine
+
+
+Micro Dimming
+
+
+Ultra Motion (MEMC)
+
+
+WCG (Renk Geliştirme Teknolojisi)",20 W,2.0,"Dolby Atmos
+
+
+Dolby Digital
+
+
+DTS HD
+
+
+Dolby AC-4
+
+
+ DTS
+
+
+Dolby Audio",Onkyo Ses Geliştirme,Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)",Var,Var,1 Adet,3 Adet,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",T-Link,Optik,Var,,1 Adet,1 Adet,Yok,Var,Google Play Store,"Google TV
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Chromecast
+
+
+USB HID Desteği
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0
+
+
+Google Duo",F,95 kWh,G,165 kWh,,0.5 W,,Standart,Siyah,İkili stant (V Ayaklı),VESA Duvar Montaj Desteği (300x300 mm),1640 mm,988 mm,165 mm,1446 mm,890 mm,291 mm,1446 mm,827 mm,80 mm,19.2 kg,19.5 kg,26.5 kg,2022,Android TV,,,,Var,Var,,,,,,1 Adet,Var,,,,,,,,,,,,,,,,,,,,,,
+46,TR,Televizyon,Toshiba,Toshiba 55XA9D63DT Ultra HD (4K) TV (20277104),(20277104),3,27050.106666666667,TL,https://www.epey.com/televizyon/toshiba-55xa9d63dt.html,09/04/2023 22:49:03,OLED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,SMR 3200,100/120 Hz,,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+","Micro Dimming
+
+
+Ultra Motion (MEMC)
+
+
+Vestel Quantum Renk Paleti Teknolojisi",24 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+DTS HD
+
+
+Dolby Digital Plus
+
+
+DTS
+
+
+Dolby Audio","DTS Virtual:X
+
+
+DTS:X
+
+
+Onkyo Ses Geliştirme",Var,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)",,Var,2 Adet,,"HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDMI Audio Return Channel (ARC)",Var,Optik,Var,,1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","BeIN Connect
+
+ 
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,Android TV,,"Bluetooth
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Chromecast
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Türksat Kanal Güncelleme Sistemi (TKGS)",G,113 kWh,G,147 kWh,,0.5 W,Güç Tasarrufu Modu (Ekonomik mod),Slim,Siyah,Dikdörtgen,VESA Duvar Montaj Desteği (200x200 mm),,,,1228 mm,746 mm,251 mm,1228 mm,715 mm,50 mm,,28 kg,,2022,Android TV,Toshiba 55XA9D63DT Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Var,,,,,,,,,,,,,,,,,,,,,,,3 Adet,,,,,,
+47,TR,Televizyon,Arçelik,Arçelik A55 OLED C 970 B Ultra HD (4K) TV,None,1,33849.95,TL,https://www.epey.com/televizyon/arcelik-a55-oled-c-970-b.html,09/04/2023 22:49:06,OLED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,VPI 2700,100/120 Hz,,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+","Wide Color Gamut
+
+
+Micro Dimming
+
+
+WCG (Renk Geliştirme Teknolojisi)",30 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Digital
+
+
+Dolby Digital Plus",,,Var,Var,Var,Var,Var,Var,Wi-Fi 5 (802.11a/b/g/n/ac),,Var,2 Adet,3 Adet,"HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDMI Audio Return Channel (ARC)",DIGI LINK,Optik,Var,,1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","BeIN Connect
+
+
+Netflix
+
+
+Prime Video
+
+
+Turkcell TV+
+
+
+YouTube",Var,Yok,Var,Var,Harici Disk/USB Bellek ile,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Chromecast
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Yakala Paylaş",G,101 kWh,G,120 kWh,,0.45 W,,Slim,Siyah,V Şekilli,VESA Duvar Montaj Desteği (400x300 mm),1390 mm,866 mm,217 mm,1227.8 mm,774.5 mm,303.4 mm,1227.8 mm,717.1 mm,50 mm,,,,2022,Android TV,,,,,Var,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+48,TR,Televizyon,Philips,Philips 50PUS8807 Ultra HD (4K) TV (50PUS8807/62),(50PUS8807/62),11,19347.793636363636,TL,https://www.epey.com/televizyon/philips-50pus8807.html,09/04/2023 22:49:09,LED,Düz (Flat),50 İnç,126 cm,Ultra HD (4K),3840x2160,,100/120 Hz,3840x2160p @ 120Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)","P5 Perfect Picture Engine
+
+
+Micro Dimming Pro
+
+
+CalMAN Ready
+
+
+DCI-P3 90%
+
+
+Doğal Hareket
+
+
+Ultra Çözünürlük",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital",AI Sound,Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+2x2",Var,Var,1 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.3
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",EasyLink,Optik,Var,CI+ (1.3),1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","Google Arama
+
+
+Google Play Movies
+
+
+Google Play Music
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Harici Disk/USB Bellek ile,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+FreeSync
+
+
+Freesync Premium
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Variable Refresh Rate (VRR)
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Pause TV
+
+
+Amazon Alexa
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0
+
+
+DTS Play-Fi",G,70 kWh,G,128 kWh,,0.3 W,"Güç Tasarrufu Modu (Ekonomik mod) 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Standart,Gümüş,Kare,VESA Duvar Montaj Desteği (300x200 mm),1240 mm,785 mm,160 mm,1115.6 mm,719.8 mm,262.6 mm,1115.6 mm,653.4 mm,80.6 mm,13.3 kg,15.5 kg,19 kg,2022,Android TV,Philips 50PUS8807 Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Var,,,,16 GB,,1 Adet,,,,,,,,,,,USB Bellek ile Arttırılabilir,,,Var,"Ambi Wakeup/Sunrise
+
+
+Ambilight Aurora
+
+
+Ambilight Başlangıç Animasyonu
+
+
+Ambilight Müzik
+
+
+AmbiSleep
+
+ 
+Dahili Ambilight+hue
+
+
+Dinlenme ışık modu
+
+
+Duvar rengine uyarlanma
+
+
+Oyun modu
+
+
+Philips Wireless Home Speakers
+
+
+3 Taraflı",,,,,,,,
+49,TR,Televizyon,TCL,TCL 65P635 Ultra HD (4K) TV,None,4,17811.5,TL,https://www.epey.com/televizyon/tcl-65p635.html,09/04/2023 22:49:11,LED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,PPI 2300,50/60 Hz,,Var,"HDR10
+
+
+HLG (Hybrid Log-Gamma)","Dynamic Colour Enhancer
+
+
+AiPQ 2.0 Engine (Gen2)
+
+
+Micro Dimming",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Digital
+
+
+Dolby AC-4
+
+
+Dolby Audio",,Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)",,Var,2 Adet,,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",T-Link,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","BeIN Connect
+
+
+Google TV
+
+
+Netflix
+
+
+Prime Video
+
+
+Turkcell TV+
+
+
+YouTube",Var,Yok,Var,Var,,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Chromecast
+
+
+Bluetooth HID (Dahili)
+
+
+USB HID Desteği
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Amazon Alexa
+
+
+Bluetooth 5.0",E,98 kWh,G,125 kWh,,0.5 W,Otomatik Kapanma,Standart,Siyah,İkili stant (V Ayaklı),VESA Duvar Montaj Desteği (200x200 mm),,,,1446 mm,883 mm,355 mm,1446 mm,835 mm,8.54 (83) mm,,,,2022,Android TV,,,,Var,Var,1.3 GHz,Realtek RTD2851A,2 GB,16 GB,,,,,,,,,,,,,,,,,,,3 Adet,,,,,,
+50,TR,Televizyon,Vestel,Vestel 65QA9700 Ultra HD (4K) TV (20277114),(20277114),6,17492.0,TL,https://www.epey.com/televizyon/vestel-65qa9700.html,09/04/2023 22:49:15,LED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,SMR 3000,50/60 Hz,,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+","QLED with Quantum Dot
+
+
+Quantum Dot Display
+
+
+Micro Dimming
+
+
+Ultra Motion (MEMC)
+
+
+Vestel Pixellence
+
+
+Vestel Pixellence Pro
+
+
+Vestel Quantum Renk Paleti Teknolojisi",24 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+DTS HD
+
+
+DTS
+
+
+Dolby Audio","DTS Virtual:X
+
+
+DTS:X",Var,Var,Var,Var,Var,Var,Var,,Var,Var,2 Adet,,"HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDMI Audio Return Channel (ARC)",Var,Optik,Var,,1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","BeIN Connect
+
+
+Netflix
+
+
+Prime Video
+
+
+Turkcell TV+
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,Android TV,,"Bluetooth
+
+
+Ekran Yansıtma
+
+
+Chromecast
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Türksat Kanal Güncelleme Sistemi (TKGS)",E,85 kWh,G,159 kWh,,0.5 W,Güç Tasarrufu Modu (Ekonomik mod),Standart,Siyah & Gümüş,İkili Ayak (Düz),VESA Duvar Montaj Desteği (400x200 mm),,,,1453 mm,871 mm,245 mm,1453 mm,836 mm,40 (75) mm,,19.9 kg,20.25 kg,2022,"Android TV
+
+
+Vestel QLED TV",Vestel 65QA9700 Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Var,,,,,,,,,,,,,,,,,,,,,,,3 Adet,,,,,,
+51,TR,Televizyon,Samsung,Samsung 55LS01T Ultra HD (4K) TV (QE55LS01TAU),(QE55LS01TAU),1,24735.0,TL,https://www.epey.com/televizyon/samsung-55ls01t.html,09/04/2023 22:49:17,LED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,PQI 3200,100/120 Hz,3840x2160p @ 60 Hz,Var,"HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Quantum HDR","QLED with Quantum Dot
+
+
+Quantum Dot Display
+
+
+Quantum Processor 4K
+
+
+Auto Motion Plus
+
+
+Supreme UHD Dimming
+
+
+AI Upscaling
+
+
+Contrast Enhancer
+
+
+DCI-P3 100%
+
+
+Kenar LED Aydınlatma (Edge-lit LED)
+
+
+Wide Viewing Angle
+
+
+10 bit Panel Desteği",40 W,4.0,"H.265/HEVC (4K/60p) Uydu
+
+
+H.265/HEVC (4K/60p) USB
+
+
+Dolby Digital
+
+
+H.264/MPEG-4 AVC (L5.1)
+
+
+Dolby Digital Plus",,Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+WiFi Direct",Var,Yok,2 Adet,4 Adet,"HDMI 2.0a
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)",Anynet+,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"Samsung Apps
+
+
+Smart Hub
+
+
+Web Tarayıcı",,Var,Yok,Var,Var,,Var,Var,4,Tizen,,"Bluetooth
+
+
+FreeSync
+
+
+Ekran Yansıtma (İki Yönlü)
+
+
+Freesync Premium
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+NFC
+
+
+Kablosuz Tasarım (Clean Cable Solution)
+
+
+Tek kumanda (One Remote Control)
+
+
+Bluetooth HID (Dahili)
+
+
+USB HID Desteği
+
+
+Connect Share (HDD)
+
+
+ConnectShare
+
+
+Digital Clean View
+
+
+Oyun Modu
+
+
+Yayında Altyazı Desteği
+
+
+AirPlay 2
+
+
+Amazon Alexa
+
+
+Ambient Mode
+
+
+Ambient Mode Plus
+
+
+Art Mode
+
+
+Bixby Voice
+
+
+Bluetooth 4.2
+
+
+Bluetooth LE (Low Energy)
+
+
+Hareket Sensörü
+
+
+Kişiselleştirilebilir Çerçeve
+
+
+Multiroom Link
+
+
+Samsung SmartThings
+
+
+Ses Yansıtma (İki Yönlü)
+
+
+Teletext (TTXT)
+
+
+360° Video Oynatma",,,,,160 W,0.5 W,"Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Standart,Beyaz,ikili Stant (Yüksek V Ayaklı),VESA Duvar Montaj Desteği (400x400 mm),1403 mm,894 mm,308 mm,1254.9 mm,1237.4 mm,482.8 mm,1254.9 mm,748.3 mm,221 mm,26.1 kg,27.2 kg,34.9 kg,2020,"Samsung QLED TV
+
+
+Samsung The Serif TV",Samsung 55LS01T Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,Yok,Yok,,,,,,,,Mega Dynamic Contrast,Yok,,,,,,,,,,2.0.1,,,Yok,,,,A,103 W,54.1 W,143 kWh
+52,TR,Televizyon,Philips,Philips 70PUS8007 Ultra HD (4K) TV (70PUS8007/12),(70PUS8007/12),10,24377.575,TL,https://www.epey.com/televizyon/philips-70pus8007.html,09/04/2023 22:49:20,LED,Düz (Flat),70 İnç,177 cm,Ultra HD (4K),3840x2160,,50/60 Hz,3840x2160p @ 60 Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)","Pixel Precise Ultra HD Engine
+
+
+HGIG Mode",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital",AI Sound,Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+2x2",,Var,2 Adet,4 Adet,"HDCP 2.3
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",EasyLink,Optik,Var,CI+ (1.3),1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","Google Arama
+
+
+Google Play Movies
+
+
+Google Play Music
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Yok,,,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Variable Refresh Rate (VRR)
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0",F,114 kWh,G,149 kWh,,0.3 W,"Güç Tasarrufu Modu (Ekonomik mod) 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Standart,Siyah,İkili Ayak (Düz),VESA Duvar Montaj Desteği (300x300 mm),1757 mm,1025 mm,174 mm,1572.4 mm,904.1 mm,334.9 mm,,,,24.7 kg,25.2 kg,32.9 kg,2022,Android TV,Philips 70PUS8007 Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Var,,,,16 GB,,,,,Var,,,,,,,,USB Bellek ile Arttırılabilir,,,Var,"Dahili Ambilight
+
+
+Dinlenme ışık modu
+
+
+Duvar rengine uyarlanma
+
+
+Oyun modu
+
+
+3 Taraflı",,,Var,Var,,,,
+53,TR,Televizyon,Sony,Sony KD-50X89J Ultra HD (4K) TV (KD50X89JAEP),(KD50X89JAEP),5,18621.4,TL,https://www.epey.com/televizyon/sony-kd-50x89j.html,09/04/2023 22:49:23,LED,Düz (Flat),50 İnç,126 cm,Ultra HD (4K),3840x2160,MF XR 1000,100/120 Hz,3840x2160p @ 120Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HLG (Hybrid Log-Gamma)","Object-based HDR Remaster
+
+
+Frame Dimming
+
+
+Live Colour™
+
+
+Triluminos Ekran
+
+
+Direct LED Aydınlatma
+
+
+Dynamic Contrast Enhancer
+
+
+Triluminos Pro
+
+
+4K HDR Processor X1
+
+
+4K X-Reality PRO
+
+
+10 (8 bit + FRC) bit Panel Desteği",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+Dolby Digital Plus
+
+
+DTS
+
+
+Dolby Audio","Bass Reflex Hoparlör
+
+
+ DTS Digital Surround",Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)",,Var,2 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.3
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",BRAVIA Sync,Optik,Var,,1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı (Vewd)","Google TV
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Harici Disk/USB Bellek ile,Var,,4,Android TV,Android TV 10 (Q),"Bluetooth
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Variable Refresh Rate (VRR)
+
+
+Chromecast
+
+
+Bluetooth HID (Dahili)
+
+
+Yayında Altyazı Desteği
+
+
+AirPlay
+
+
+AirPlay 2
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 4.2
+
+
+Bluetooth LE (Low Energy)
+
+
+Teletext (TTXT)",G,85 kWh,G,122 kWh,,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Arka ışık kapalı modu 
+
+Dinamik Arka Işık Kontrolü 
+
+Güç Tasarrufu Modu (Ekonomik mod) 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Standart,Siyah,İkili stant (V Ayaklı),VESA Duvar Montaj Desteği (200x200 mm),1225 mm,782 mm,141 mm,1119 mm,713 mm,296 mm,1119 mm,649 mm,70 mm,12.7 kg,,19 kg,2021,Android TV,,,,Var,Var,,,,16 GB,,,,,,,,,,,,,,,,,,,,,,,,,
+54,TR,Televizyon,Philips,"Philips 58PUS8507 Ultra HD (4K) TV (58PUS8507/12/, 58PUS8507/62)","(58PUS8507/12/, 58PUS8507/62)",18,19402.244444444445,TL,https://www.epey.com/televizyon/philips-58pus8507.html,09/04/2023 22:49:26,LED,Düz (Flat),58 İnç,146 cm,Ultra HD (4K),3840x2160,,50/60 Hz,,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)","P5 Perfect Picture Engine
+
+
+Micro Dimming Pro
+
+
+DCI-P3 90%
+
+
+Doğal Hareket
+
+
+Ultra Çözünürlük",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital",AI Sound,Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+2x2",Var,Var,1 Adet,4 Adet,"HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.3
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",EasyLink,Optik,Var,CI+ (1.3),1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","Google Arama
+
+
+Google Play Movies
+
+
+Google Play Music
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Harici Disk/USB Bellek ile,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Variable Refresh Rate (VRR)
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Amazon Alexa
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0
+
+
+DTS Play-Fi",F,78 kWh,G,141 kWh,,0.3 W,"Güç Tasarrufu Modu (Ekonomik mod) 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Standart,Gümüş,İkili stant (V Ayaklı),VESA Duvar Montaj Desteği (300x200 mm),1425 mm,867 mm,160 mm,1289.9 mm,819.7 mm,269.8 mm,1289.9 mm,749.7 mm,80.9 mm,17.4 kg,17.8 kg,22.8 kg,2022,Android TV,Philips 58PUS8507 Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Var,,,,16 GB,,1 Adet,,,Var,,,,,,,,USB Bellek ile Arttırılabilir,,,Var,"Ambi Wakeup/Sunrise
+
+
+Ambilight Aurora
+
+
+Ambilight Başlangıç Animasyonu
+
+
+Ambilight Müzik
+
+
+AmbiSleep
+
+
+Dahili Ambilight+hue
+
+
+Dinlenme ışık modu
+
+
+Duvar rengine uyarlanma
+
+
+Oyun modu
+
+
+Philips Wireless Home Speakers
+
+
+3 Taraflı",,,,,,,,
+55,TR,Televizyon,LG,LG 65QNED816QA Ultra HD (4K) TV,None,3,29522.353333333333,TL,https://www.epey.com/televizyon/lg-65qned816qa.html,09/04/2023 22:49:29,LED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,,100/120 Hz,3840x2160p @ 120Hz,Var,"HDR10
+
+
+HLG (Hybrid Log-Gamma)
+
+ 
+Active HDR
+
+
+HDR 10 Pro","Nano Cell Display
+
+
+Quantum Dot Display
+
+
+Nano Cell Color
+
+
+Billion Rich Color (Milyar Renk)
+
+
+ULTRA Luminance
+
+
+Local Dimming
+
+
+AI Picture Pro
+
+
+HFR 2K
+
+
+HFR 4K
+
+
+HGIG Mode
+
+
+Motion Pro
+
+
+Nano Colour Pro
+
+
+Quantum Dot NanoCell Technology
+
+
+α7 (Alpha7) (Gen5) AI Processor 4K
+
+
+4K AI Upscaling",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+Dolby Digital Plus
+
+
+AV1
+
+
+AV1 (4K@60p 10bit)
+
+
+H.265/HEVC
+
+
+HEVC (4K@120p
+
+
+VP9
+
+
+VP9 (4K@60fps 10bit)","A.I. Sound
+
+
+apt-X Kodek
+
+
+Clear Voice
+
+
+Clear Voice Pro
+
+
+LG Sound Sync
+
+
+ULTRA Surround
+
+
+WiSA",Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)",Var,Var,2 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",SIMPLINK,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"LG ThinQ AI
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,webOS,WebOS 22,"Bluetooth
+
+
+FreeSync
+
+
+Freesync Premium
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Variable Refresh Rate (VRR)
+
+
+Akıllı Kumanda (Magic Remote) Uyumu
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+AirPlay
+
+ 
+AirPlay 2
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0
+
+
+Bluetooth LE (Low Energy)
+
+
+NVIDIA GeForce Now",G,103 kWh,G,165 kWh,,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör)",Ultra Slim,Siyah,Yay (C Tipi),VESA Duvar Montaj Desteği (300x300 mm),1600 mm,1070 mm,203 mm,1452 mm,911 mm,336 mm,1452 mm,839 mm,44.3 mm,24.5 kg,26.2 kg,33.3 kg,2022,,,,,,Var,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+56,TR,Televizyon,Vestel,Vestel 65O9900 Ultra HD (4K) TV (20275310),(20275310),7,32380.79142857143,TL,https://www.epey.com/televizyon/vestel-65o9900.html,09/04/2023 22:49:31,OLED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,SMR 3000,100/120 Hz,,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+","Micro Dimming
+
+
+Ultra Motion (MEMC)
+
+
+Vestel Pixellence
+
+
+Vestel Pixellence Pro",24 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Digital
+
+
+DTS HD
+
+
+DTS
+
+
+Dolby Audio",DTS Virtual:X,Var,Var,Var,Var,Var,Var,Var,,Var,Var,2 Adet,,HDMI Audio Return Channel (ARC),Var,Optik,Var,,1 Adet,1 Adet,Yok,Var,"Vestel Smart Center
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+Social TV
+
+
+Tivibu
+
+
+YouTube",Yok,Yok,Yok,,Yok,Var,Var,4,,,"Bluetooth
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+WiDi
+
+
+Türksat Kanal Güncelleme Sistemi (TKGS)",G,147 kWh,G,191 kWh,,0.5 W,Güç Tasarrufu Modu (Ekonomik mod),Slim,Siyah,Kare,,,,,1449 mm,894 mm,281 mm,1449 mm,830 mm,48 mm,,,,2020,,,,,,Var,,,,,,,,Ultra Dynamic Contrast,,,,,,,,,,,,,,,3 Adet,,,A,,,
+57,TR,Televizyon,Sony,Sony KD-55X81J Ultra HD (4K) TV (KD55X81JAEP),(KD55X81JAEP),0,0,TL,https://www.epey.com/televizyon/sony-kd-55x81j.html,09/04/2023 22:49:34,LED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,MF XR 400,50/60 Hz,3840x2160p @ 60 Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HLG (Hybrid Log-Gamma)","Object-based HDR Remaster
+
+
+Frame Dimming
+
+
+Live Colour™
+
+
+Triluminos Ekran
+
+
+Direct LED Aydınlatma
+
+
+Dynamic Contrast Enhancer
+
+
+Triluminos Pro
+
+
+4K HDR Processor X1
+
+
+4K X-Reality PRO",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+Dolby Digital Plus
+
+
+DTS
+
+
+Dolby Audio","Bass Reflex Hoparlör
+
+
+DTS Digital Surround",Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)",,Var,1 Adet,4 Adet,"HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.3
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",BRAVIA Sync,Optik,Var,,1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı (Vewd)","Google TV
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Harici Disk/USB Bellek ile,Var,,4,Android TV,Android TV 10 (Q),"Bluetooth
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Chromecast
+
+
+Bluetooth HID (Dahili)
+
+
+Yayında Altyazı Desteği
+
+
+AirPlay
+
+
+AirPlay 2
+
+
+Bluetooth 4.2
+
+
+Bluetooth LE (Low Energy)
+
+
+Teletext (TTXT)",G,97 kWh,G,166 kWh,,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Arka ışık kapalı modu 
+
+Dinamik Arka Işık Kontrolü 
+
+Güç Tasarrufu Modu (Ekonomik mod) 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Standart,Siyah,İkili Ayak (Düz),VESA Duvar Montaj Desteği (300x300 mm),1348 mm,833 mm,160 mm,1243 mm,787 mm,338 mm,1348 mm,719 mm,71 mm,15.7 kg,,23 kg,2021,Android TV,Sony KD-55X81J Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,Var,Var,,,,16 GB,,1 Adet,,,,,,,,,,,,,,,,,,,,,,,
+58,TR,Televizyon,Samsung,Samsung 75BU8500 Ultra HD (4K) TV (UE75BU8500UXTK),(UE75BU8500UXTK),8,31475.7425,TL,https://www.epey.com/televizyon/samsung-75bu8500.html,09/04/2023 22:49:36,LED,Düz (Flat),75 İnç,189 cm,Ultra HD (4K),3840x2160,PQI 2200,50/60 Hz,3840x2160p @ 60 Hz,Var,"HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)","Dynamic Crystal Color
+
+
+Auto Motion Plus
+
+
+Contrast Enhancer
+
+
+Crystal Processor 4K
+
+
+HGIG Mode
+
+
+Motion Xcelerator
+
+
+UHD Dimming",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+H.265/HEVC (4K/60p) USB
+
+
+Dolby Digital
+
+
+H.264/MPEG-4 AVC (L5.1)
+
+
+Dolby Digital Plus","Object Tracking Sound (OTS Lite)
+
+
+Q-Symphony",Yok,Var,Var,Var,Var,Var,Var,"Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",Var,Var,2 Adet,,"HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",Anynet+,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"Smart Hub
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,Tizen,Tizen 6.5,"Bluetooth
+
+
+Ekran Yansıtma
+
+
+Bluetooth HID (Dahili)
+
+
+USB HID Desteği
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+ConnectShare
+
+
+Oyun Modu
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bixby
+
+
+Bluetooth 5.2
+
+
+Bluetooth LE (Low Energy)
+
+
+Google Duo
+
+
+Samsung SmartThings
+
+
+Ses Yansıtma
+
+
+Wireless Dex",G,156 kWh,G,235 kWh,255 W,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Slim,Siyah,Metal Yarım Çerçeve,VESA Duvar Montaj Desteği (400x400 mm),1834 mm,1138 mm,190 mm,1677.5 mm,1026.9 mm,338.9 mm,1677.5 mm,960.7 mm,26.6 mm,31.4 kg,32.5 kg,42.8 kg,2022,,Samsung 75BU8500 Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Yok,,,,,,,,Mega Dynamic Contrast,,,,,,,,,,,,,,,3 Adet,,,,,,
+59,TR,Televizyon,Samsung,Samsung 75BU8000 Ultra HD (4K) TV (UE75BU8000UXTK),(UE75BU8000UXTK),5,27486.54,TL,https://www.epey.com/televizyon/samsung-75bu8000.html,09/04/2023 22:49:39,LED,Düz (Flat),75 İnç,189 cm,Ultra HD (4K),3840x2160,PQI 2200,50/60 Hz,3840x2160p @ 60 Hz,Var,"HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)","Dynamic Crystal Color
+
+
+Auto Motion Plus
+
+
+Contrast Enhancer
+
+
+Crystal Processor 4K
+
+
+HGIG Mode
+
+
+Motion Xcelerator
+
+
+UHD Dimming",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+H.265/HEVC (4K/60p) USB
+
+ 
+Dolby Digital
+
+
+H.264/MPEG-4 AVC (L5.1)
+
+
+Dolby Digital Plus","Object Tracking Sound (OTS Lite)
+
+
+Q-Symphony",Yok,Var,Var,Var,Var,Var,Var,"Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",Var,Var,2 Adet,,"HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",Anynet+,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"Smart Hub
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,Tizen,Tizen 6.5,"Bluetooth
+
+
+Ekran Yansıtma
+
+
+Bluetooth HID (Dahili)
+
+
+USB HID Desteği
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+ConnectShare
+
+ 
+Oyun Modu
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bixby
+
+
+Bluetooth 5.2
+
+
+Bluetooth LE (Low Energy)
+
+
+Google Duo
+
+
+Samsung SmartThings
+
+
+Ses Yansıtma
+
+
+Wireless Dex",G,156 kWh,G,235 kWh,255 W,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Slim,Siyah,İkili stant (V Ayaklı),VESA Duvar Montaj Desteği (400x400 mm),1834 mm,1110 mm,190 mm,1676.7 mm,1005.5 mm,340.4 mm,1676.7 mm,960.3 mm,26.6 mm,31.4 kg,32 kg,42.3 kg,2022,,Samsung 75BU8000 Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Yok,,,,,,,,Mega Dynamic Contrast,,,,,,,,,,,,,,,3 Adet,,,,,,
+60,TR,Televizyon,Samsung,Samsung 65Q60B Ultra HD (4K) TV (QE65Q60BAUXTK),(QE65Q60BAUXTK),12,27582.415833333333,TL,https://www.epey.com/televizyon/samsung-65q60b.html,09/04/2023 22:49:41,LED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,PQI 3100,50/60 Hz,3840x2160p @ 60 Hz,Var,"HDR10+ Adaptive
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Quantum HDR","QLED with Quantum Dot
+
+
+Quantum Dot Display
+
+
+Contrast Enhancer
+
+
+DCI-P3 100%
+
+
+Dual LED
+
+
+HGIG Mode
+
+
+Motion Xcelerator
+
+
+Quantum Processor Lite 4K
+
+
+Resolution Upscaler (4K)
+
+
+Ultimate UHD Dimming",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Digital
+
+
+Dolby Digital Plus","Object Tracking Sound (OTS Lite)
+
+
+Q-Symphony",Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",Var,Var,2 Adet,3 Adet,"HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",Anynet+,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"Smart Hub
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,Tizen,Tizen 6.5,"Bluetooth
+
+
+Ekran Yansıtma
+
+
+Bluetooth HID (Dahili)
+
+
+USB HID Desteği
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Connect Share (HDD)
+
+
+ConnectShare
+
+
+Oyun Modu
+
+
+AirPlay 2
+
+
+Ambient Mode
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bixby Voice
+
+
+Bluetooth 5.2
+
+
+Bluetooth LE (Low Energy)
+
+
+Google Duo
+
+
+Multiroom Link
+
+
+Samsung SmartThings
+
+
+Ses Yansıtma
+
+
+Wireless Dex",F,100 kWh,G,164 kWh,170 W,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Ultra Slim,Siyah,İkili Ayak (Düz),VESA Duvar Montaj Desteği (400x300 mm),1612 mm,950 mm,164 mm,1450.9 mm,872.2 mm,274 mm,1450.9 mm,831.4 mm,25.7 mm,20.9 kg,21.3 kg,28.3 kg,2022,Samsung QLED TV,Samsung 65Q60B Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+61,TR,Televizyon,Samsung,Samsung 65Q67B Ultra HD (4K) TV (QE65Q67BAUXTK),(QE65Q67BAUXTK),5,27014.004,TL,https://www.epey.com/televizyon/samsung-65q67b.html,09/04/2023 22:49:44,LED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,PQI 3100,50/60 Hz,3840x2160p @ 60 Hz,Var,"HDR10+ Adaptive
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Quantum HDR","QLED with Quantum Dot
+
+
+Quantum Dot Display
+
+
+Contrast Enhancer
+
+
+DCI-P3 100%
+
+
+Dual LED
+
+
+HGIG Mode
+
+
+Motion Xcelerator
+
+
+Quantum Processor Lite 4K
+
+
+Resolution Upscaler (4K)
+
+
+Ultimate UHD Dimming",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Digital
+
+
+Dolby Digital Plus","Object Tracking Sound (OTS Lite)
+
+
+Q-Symphony",Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",Var,Var,2 Adet,3 Adet,"HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",Anynet+,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"Smart Hub
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,Tizen,Tizen 6.5,"Bluetooth
+
+
+Ekran Yansıtma
+
+
+Bluetooth HID (Dahili)
+
+
+USB HID Desteği
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Connect Share (HDD)
+
+
+ConnectShare
+
+
+Oyun Modu
+
+
+AirPlay 2
+
+
+Ambient Mode
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bixby Voice
+
+
+Bluetooth 5.2
+
+
+Bluetooth LE (Low Energy)
+
+
+Google Duo
+
+
+Multiroom Link
+
+
+Samsung SmartThings
+
+
+Ses Yansıtma
+
+
+Wireless Dex",F,100 kWh,G,164 kWh,170 W,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Ultra Slim,Gri,İkili stant (V Ayaklı),VESA Duvar Montaj Desteği (400x300 mm),1612 mm,950 mm,164 mm,1450.9 mm,869.6 mm,281.8 mm,1450.9 mm,831.4 mm,25.7 mm,20.9 kg,21.3 kg,28.3 kg,2022,Samsung QLED TV,Samsung 65Q67B Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+62,TR,Televizyon,Samsung,Samsung 75AU8000 Ultra HD (4K) TV (UE75AU8000UXTK),(UE75AU8000UXTK),1,30999.0,TL,https://www.epey.com/televizyon/samsung-75au8000.html,09/04/2023 22:49:46,LED,Düz (Flat),75 İnç,189 cm,Ultra HD (4K),3840x2160,PQI 2300,50/60 Hz,3840x2160p @ 60 Hz,Var,"HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)","Dynamic Crystal Color
+
+
+Auto Motion Plus
+
+
+Contrast Enhancer
+
+
+Crystal Processor 4K
+
+
+UHD Dimming",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+H.265/HEVC (4K/60p) USB
+
+
+Dolby Digital
+
+
+H.264/MPEG-4 AVC (L5.1)
+
+
+Dolby Digital Plus",Q-Symphony,Yok,Var,Var,Var,Var,Var,Var,"Wi-Fi 5 (802.11a/b/g/n/ac)
+
+
+WiFi Direct",Var,Var,2 Adet,,"HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",Anynet+,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,Web Tarayıcı,"Netflix
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,Tizen,Tizen 6.0,"Bluetooth
+
+
+Ekran Yansıtma
+
+
+Bluetooth HID (Dahili)
+
+
+USB HID Desteği
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+ConnectShare
+
+
+Digital Clean View
+
+
+Oyun Modu
+
+
+Ambient Mode
+
+
+Bixby
+
+
+Bixby Voice
+
+
+Bluetooth 5.2
+
+
+Bluetooth LE (Low Energy)
+
+
+Multiroom Link
+
+
+Samsung SmartThings
+
+
+Ses Yansıtma",G,172 kWh,G,246 kWh,255 W,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Slim,Siyah,İkili Ayak (Düz),,1834 mm,1110 mm,190 mm,1676.7 mm,1003.4 mm,332.2 mm,1676.7 mm,960.3 mm,26.6 mm,32.1 kg,33.3 kg,43.6 kg,2021,,Samsung 75AU8000 Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Yok,,,,,,,,Mega Dynamic Contrast,,,,,,,,,,,,,,,3 Adet,,,,,,
+63,TR,Televizyon,LG,LG 55NANO866PA Ultra HD (4K) TV,None,3,22080.4,TL,https://www.epey.com/televizyon/lg-55nano866pa.html,09/04/2023 22:49:49,LED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,,100/120 Hz,3840x2160p @ 120Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HLG (Hybrid Log-Gamma)
+
+
+Dolby Vision IQ
+
+
+HDR Effect
+
+
+Cinema HDR
+
+
+HDR 10 Pro","Nano Cell Display
+
+
+Nano Cell Color
+
+
+Billion Rich Color (Milyar Renk)
+
+
+ULTRA Luminance
+
+
+Local Dimming
+
+
+HDR Dynamic Tone Mapping
+
+
+HFR 2K
+
+
+HFR 4K
+
+
+HGIG Mode
+
+
+Kenar LED Aydınlatma (Edge-lit LED)
+
+
+LG Local Contrast
+
+
+Motion Pro
+
+
+Resolution Upscaler (4K)
+
+
+Wide Viewing Angle
+
+
+α7 (Alpha7) (Gen4) Processor 4K",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+Dolby Digital Plus
+
+
+HEVC (4K@60fps 10bit)
+
+
+AV1
+
+
+AV1 (4K@60p 10bit)
+
+
+H.265/HEVC
+
+
+HEVC (4K@120fps 10bit)
+
+
+VP9
+
+
+VP9 (4K@60fps 10bit)","A.I. Sound
+
+
+apt-X Kodek
+
+
+Clear Sound
+
+
+LG Sound Sync
+
+
+ULTRA Surround
+
+
+WiSA",Yok,Var,Var,Var,Var,Var,Var,Wi-Fi 5 (802.11a/b/g/n/ac),Var,Var,3 Adet,4 Adet,"HDMI 2.1
+
+
+HDMI 2.0
+
+
+HDMI Enhanced Audio Return Channel (eARC)
+
+
+HDCP 2.3
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP",SIMPLINK,Optik,Var,CI+ (1.4),1 Adet,1 Adet,Yok,Var,"LG Content Store
+
+
+LG ThinQ AI
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Yok,Var,Var,4,webOS,webOS 6.0,"Bluetooth
+
+
+FreeSync
+
+
+Ekran Yansıtma
+
+
+Miracast
+
+
+Variable Refresh Rate (VRR)
+
+
+Akıllı Kumanda (Magic Remote) Uyumu
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+AirPlay
+
+
+AirPlay 2
+
+
+Auto Low Latency Mode (ALLM)
+
+
+Bluetooth 5.0",G,80 kWh,G,137 kWh,,0.5 W,"Akıllı Enerji Tasarrufu Sistemi 
+
+Işık sensörü (Eco Sensor/Akıllı Sensör)",Slim,Siyah,Yay (C Tipi),VESA Duvar Montaj Desteği (300x300 mm),1360 mm,810 mm,187 mm,1233 mm,781 mm,264 mm,1233 mm,716 mm,44.2 mm,16.3 kg,17.9 kg,22.5 kg,2021,,LG 55NANO866PA Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Var,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+64,TR,Televizyon,TCL,TCL 55C725G Ultra HD (4K) TV,None,4,16070.5,TL,https://www.epey.com/televizyon/tcl-55c725g.html,09/04/2023 22:49:51,LED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,,50/60 Hz,,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+","QLED with Quantum Dot
+
+
+AiPQ Engine
+
+
+DCI-P3 93%
+
+
+Micro Dimming
+
+
+Ultra Motion (MEMC)",20 W,2.0,"Dolby Atmos
+
+
+DTS HD
+
+
+DTS
+
+
+Dolby Audio",Onkyo Ses Geliştirme,Yok,Var,Var,Var,Var,Var,Var,,,Var,1 Adet,,"HDMI 2.1
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP
+
+
+HDMI 1.4",Var,Optik,Var,,1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","Google Play Games
+
+
+Google Play Movies
+
+
+Google TV
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Chromecast
+
+
+USB Klavye ve Fare Desteği
+
+
+Bluetooth 5.0
+
+
+Google Duo",G,87 kWh,G,139 kWh,145 W,0.5 W,,,,,VESA Duvar Montaj Desteği (300x300 mm),1400 mm,864 mm,135 mm,1226 mm,765 mm,300 mm,1226 mm,703 mm,42 (79) mm,12.9 kg,13.2 kg,17.2 kg,2022,Android TV,TCL 55C725G Ultra HD (4K) TV Kullanım Kılavuzu (TR),5000:1,270 cd/m²,Var,Var,1.3 GHz,,2 GB,16 GB,,1 Adet,Var,,,,,,,,,8 ms,eMMC 5.0,,,,,,3 Adet,,,,,,
+65,TR,Televizyon,Philips,Philips 65PUS7906 Ultra HD (4K) TV (65PUS7906/62),(65PUS7906/62),1,17999.0,TL,https://www.epey.com/televizyon/philips-65pus7906.html,09/04/2023 22:49:55,LED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,,50/60 Hz,3840x2160p @ 60 Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)","Micro Dimming Pro
+
+
+Pixel Precise Ultra HD Engine
+
+
+Ultra Çözünürlük",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+DTS HD
+
+
+Dolby Digital Plus
+
+
+DTS
+
+
+Dolby Audio",Clear Sound,Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+2x2
+
+
+802.11b/g/n",,Var,2 Adet,,"HDMI 2.0
+
+
+HDCP 2.3
+
+
+HDMI Audio Return Channel (ARC)",EasyLink,Optik,Var,CI+ (1.3),1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Harici Disk/USB Bellek ile,Var,Var,4,Android TV,Android TV 10 (Q),"Bluetooth
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Variable Refresh Rate (VRR)
+
+
+Chromecast
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Pause TV
+
+
+Philips SimplyShare
+
+
+Yazılım Güncelleştirme (USB/Çevrimiçi/Otomatik)
+
+
+Bluetooth 5.0",G,116 kWh,G,126 kWh,,0.3 W,"Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Standart,Gri,İkili Ayak (Düz),VESA Duvar Montaj Desteği (300x300 mm),1600 mm,995 mm,170 mm,1450.5 mm,860.5 mm,293.2 mm,1450.5 mm,807.8 mm,85.1 mm,21.3 kg,21.5 kg,28.4 kg,2021,Android TV,Philips 65PUS7906 Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Var,,,,8 GB,,,,,,Philips 65PUS7906 Ultra HD (4K) TV Kullanım Kılavuzu (EN),,,,,,,,,,Var,"Dahili Ambilight
+
+
+Dinlenme ışık modu
+
+
+Duvar rengine uyarlanma
+
+
+Oyun modu
+
+
+3 Taraflı",,4 Adet,,,,,,
+66,TR,Televizyon,TCL,TCL 55C725 Ultra HD (4K) TV,None,0,0,TL,https://www.epey.com/televizyon/tcl-55c725.html,09/04/2023 22:49:57,LED,Düz (Flat),55 İnç,139 cm,Ultra HD (4K),3840x2160,,50/60 Hz,,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+","QLED with Quantum Dot
+
+
+AiPQ Engine
+
+
+DCI-P3 93%
+
+
+Micro Dimming
+
+
+Ultra Motion (MEMC)",20 W,2.0,"Dolby Atmos
+
+
+DTS HD
+
+
+DTS
+
+
+Dolby Audio",Onkyo Ses Geliştirme,Yok,Var,Var,Var,Var,Var,Var,,,Var,1 Adet,,"HDMI 2.1
+
+
+HDCP 2.2
+
+
+HDMI Audio Return Channel (ARC)
+
+
+HDCP
+ 
+
+HDMI 1.4",Var,Optik,Var,,1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","Google Play Games
+
+
+Google Play Movies
+
+
+Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,,Var,Var,4,Android TV,Android TV 11 (R),"Bluetooth
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Chromecast
+
+
+USB Klavye ve Fare Desteği
+
+
+Bluetooth 5.0
+
+
+Google Duo",G,87 kWh,G,139 kWh,145 W,0.5 W,,,,,VESA Duvar Montaj Desteği (300x300 mm),1400 mm,864 mm,135 mm,1226 mm,765 mm,300 mm,1226 mm,703 mm,42 (79) mm,12.9 kg,13.2 kg,17.2 kg,2021,Android TV,TCL 55C725 Ultra HD (4K) TV Kullanım Kılavuzu (TR),5000:1,270 cd/m²,Var,Var,1.3 GHz,,2 GB,16 GB,,1 Adet,Var,,,,,,,,,8 ms,eMMC 5.0,,,,,,3 Adet,,,,,,
+67,TR,Televizyon,Philips,Philips 65PUS7956 Ultra HD (4K) TV (65PUS7956/62),(65PUS7956/62),1,23118.2,TL,https://www.epey.com/televizyon/philips-65pus7956.html,09/04/2023 22:50:00,LED,Düz (Flat),65 İnç,164 cm,Ultra HD (4K),3840x2160,,50/60 Hz,3840x2160p @ 60 Hz,Var,"Dolby Vision
+
+
+HDR10
+
+
+HDR10+
+
+
+HLG (Hybrid Log-Gamma)","Micro Dimming Pro
+
+
+Ultra Çözünürlük",20 W,2.0,"H.265/HEVC (4K/60p) Uydu
+
+
+Dolby Atmos
+
+
+Dolby Digital
+
+
+DTS HD
+
+
+Dolby Digital Plus
+
+
+DTS
+
+
+Dolby Audio",Clear Sound,Yok,Var,Var,Var,Var,Var,Var,"Dual Band (5GHz)
+
+
+2x2
+
+
+802.11b/g/n",,Var,2 Adet,,"HDMI 2.0
+
+
+HDCP 2.3
+
+
+HDMI Audio Return Channel (ARC)",EasyLink,Optik,Var,CI+ (1.3),1 Adet,1 Adet,Yok,Var,"Google Play Store
+
+
+Web Tarayıcı","Netflix
+
+
+Prime Video
+
+
+YouTube",Var,Yok,Var,Var,Harici Disk/USB Bellek ile,Var,Var,4,Android TV,Android TV 10 (Q),"Bluetooth
+
+
+Google Assistant
+
+
+Ekran Yansıtma
+
+
+Variable Refresh Rate (VRR)
+
+
+Chromecast
+
+
+USB ile Resim/Müzik/Video Oynatma
+
+
+Pause TV
+
+
+Philips SimplyShare
+
+
+Yazılım Güncelleştirme (USB/Çevrimiçi/Otomatik)
+
+
+Bluetooth 5.0",G,116 kWh,G,126 kWh,,0.3 W,"Işık sensörü (Eco Sensor/Akıllı Sensör) 
+
+Otomatik Kapanma",Standart,Gümüş,İkili Ayak (Düz),VESA Duvar Montaj Desteği (300x300 mm),1600 mm,995 mm,170 mm,1450.5 mm,860.5 mm,293.2 mm,1450.5 mm,833.5 mm,85.1 mm,21.3 kg,21.5 kg,28.4 kg,2021,Android TV,Philips 65PUS7956 Ultra HD (4K) TV Kullanım Kılavuzu (TR),,,,Var,,,,8 GB,,,,,,Philips 65PUS7956 Ultra HD (4K) TV Kullanım Kılavuzu (EN),,,,,,,,,,Var,"Dahili Ambilight
+
+
+Dinlenme ışık modu
+
+
+Duvar rengine uyarlanma
+
+
+Oyun modu
+
+
+3 Taraflı",,4 Adet,,,,,,
