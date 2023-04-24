@@ -7,5 +7,5 @@ Time-series-analysis_files/
 .RData
 .Rhistory
 *.Rproj
-scraping_env/
+scrapingenv/
 *.pyc
