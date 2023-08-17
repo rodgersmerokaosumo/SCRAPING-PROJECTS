@@ -1,16 +1,21 @@
 #%%
-import requests
-from bs4 import BeautifulSoup
-import pandas as pd
-import mysql.connector as mysql
+import httpx
+from selectolax.parser import HTMLParser
+import mysql.connector
 from sqlalchemy import create_engine
+
+
+#%%
+url = "https://www.prisjakt.no/c/tv"
+base_url = 'https://www.prisjakt.no'
 
 #%%
 ##create database
-prisjakt_norway_tvs = mysql.connect(
+prisjakt_norway_tvs = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="4156"
+  password="4156",
+  autocommit = True
 )
 
 mycursor = prisjakt_norway_tvs.cursor()
@@ -23,7 +28,7 @@ mycursor.execute("""CREATE TABLE IF NOT EXISTS tv_links(tv_link varchar(200) uni
 # Credentials to database connection
 hostname="localhost"
 dbname="prisjakt_norway_tvs"
-uname="root"
+uname="4156"
 pwd="4156"
 
 
@@ -33,35 +38,22 @@ engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
 
 
 #%%
-is_scraped = 0
-base_url = "https://www.prisjakt.no"
+def get_links(url):
+    is_scraped = 0
+    req = httpx.get(url)
+    resp = HTMLParser(req.text)
+    products = resp.css("article[data-test = 'ProductGridCard']")
+    for product in products:
+        tv_link = base_url + product.css_first("a[data-test = 'InternalLink']").attrs["href"]
+        mycursor.execute("""INSERT IGNORE INTO tv_links VALUES(%s, %s)""", (tv_link, is_scraped))
+    next_page = base_url + resp.css_first("a[aria-label='Vis neste']").attrs["href"]
+    print(next_page)
+    return next_page
 
 #%%
-url = "https://www.prisjakt.no/c/tv"
-def get_links(link, links):
-    k = requests.get(link).text
-    soup = BeautifulSoup(k, 'html.parser')
-    items = soup.find_all("li", {"data-test":"ProductGridCard"})
-    for item in items:
-        link = base_url + item.find("a", {"data-test":"InternalLink"}).get("href")
-        engine.execute("""INSERT IGNORE INTO tv_links VALUES(%s, %s)""", (link, is_scraped))
-        links.append(link)
-        print(link)
-
-# %%
-page_links = []
-for page in range(0, 38):
-    link = f"https://www.prisjakt.no/c/tv?offset={page*44}"
-    page_links.append(link)
-#%%
-page_links[9]
-
-
-#%%
-tv_links = []
-for link in page_links:
-    get_links(link, tv_links)
-
-# %%
-print(len(tv_links))
+while True:
+    try:
+        url = get_links(url)
+    except:
+        break
 # %%

@@ -19,7 +19,8 @@ headers = {
 jumia_nigeria_db = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="4156"
+  password="4156",
+  autocommit = True
 )
 
 mycursor = jumia_nigeria_db.cursor()
@@ -69,7 +70,7 @@ for page in pages:
     for product in productlist:
         prod_link = product.find("a", class_ = "core")
         tv_link = base_url+prod_link['href']
-        engine.execute("""INSERT IGNORE INTO tv_links VALUES(%s, %s)""", (tv_link, is_scraped))
+        mycursor.execute("""INSERT IGNORE INTO tv_links VALUES(%s, %s)""", (tv_link, is_scraped))
         productlinks.append(tv_link)
         print(f"{tv_link} : is scraped.")
 # %%

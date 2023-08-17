@@ -33,6 +33,7 @@ mercado_db_venezuela = mysql.connector.connect(
   host="localhost",
   user="root",
   password="4156",
+  autocommit = True,
     auth_plugin = 'mysql_native_password'
 )
 
@@ -61,8 +62,18 @@ for i in df_links.link:
     links.append(i)
 
 #%%
-len(links)
-
+links[1]
+#%%
+def get_prices(soup_object):
+    try: 
+        offer_price = soup_object.find("div", class_ = "ui-pdp-price__second-line")
+        offer_price = offer_price.find("span", class_ = "andes-visually-hidden").text
+    except:
+        price_link = soup_object.find("button", class_ = "andes-button andes-spinner__icon-base andes-button--loud").get("formaction")
+        req = requests.get(price_link).text
+        sup = BeautifulSoup(req, features='lxml')
+        offer_price = sup.find("span", class_ = "andes-money-amount__fraction").text.strip()
+    return offer_price
 #%%
 def get_specs(tables):
         column_names = []
@@ -105,8 +116,7 @@ def get_data(link):
 
 
     try:
-        offer_price = hun.find("div", class_ = "ui-pdp-price__second-line")
-        offer_price = offer_price.find("span", class_ = "andes-visually-hidden").text
+        offer_price = get_prices(hun)
     except:
         offer_price = None
         
@@ -190,11 +200,11 @@ def get_data(link):
     return tv
 
 #%%
-for link in links:
+for link in links[:10]:
     data = []
     print(link)
-    data.append(get_data(link))
-    df = pd.DataFrame.from_dict(data)
+    dt = get_data(link)
+    df = pd.DataFrame.from_dict(dt)
     df = df.astype(str)
     df.to_sql('data_table', con=engine, if_exists="append", index=False)
     sql = "UPDATE tv_links SET is_scraped = 1 WHERE link = (%s)"
@@ -235,7 +245,6 @@ for link in none_links:
 
 #%%
 df = pd.read_sql('SELECT * FROM data_table', con=mercado_db_venezuela)
-pd.DataFrame(df['offer_price'].str.split().values.tolist())[[1]]
 #df['offer_price'].str.replace(r"[^a-z]+", "")
 #%%
 ##Feature Engineering
@@ -251,7 +260,9 @@ df['original_price'] = df['original_price'].str.extract('(\d+)', expand=False)
 df['quantity_available'] = df['quantity_available'].fillna(1) #Where quantity is empty replace with 1
 
 #%%
-df['specifications'] =df['specifications'].apply(lambda x: dict(eval(x)))
+df['specifications'].apply(lambda x: dict(eval(x)))
+
+#%%
 spec_df = df['specifications'].apply(pd.Series)
 df = pd.concat([df, spec_df.reindex(df.index)], axis=1)
 df.drop(['specifications'], axis = 1,  inplace=True)

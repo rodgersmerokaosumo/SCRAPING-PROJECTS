@@ -14,7 +14,7 @@ from sqlalchemy import create_engine
 #SELENIUM OPTIONS
 options = Options()
 options.add_argument("start-maximized")
-#options.add_argument('-headless')
+options.add_argument('-headless')
 
 #%%
 ##create database

@@ -15,7 +15,7 @@ import re
 #SELENIUM OPTIONS
 options = Options()
 options.add_argument("start-maximized")
-#options.add_argument('-headless')
+options.add_argument('-headless')
 
 #%%
 ##create database
@@ -40,7 +40,7 @@ engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
 				.format(host=hostname, db=dbname, user=uname, pw=pwd))
 
 mycursor.execute("use tvsports_db")
-mycursor.execute("""CREATE TABLE IF NOT EXISTS items_table(item_name varchar(200), channel varchar(200), item_rebroadcast varchar(200), item_time varchar(200), item_link varchar(200))""")
+mycursor.execute("""CREATE TABLE IF NOT EXISTS items_table(item_name varchar(200), channel varchar(200), item_rebroadcast varchar(200), item_date varchar(200),item_time varchar(200), item_link varchar(200), date_scraped varchar(200))""")
 
 #%%
 driver = webdriver.Chrome(options=options)
@@ -67,20 +67,36 @@ def get_items(url):
             item_rebroadcast = tr.find("span", class_=lambda x: x and x.startswith('badge badge-')).text.strip()
         except: item_rebroadcast = None
         try:
-            item_time = tr.find("span", {"style":"font-size:1.15rem;"}).text.strip() 
-        except:item_time = None
+            item_time = tr.find("span", {"style":"font-size:1.15rem;"}).text.strip().split(" ")[-1]
+        except:
+            item_time = None
+        try:
+            item_date = tr.find("span", {"style":"font-size:1.15rem;"}).text.strip().split(" ")
+            item_date = item_date[:-1]
+            separator = ","
+            item_date = separator.join(item_date)
+        except: 
+            item_date = None
+
+
+        now = datetime.datetime.now()
+        date_scraped = now.strftime("%d/%m/%Y %H:%M:%S")
         item= {
             "item_name":item_name,
             "channel":channel,
             "item_rebroadcast":item_rebroadcast,
+            "item_date":item_date,
             "item_time":item_time,
-            "item_link":url
+            "item_link":url,
+            "date_scraped":date_scraped
         }
         items_list.append(item)
 
+        print(item_date)
+
     mycursor.executemany("""
-        INSERT IGNORE INTO items_table (item_name, channel, item_rebroadcast, item_time, item_link)
-        VALUES (%(item_name)s, %(channel)s, %(item_rebroadcast)s, %(item_time)s, %(item_link)s)""",items_list)
+        INSERT IGNORE INTO items_table (item_name, channel, item_rebroadcast, item_date, item_time, item_link, date_scraped)
+        VALUES (%(item_name)s, %(channel)s, %(item_rebroadcast)s, %(item_date)s, %(item_time)s, %(item_link)s, %(date_scraped)s)""",items_list)
     
     print(items_list)
     return items_list
@@ -103,6 +119,6 @@ for link in item_links:
 
 #%%
 df = pd.read_sql("""SELECT * FROM items_table INNER JOIN programs ON  items_table.item_link = programs.prog_link;""", con=engine)
-df.drop(["item_link"], axis=1, inplace=True)
+df.drop(["item_link", "prog_time"], axis=1, inplace=True)
 df.to_csv("tv_data.csv")
 # %%

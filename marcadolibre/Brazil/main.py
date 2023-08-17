@@ -62,6 +62,18 @@ for i in df_links.link:
 
 #%%
 len(links)
+#%%
+
+def get_prices(soup_object):
+    try: 
+        offer_price = soup_object.find("div", class_ = "ui-pdp-price__second-line")
+        offer_price = offer_price.find("span", class_ = "andes-visually-hidden").text
+    except:
+        price_link = soup_object.find("button", class_ = "andes-button andes-spinner__icon-base andes-button--loud").get("formaction")
+        req = requests.get(price_link).text
+        sup = BeautifulSoup(req, features='lxml')
+        offer_price = sup.find("span", class_ = "andes-money-amount__fraction").text.strip()
+    return offer_price
 
 #%%
 def get_specs(tables):
@@ -105,8 +117,7 @@ def get_data(link):
 
 
     try:
-        offer_price = hun.find("div", class_ = "ui-pdp-price__second-line")
-        offer_price = offer_price.find("span", class_ = "andes-visually-hidden").text
+        offer_price = get_prices(hun)
     except:
         offer_price = None
         

@@ -1,4 +1,5 @@
 #%%
+import re
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -22,7 +23,8 @@ base_url = "https://www.jumia.com.ng"
 jumia_nigeria_db = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="4156"
+  password="4156",
+  autocommit = True
 )
 
 mycursor = jumia_nigeria_db.cursor()
@@ -81,9 +83,17 @@ def specifications(soup_object):
         if specs !=None:
             for spec in specs:
                 spec_name = spec.text.strip().split(':')[0]
+                spec_name = spec_name.replace(u'\xa0', u'')
+                spec_name = spec_name.replace(u'\n', u'')
+                spec_name = re.sub('^[·]|^[-]','',spec_name)
+                spec_name = spec_name.strip()
                 column_names.append(spec_name)
                 try:
                     spec_val = spec.text.strip().split(':')[1]
+                    spec_val = spec_val.replace(u'\xa0', u'')
+                    spec_val = spec_val.replace(u'\n', u'')
+                    spec_val = re.sub('^[·]|^[-]','',spec_val)
+                    spec_val = spec_val.strip()
                 except:
                     spec_val = spec_name                
                 dt.append(spec_val)
@@ -122,6 +132,7 @@ def get_data(link):
 
     try:
         price = soup.find("span", class_ = "-b -ltr -tal -fs24").text.strip()
+        price = price.split("-")[0]
         price = float(''.join(c for c in price if (c.isdigit() or c =='.')))
     except:
         price = None
@@ -146,8 +157,9 @@ def get_data(link):
 
     try:
         specs = specifications(soup)
+        print(specs)
     except:
-        specs = None
+        specs = {}
     
     scrape_link = link
     
@@ -185,7 +197,7 @@ for link in links:
     df.to_sql('data_table', con=engine, if_exists="append", index=False)
     sql = "UPDATE tv_links SET is_scraped = 1 WHERE tv_link = (%s)"
     tv_link = (link,)
-    engine.execute(sql, link)
+    mycursor.execute(sql, tv_link)
     time.sleep(1)
     
 

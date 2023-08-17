@@ -1,6 +1,7 @@
 #%%
 import httpx
 from fake_useragent import UserAgent
+import requests
 from selectolax.parser import HTMLParser
 import mysql.connector as mysql
 import mysql.connector
@@ -43,7 +44,7 @@ is_scraped = 0
 
 # %%
 def get_links(link):
-    r = httpx.get(link, headers=headers).text
+    r = requests.get(link, headers=headers).text
     resp = HTMLParser(r)
     try:
         current_page = resp.css_first("li[class = 'andes-pagination__button andes-pagination__button--current']").text().strip()
@@ -51,9 +52,10 @@ def get_links(link):
         page_count = int(re.findall(r'\b\d+\b', page_count)[0])
         print(f'page scraped: {current_page} of {page_count}')
     except:pass
-    links = resp.css("a[class = 'ui-search-item__group__element shops__items-group-details ui-search-link']")
-    for link in links:
-        tv_link = link.attrs["href"]
+    products = resp.css("div[class = 'ui-search-result__wrapper shops__result-wrapper']")
+    for product in products:
+        tv_link = product.css_first("a[class = 'ui-search-item__group__element shops__items-group-details ui-search-link']").attrs["href"]
+        print(tv_link)
         mycursor.execute("""INSERT IGNORE INTO tv_links VALUES(%s, %s)""", (tv_link, is_scraped))
         mercado_db_venezuela.commit()
     next_page = resp.css_first("li[class = 'andes-pagination__button andes-pagination__button--next shops__pagination-button'] a").attrs["href"]

@@ -1,6 +1,7 @@
 #%%
 import httpx
 from fake_useragent import UserAgent
+import requests
 from selectolax.parser import HTMLParser
 import mysql.connector as mysql
 import mysql.connector
@@ -16,6 +17,7 @@ mercado_db_colombia = mysql.connector.connect(
   host="localhost",
   user="root",
   password="4156",
+  autocommit = True,
     auth_plugin = 'mysql_native_password'
 )
 
@@ -41,30 +43,19 @@ mycursor.execute("""CREATE TABLE IF NOT EXISTS tv_links(link varchar(200) UNIQUE
 link = "https://listado.mercadolibre.com.co/tv#D[A:TV]"
 is_scraped = 0
 def get_links(link):
-    r = httpx.get(link, headers=headers).text
-    resp = HTMLParser(r)
-    current_page = resp.css_first("li[class = 'andes-pagination__button andes-pagination__button--current']").text().strip()
-    page_count = resp.css_first("li[class = 'andes-pagination__page-count']").text().strip()
-    page_count = int(re.findall(r'\b\d+\b', page_count)[0])
-    print(f'page scraped: {current_page} of {page_count}')
-    links = resp.css("a[class = 'ui-search-item__group__element shops__items-group-details ui-search-link']")
-    for link in links:
-        tv_link = link.attrs["href"]
+    resp = requests.get(link).text
+    resp = HTMLParser(resp)
+    products = resp.css("li[class = 'ui-search-layout__item shops__layout-item']")
+    for product in products:
+        tv_link = product.css_first("a[class = 'ui-search-item__group__element shops__items-group-details ui-search-link']").attrs["href"]
         mycursor.execute("""INSERT IGNORE INTO tv_links VALUES(%s, %s)""", (tv_link, is_scraped))
-        mercado_db_colombia.commit()
-    next_page = resp.css_first("li[class = 'andes-pagination__button andes-pagination__button--next shops__pagination-button'] a").attrs["href"]
-
+    next_page = resp.css_first("a[title = 'Siguiente']").attrs["href"]
+    print(next_page)
     return next_page
-
-#%%
-import re
+# %%
 while True:
     try:
         link = get_links(link)
     except:
         break
-
-
-# %%
-
 # %%

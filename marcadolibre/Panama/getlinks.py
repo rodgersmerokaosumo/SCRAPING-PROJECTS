@@ -5,6 +5,7 @@ from selectolax.parser import HTMLParser
 import mysql.connector as mysql
 import mysql.connector
 from sqlalchemy import create_engine
+import requests
 ua = UserAgent()
 headers = {'User-Agent':str(ua.random)}
 
@@ -43,7 +44,7 @@ is_scraped = 0
 
 # %%
 def get_links(link):
-    r = httpx.get(link, headers=headers).text
+    r = requests.get(link, headers=headers).text
     resp = HTMLParser(r)
     try:
         current_page = resp.css_first("li[class = 'andes-pagination__button andes-pagination__button--current']").text().strip()

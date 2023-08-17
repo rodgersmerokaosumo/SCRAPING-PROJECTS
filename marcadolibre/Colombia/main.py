@@ -32,8 +32,10 @@ driver = webdriver.Chrome(options=options)
 mercado_db_colombia = mysql.connector.connect(
   host="localhost",
   user="root",
+  autocommit = True,
   password="4156",
     auth_plugin = 'mysql_native_password'
+
 )
 
 mycursor = mercado_db_colombia.cursor()
@@ -79,6 +81,18 @@ def get_specs(tables):
         specs = {column_names[i]: dt[i] for i in range(len(column_names))}
         return specs
 
+#%%
+#link = "https://www.mercadolibre.com.pe/smart-tv-hisense-r6e-series-58r6e-led-roku-os-4k-58-120v/p/MPE15308907?pdp_filters=category:MPE1002#searchVariation=MPE15308907&position=33&search_layout=stack&type=pro"
+def get_prices(soup_object):
+    try: 
+        offer_price = soup_object.find("div", class_ = "ui-pdp-price__second-line")
+        offer_price = offer_price.find("span", class_ = "andes-visually-hidden").text
+    except:
+        price_link = soup_object.find("button", class_ = "andes-button andes-spinner__icon-base andes-button--loud").get("formaction")
+        req = requests.get(price_link).text
+        sup = BeautifulSoup(req, features='lxml')
+        offer_price = sup.find("span", class_ = "andes-money-amount__fraction").text.strip()
+    return offer_price
 
 #%%
 def get_data(link):
@@ -105,8 +119,7 @@ def get_data(link):
 
 
     try:
-        offer_price = hun.find("div", class_ = "ui-pdp-price__second-line")
-        offer_price = offer_price.find("span", class_ = "andes-visually-hidden").text
+        offer_price = get_prices(hun)
     except:
         offer_price = None
         
@@ -189,8 +202,10 @@ def get_data(link):
     print(tv)
     return tv
 
+
+
 #%%
-for link in links:
+for link in links[:100]:
     data = []
     print(link)
     data.append(get_data(link))
@@ -217,8 +232,6 @@ for link in none_links:
     mercado_db_colombia.commit()
     
 #%%
-len(none_links)
-#%%
 for link in none_links:
     print(link)
     data = []
@@ -232,6 +245,8 @@ for link in none_links:
     mycursor.execute(sql, link)
     mercado_db_colombia.commit()
     time.sleep(1)
+
+
 
 #%%
 df = pd.read_sql('SELECT * FROM data_table', con=mercado_db_colombia)
